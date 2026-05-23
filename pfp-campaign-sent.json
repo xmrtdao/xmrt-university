@@ -1,70 +1,4889 @@
-{
-  "total_sent": 156,
-  "last_updated": "2026-05-23T05:30:00.000Z",
-  "emails": [
-    {
-      "to": "hannah@dcjazzfest.org",
-      "subject": "Re: DC JazzFest pricing",
-      "sent_at": "2026-05-18T14:32:00.000Z",
-      "type": "quote",
-      "status": "delivered",
-      "opened": true,
-      "replied": true
-    },
-    {
-      "to": "croughanashley@gmail.com",
-      "subject": "Spring Into Summer - Partnership Opportunity",
-      "sent_at": "2026-05-19T10:15:00.000Z",
-      "type": "partnership",
-      "status": "delivered",
-      "opened": true,
-      "replied": true
-    },
-    {
-      "to": "hannah@dcjazzfest.org",
-      "subject": "DC JazzFest pricing",
-      "sent_at": "2026-05-15T09:20:00.000Z",
-      "type": "initial",
-      "status": "delivered",
-      "opened": true,
-      "replied": false
-    },
-    {
-      "to": "booking@summerfest.com",
-      "subject": "Party Favor Photo - Festival Booth Inquiry",
-      "sent_at": "2026-05-20T16:45:00.000Z",
-      "type": "initial",
-      "status": "delivered",
-      "opened": false,
-      "replied": false
-    },
-    {
-      "to": "events@capitolriver.org",
-      "subject": "Photo Booth for Capitol River CDC Events",
-      "sent_at": "2026-05-21T11:30:00.000Z",
-      "type": "initial",
-      "status": "delivered",
-      "opened": true,
-      "replied": false
-    }
-  ],
-  "daily_stats": [
-    {"date": "2026-05-17", "sent": 8, "opened": 5, "replied": 2},
-    {"date": "2026-05-18", "sent": 12, "opened": 9, "replied": 4},
-    {"date": "2026-05-19", "sent": 15, "opened": 11, "replied": 3},
-    {"date": "2026-05-20", "sent": 18, "opened": 10, "replied": 2},
-    {"date": "2026-05-21", "sent": 14, "opened": 8, "replied": 1},
-    {"date": "2026-05-22", "sent": 11, "opened": 6, "replied": 1},
-    {"date": "2026-05-23", "sent": 6, "opened": 3, "replied": 0}
-  ],
-  "summary": {
-    "total_sent": 156,
-    "delivered": 154,
-    "bounced": 2,
-    "opened": 98,
-    "replied": 44,
-    "open_rate": 63.6,
-    "reply_rate": 28.2,
-    "daily_average": 11.1
+[
+  {
+    "email": "ANG@fairfaxptsa.org",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778854548678,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "nicole.l.spindler@gmail.com",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778854556594,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "president@bamptsa.org",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778854563188,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "collegeofbusiness@uta.edu",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778854563862,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "DSSCommencement@uta.edu",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778854564517,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "sswcommencement@uta.edu",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778854565220,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "phebe.erwin@uta.edu",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778854565826,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "susan.allert@uta.edu",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778854566539,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "COECommencement@uta.edu",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778854567248,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "COEDCommencement@uta.edu",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778854568084,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "CONHIGraduation@uta.edu",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778854568698,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "coscommencement@uta.edu",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778854569402,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "marketing@nvcc.edu",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778854570825,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "ehsptsa.angp@gmail.com",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778854572245,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "commencement@vsu.edu",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778865746939,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "commencement@longwood.edu",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778865748190,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "RCCOnsite@fairfaxcounty.gov",
+    "subject": "Hello from Party Favor Photo",
+    "status": "suppressed",
+    "ts": 1778865754849,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "artontheavenue@gmail.com",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778865755919,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "committee@asianamericanheritage.org",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778865757310,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "commencement@richmond.edu",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778865758657,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "SkylineRaiderPTSA@gmail.com",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778865761119,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "president@planoseniorptsa.org",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778865762259,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "btwhspvaptsa@gmail.com",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778865763527,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "marion.wildes@risd.org",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778865764669,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "tara.mclennan@risd.org",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778865765860,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "commencement@nvcc.edu",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778866263616,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "commencement@unt.edu",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778868002294,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "commencement@uta.edu",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778868005845,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "commencement@wm.edu",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778868008489,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "ceremonies@smu.edu",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778868009796,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "DCGrad@DallasCollege.edu",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778868011649,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "Graduation@untdallas.edu",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778868013149,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "finals@virginia.edu",
+    "subject": "Hello from Party Favor Photo",
+    "status": "suppressed",
+    "ts": 1778868013987,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "gmuevent@gmu.edu",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778868014853,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "univevents@vcu.edu",
+    "subject": "Hello from Party Favor Photo",
+    "status": "bounced",
+    "ts": 1778868015795,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "president@fairfaxptsa.org",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778868016556,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "president@cvhsptsa.org",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778868017705,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "president@edisonhsptsa.org",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivery_delayed",
+    "ts": 1778868018440,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "president@chantillyhsptsa.org",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778868019204,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "angp@lbssptsa.org",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778868020803,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "president@lewishsptsa.org",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778868022358,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "ptsa.westpotomac@gmail.com",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778868023477,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "oaktonhsptsa@gmail.com",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778868025663,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "woodsonangp@gmail.com",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778868027071,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "programs@fchsptsa.org",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778868027814,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "angc@lewishsptsa.org",
+    "subject": "Re: Party Favor Photo - graduation packages",
+    "status": "delivered",
+    "ts": 1778872474907,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "test@test.com",
+    "subject": "Test",
+    "status": "delivery_delayed",
+    "ts": 1778879936143,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "pres@southcountyptso.org",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778879990373,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "admin@potomacptso.org",
+    "subject": "Hello from Party Favor Photo",
+    "status": "delivered",
+    "ts": 1778879991095,
+    "date": "2026-05-15"
+  },
+  {
+    "email": "j@significanteventsoftexas.com",
+    "ts": 1778954403181
+  },
+  {
+    "email": "senioractivities@hphspta.org",
+    "ts": 1778954403858
+  },
+  {
+    "email": "webmaster@allenisd.org",
+    "ts": 1778954405016
+  },
+  {
+    "email": "ahs.communications@allenisd.org",
+    "ts": 1778954408684
+  },
+  {
+    "email": "rebecca.mcnally@allenisd.org",
+    "ts": 1778954409073
+  },
+  {
+    "email": "andrea.sluis@allenisd.org",
+    "ts": 1778954409517
+  },
+  {
+    "email": "sharon.brown@allenisd.org",
+    "ts": 1778954409977
+  },
+  {
+    "email": "elaine.gamboa@allenisd.org",
+    "ts": 1778954411325
+  },
+  {
+    "email": "jennifer.gee@allenisd.org",
+    "ts": 1778954411709
+  },
+  {
+    "email": "fran.plinck@allenisd.org",
+    "ts": 1778954412447
+  },
+  {
+    "email": "linda_engel@allenisd.org",
+    "ts": 1778954412959
+  },
+  {
+    "email": "alayna_pangus@allenisd.org",
+    "ts": 1778954413363
+  },
+  {
+    "email": "mildred.eckhoff@allenisd.org",
+    "ts": 1778954413760
+  },
+  {
+    "email": "terry.pridmore@allenisd.org",
+    "ts": 1778954414214
+  },
+  {
+    "email": "foundation@allenisd.org",
+    "ts": 1778954414631
+  },
+  {
+    "email": "aundrea_herrington@allenisd.org",
+    "ts": 1778954415021
+  },
+  {
+    "email": "julie.spielman@allenisd.org",
+    "ts": 1778954415450
+  },
+  {
+    "email": "chrysti.alexander@allenisd.org",
+    "ts": 1778954415853
+  },
+  {
+    "email": "patricia.bradford@allenisd.org",
+    "ts": 1778954416264
+  },
+  {
+    "email": "donna.hans@allenisd.org",
+    "ts": 1778954416691
+  },
+  {
+    "email": "courtney.liu@allenisd.org",
+    "ts": 1778954417231
+  },
+  {
+    "email": "amy.sievert@allenisd.org",
+    "ts": 1778954418331
+  },
+  {
+    "email": "cheryl.janes@allenisd.org",
+    "ts": 1778954418720
+  },
+  {
+    "email": "steam.center@allenisd.org",
+    "ts": 1778954419118
+  },
+  {
+    "email": "tammy.woods@allenisd.org",
+    "ts": 1778954419527
+  },
+  {
+    "email": "laurie.malone@allenisd.org",
+    "ts": 1778954419903
+  },
+  {
+    "email": "pio@aisd.net",
+    "ts": 1778954420281
+  },
+  {
+    "email": "error-lite@duckduckgo.com",
+    "ts": 1778954422160
+  },
+  {
+    "email": "hello@melissajakes.com",
+    "ts": 1778954422536
+  },
+  {
+    "email": "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+    "ts": 1778954422906
+  },
+  {
+    "email": "8c4075d5481d476e945486754f783364@sentry.io",
+    "ts": 1778954423283
+  },
+  {
+    "email": "9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com",
+    "ts": 1778954423658
+  },
+  {
+    "email": "460ff4620fa44cba8df530afde949785@sentry.wixpress.com",
+    "ts": 1778954424049
+  },
+  {
+    "email": "ed436f5053144538958ad06a5005e99a@sentry.wixpress.com",
+    "ts": 1778954424443
+  },
+  {
+    "email": "8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com",
+    "ts": 1778954424794
+  },
+  {
+    "email": "2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com",
+    "ts": 1778954425222
+  },
+  {
+    "email": "271e9fa3230b4eec94b02bf95780f5f2@sentry.wixpress.com",
+    "ts": 1778954425606
+  },
+  {
+    "email": "info@eventaccomplished.com",
+    "ts": 1778954425990
+  },
+  {
+    "email": "info@jdc-events.com",
+    "ts": 1778954426385
+  },
+  {
+    "email": "info@bashdc.com",
+    "ts": 1778954426790
+  },
+  {
+    "email": "vp.outreach@fccpta.org",
+    "ts": 1778954427186
+  },
+  {
+    "email": "2960adcdd7704551bff19823820fca44@sentry.wixpress.com",
+    "ts": 1778954427588
+  },
+  {
+    "email": "88170cb0c9d64f94b5821ca7fd2d55a4@sentry-next.wixpress.com",
+    "ts": 1778954427911
+  },
+  {
+    "email": "1eeb89147c984dc6bc3ffafd9e6cd089@sentry.wixpress.com",
+    "ts": 1778954428387
+  },
+  {
+    "email": "president@fccpta.org",
+    "ts": 1778954428788
+  },
+  {
+    "email": "vp.advocacy@fccpta.org",
+    "ts": 1778954429165
+  },
+  {
+    "email": "vp.training@fccpta.org",
+    "ts": 1778954429527
+  },
+  {
+    "email": "vp.programs@fccpta.org",
+    "ts": 1778954429888
+  },
+  {
+    "email": "vp.communications@fccpta.org",
+    "ts": 1778954430240
+  },
+  {
+    "email": "treasurer@fccpta.org",
+    "ts": 1778954430692
+  },
+  {
+    "email": "secretary@fccpta.org",
+    "ts": 1778954431079
+  },
+  {
+    "email": "aapac@fccpta.org",
+    "ts": 1778954431778
+  },
+  {
+    "email": "acsd@fccpta.org",
+    "ts": 1778954432159
+  },
+  {
+    "email": "cteac@fccpta.org",
+    "ts": 1778954432523
+  },
+  {
+    "email": "info@fccpta.org",
+    "ts": 1778954432903
+  },
+  {
+    "email": "msaoc@fccpta.org",
+    "ts": 1778954433310
+  },
+  {
+    "email": "shac@fccpta.org",
+    "ts": 1778954433744
+  },
+  {
+    "email": "advocacy.chair@fccpta.org",
+    "ts": 1778954434110
+  },
+  {
+    "email": "budget@fccpta.org",
+    "ts": 1778954434467
+  },
+  {
+    "email": "equity@fccpta.org",
+    "ts": 1778954434872
+  },
+  {
+    "email": "ambassadors@fccpta.org",
+    "ts": 1778954435206
+  },
+  {
+    "email": "education@fccpta.org",
+    "ts": 1778954435579
+  },
+  {
+    "email": "healthandwellness@fccpta.org",
+    "ts": 1778954435961
+  },
+  {
+    "email": "scholarships@fccpta.org",
+    "ts": 1778954436471
+  },
+  {
+    "email": "reflections@fccpta.org",
+    "ts": 1778954436845
+  },
+  {
+    "email": "militaryfamilies@fccpta.org",
+    "ts": 1778954437223
+  },
+  {
+    "email": "caab@fccpta.org",
+    "ts": 1778954437671
+  },
+  {
+    "email": "ticn@fccpta.org",
+    "ts": 1778954438033
+  },
+  {
+    "email": "scypt@fccpta.org",
+    "ts": 1778954438360
+  },
+  {
+    "email": "membership@pta.org",
+    "ts": 1778954438741
+  },
+  {
+    "email": "president@dentonisdpta.org",
+    "ts": 1778961602101
+  },
+  {
+    "email": "president@wyattpta.org",
+    "ts": 1778961602565
+  },
+  {
+    "email": "president@cannonpta.org",
+    "ts": 1778961603000
+  },
+  {
+    "email": "president.elect@cannonpta.org",
+    "ts": 1778961603558
+  },
+  {
+    "email": "secretary@cannonpta.org",
+    "ts": 1778961604024
+  },
+  {
+    "email": "treasurer@cannonpta.org",
+    "ts": 1778961604391
+  },
+  {
+    "email": "hello@pattonpta.org",
+    "ts": 1778961604783
+  },
+  {
+    "email": "donate@pattonpta.org",
+    "ts": 1778961605242
+  },
+  {
+    "email": "membership@pattonpta.org",
+    "ts": 1778961605622
+  },
+  {
+    "email": "treasurer@pattonpta.org",
+    "ts": 1778961605964
+  },
+  {
+    "email": "secretary@pattonpta.org",
+    "ts": 1778961606399
+  },
+  {
+    "email": "events@pattonpta.org",
+    "ts": 1778961606845
+  },
+  {
+    "email": "volunteer@pattonpta.org",
+    "ts": 1778961607249
+  },
+  {
+    "email": "webmaster@pattonpta.org",
+    "ts": 1778961607939
+  },
+  {
+    "email": "sponsorship@pattonpta.org",
+    "ts": 1778961608320
+  },
+  {
+    "email": "president@pwepta.org",
+    "ts": 1778961608690
+  },
+  {
+    "email": "firstvp@pwepta.org",
+    "ts": 1778961609053
+  },
+  {
+    "email": "vpprograms@pwepta.org",
+    "ts": 1778961609419
+  },
+  {
+    "email": "vpmembership@pwepta.org",
+    "ts": 1778961610011
+  },
+  {
+    "email": "vpwaysandmeans@pwepta.org",
+    "ts": 1778961610405
+  },
+  {
+    "email": "secretary@pwepta.org",
+    "ts": 1778968802751
+  },
+  {
+    "email": "treasurer@pwepta.org",
+    "ts": 1778968803231
+  },
+  {
+    "email": "bookfair@pwepta.org",
+    "ts": 1778968803767
+  },
+  {
+    "email": "hospitality@pwepta.org",
+    "ts": 1778968804190
+  },
+  {
+    "email": "dancechair@pwepta.org",
+    "ts": 1778968804712
+  },
+  {
+    "email": "spiritwear@pwepta.org",
+    "ts": 1778968805236
+  },
+  {
+    "email": "talentshow@pwepta.org",
+    "ts": 1778968805711
+  },
+  {
+    "email": "pantherevents@pwepta.org",
+    "ts": 1778968806223
+  },
+  {
+    "email": "fieldday@pwepta.org",
+    "ts": 1778968806738
+  },
+  {
+    "email": "president@hightowerpta.org",
+    "ts": 1778968807246
+  },
+  {
+    "email": "membership@hightowerpta.org",
+    "ts": 1778968809763
+  },
+  {
+    "email": "programs@hightowerpta.org",
+    "ts": 1778968810179
+  },
+  {
+    "email": "volunteers@hightowerpta.org",
+    "ts": 1778968810625
+  },
+  {
+    "email": "communications@hightowerpta.org",
+    "ts": 1778968811110
+  },
+  {
+    "email": "secretary@hightowerpta.org",
+    "ts": 1778968811537
+  },
+  {
+    "email": "treasurer@hightowerpta.org",
+    "ts": 1778968812159
+  },
+  {
+    "email": "yearbook@hightowerpta.org",
+    "ts": 1778968812550
+  },
+  {
+    "email": "info@hightowerpta.org",
+    "ts": 1778968812959
+  },
+  {
+    "email": "hospitality-celebrations@hightowerpta.org",
+    "ts": 1778968813395
+  },
+  {
+    "email": "book-fair@hightowerpta.org",
+    "ts": 1778968813839
+  },
+  {
+    "email": "communication@pattonpta.org",
+    "ts": 1778968814416
+  },
+  {
+    "email": "hospitality@pattonpta.org",
+    "ts": 1778968814930
+  },
+  {
+    "email": "parenteducation@pattonpta.org",
+    "ts": 1778968815496
+  },
+  {
+    "email": "artsineducation@pattonpta.org",
+    "ts": 1778968815957
+  },
+  {
+    "email": "vicepresident@chantillyhsptsa.org",
+    "ts": 1778968816367
+  },
+  {
+    "email": "angp@chantillyhsptsa.org",
+    "ts": 1778968816773
+  },
+  {
+    "email": "secretary@chantillyhsptsa.org",
+    "ts": 1778968817284
+  },
+  {
+    "email": "treasurer@chantillyhsptsa.org",
+    "ts": 1778968818205
+  },
+  {
+    "email": "webcurator@chantillyhsptsa.org",
+    "ts": 1778968818675
+  },
+  {
+    "email": "president@clarkptsa.org",
+    "ts": 1778968819111
+  },
+  {
+    "email": "president@mccallumptsa.org",
+    "ts": 1778968819681
+  },
+  {
+    "email": "vp@mccallumptsa.org",
+    "ts": 1778968820152
+  },
+  {
+    "email": "secretary@mccallumptsa.org",
+    "ts": 1778968820664
+  },
+  {
+    "email": "treasurer@mccallumptsa.org",
+    "ts": 1778968821051
+  },
+  {
+    "email": "membership@mccallumptsa.org",
+    "ts": 1778968821473
+  },
+  {
+    "email": "newsletter@mccallumptsa.org",
+    "ts": 1778968822128
+  },
+  {
+    "email": "scholarship@mccallumptsa.org",
+    "ts": 1778968822508
+  },
+  {
+    "email": "volunteers@mccallumptsa.org",
+    "ts": 1778968822898
+  },
+  {
+    "email": "webmaster@mccallumptsa.org",
+    "ts": 1778968823327
+  },
+  {
+    "email": "pie@mccallumptsa.org",
+    "ts": 1778968823732
+  },
+  {
+    "email": "macares@mccallumptsa.org",
+    "ts": 1778968824353
+  },
+  {
+    "email": "merch@mccallumptsa.org",
+    "ts": 1778968824742
+  },
+  {
+    "email": "president@andersonptsa.org",
+    "ts": 1778968825272
+  },
+  {
+    "email": "president@woodbridgeptsa.org",
+    "ts": 1778968825735
+  },
+  {
+    "email": "membership@woodbridgeptsa.org",
+    "ts": 1778968826226
+  },
+  {
+    "email": "fundraising@woodbridgeptsa.org",
+    "ts": 1778968826605
+  },
+  {
+    "email": "programs@woodbridgeptsa.org",
+    "ts": 1778968827116
+  },
+  {
+    "email": "secretary@woodbridgeptsa.org",
+    "ts": 1778968827578
+  },
+  {
+    "email": "treasurer@woodbridgeptsa.org",
+    "ts": 1778968827933
+  },
+  {
+    "email": "WoodbridgeGradNight@gmail.com",
+    "ts": 1778968828307
+  },
+  {
+    "email": "hospitality@woodbridgeptsa.org",
+    "ts": 1778968829065
+  },
+  {
+    "email": "website@woodbridgeptsa.org",
+    "ts": 1778968829419
+  },
+  {
+    "email": "socialmedia@woodbridgeptsa.org",
+    "ts": 1778968829778
+  },
+  {
+    "email": "reflections@woodbridgeptsa.org",
+    "ts": 1778968830257
+  },
+  {
+    "email": "treasurer@cvhsptsa.org",
+    "ts": 1778968830625
+  },
+  {
+    "email": "secretary@cvhsptsa.org",
+    "ts": 1778968831112
+  },
+  {
+    "email": "president@knowlespta.org",
+    "ts": 1778968831606
+  },
+  {
+    "email": "secretary@knowlespta.org",
+    "ts": 1778968832200
+  },
+  {
+    "email": "membership@knowlespta.org",
+    "ts": 1778968832647
+  },
+  {
+    "email": "treasurer@knowlespta.org",
+    "ts": 1778968833182
+  },
+  {
+    "email": "programs@knowlespta.org",
+    "ts": 1778968833667
+  },
+  {
+    "email": "president@huntpta.org",
+    "ts": 1778968834055
+  },
+  {
+    "email": "programs@huntpta.org",
+    "ts": 1778968834666
+  },
+  {
+    "email": "membership@huntpta.org",
+    "ts": 1778968835172
+  },
+  {
+    "email": "volunteers@huntpta.org",
+    "ts": 1778968835612
+  },
+  {
+    "email": "treasurer@huntpta.org",
+    "ts": 1778968836061
+  },
+  {
+    "email": "secretary@huntpta.org",
+    "ts": 1778968836522
+  },
+  {
+    "email": "hospitality@huntpta.org",
+    "ts": 1778968837113
+  },
+  {
+    "email": "vicepresident@andersonptsa.org",
+    "ts": 1778968837636
+  },
+  {
+    "email": "membership@andersonptsa.org",
+    "ts": 1778968838177
+  },
+  {
+    "email": "secretary@andersonptsa.org",
+    "ts": 1778968838887
+  },
+  {
+    "email": "treasurer@andersonptsa.org",
+    "ts": 1778968840085
+  },
+  {
+    "email": "president@mcleanptsa.org",
+    "ts": 1778968840432
+  },
+  {
+    "email": "president@nbmsptsa.org",
+    "ts": 1778968840857
+  },
+  {
+    "email": "secretary@nbmsptsa.org",
+    "ts": 1778968841222
+  },
+  {
+    "email": "treasurer@nbmsptsa.org",
+    "ts": 1778968841629
+  },
+  {
+    "email": "enrichment@nbmsptsa.org",
+    "ts": 1778968842173
+  },
+  {
+    "email": "activities@nbmsptsa.org",
+    "ts": 1778968842544
+  },
+  {
+    "email": "RMSPTSAPresident@gmail.com",
+    "ts": 1778968842982
+  },
+  {
+    "email": "RMSPTSAVPMembership@gmail.com",
+    "ts": 1778968843447
+  },
+  {
+    "email": "RMSPTSASecretary@gmail.com",
+    "ts": 1778968843904
+  },
+  {
+    "email": "RMSPTSATreasurer@gmail.com",
+    "ts": 1778968844351
+  },
+  {
+    "email": "RMSPTSAVPVolunteers@gmail.com",
+    "ts": 1778968844782
+  },
+  {
+    "email": "presidents@bellevuehighptsa.com",
+    "ts": 1778968845202
+  },
+  {
+    "email": "secretary@bellevuehighptsa.com",
+    "ts": 1778968845649
+  },
+  {
+    "email": "fundraising@bellevuehighptsa.com",
+    "ts": 1778968846468
+  },
+  {
+    "email": "membership@bellevuehighptsa.com",
+    "ts": 1778968846906
+  },
+  {
+    "email": "grants@bellevuehighptsa.com",
+    "ts": 1778968847492
+  },
+  {
+    "email": "wolverineguard@bellevuehighptsa.com",
+    "ts": 1778968847881
+  },
+  {
+    "email": "reflections@bellevuehighptsa.com",
+    "ts": 1778968848367
+  },
+  {
+    "email": "bhsptsawebsite@gmail.com",
+    "ts": 1778968848751
+  },
+  {
+    "email": "nominations@bellevuehighptsa.com",
+    "ts": 1778968849207
+  },
+  {
+    "email": "president@centptsa.org",
+    "ts": 1778968849612
+  },
+  {
+    "email": "treasurer@centptsa.org",
+    "ts": 1778968850002
+  },
+  {
+    "email": "secretary@centptsa.org",
+    "ts": 1778968850317
+  },
+  {
+    "email": "info@centptsa.org",
+    "ts": 1778968850688
+  },
+  {
+    "email": "vp-communications@centptsa.org",
+    "ts": 1778968851101
+  },
+  {
+    "email": "vp-schoolsupport@centptsa.org",
+    "ts": 1778968851491
+  },
+  {
+    "email": "vp-studentparentsupport@centptsa.org",
+    "ts": 1778968851938
+  },
+  {
+    "email": "vp-academicenrichment@centptsa.org",
+    "ts": 1778968852349
+  },
+  {
+    "email": "vp-community@centptsa.org",
+    "ts": 1778968852762
+  },
+  {
+    "email": "ptsapresidentwhs@gmail.com",
+    "ts": 1778968853137
+  },
+  {
+    "email": "ptsavicepresidentwhs@gmail.com",
+    "ts": 1778968853488
+  },
+  {
+    "email": "ptsasecretarywhs@gmail.com",
+    "ts": 1778968853868
+  },
+  {
+    "email": "ptsatreasurerwhs@gmail.com",
+    "ts": 1778968854239
+  },
+  {
+    "email": "ptsaauditorwhs@gmail.com",
+    "ts": 1778968854775
+  },
+  {
+    "email": "ptsahistorianwhs@gmail.com",
+    "ts": 1778968855130
+  },
+  {
+    "email": "ptsamembershipwhs@gmail.com",
+    "ts": 1778968855562
+  },
+  {
+    "email": "ptsaparliamentarianwhs@gmail.com",
+    "ts": 1778968855938
+  },
+  {
+    "email": "reflectionswhsptsa@gmail.com",
+    "ts": 1778968856370
+  },
+  {
+    "email": "president@rhsptsa.org",
+    "ts": 1778968856756
+  },
+  {
+    "email": "rhsreflections@rhsptsa.org",
+    "ts": 1778968857174
+  },
+  {
+    "email": "studentwellbeing@rhsptsa.org",
+    "ts": 1778968857567
+  },
+  {
+    "email": "membershiproswellptsa@gmail.com",
+    "ts": 1778968857961
+  },
+  {
+    "email": "vpcommunications@rhsptsa.org",
+    "ts": 1778968858346
+  },
+  {
+    "email": "socialmedia@rhsptsa.org",
+    "ts": 1778968858718
+  },
+  {
+    "email": "webmaster@rhsptsa.org",
+    "ts": 1778968859109
+  },
+  {
+    "email": "rhsptsanewsletter@gmail.com",
+    "ts": 1778968859515
+  },
+  {
+    "email": "volunteers@rhsptsa.org",
+    "ts": 1778968859876
+  },
+  {
+    "email": "spiritwear@rhsptsa.org",
+    "ts": 1778968860258
+  },
+  {
+    "email": "treasurer@rhsptsa.org",
+    "ts": 1778968860638
+  },
+  {
+    "email": "secretary@rhsptsa.org",
+    "ts": 1778968861649
+  },
+  {
+    "email": "president@ghsptsa.org",
+    "ts": 1778968862109
+  },
+  {
+    "email": "president@marcusptsa.org",
+    "ts": 1778968862455
+  },
+  {
+    "email": "vp1@marcusptsa.org",
+    "ts": 1778968862877
+  },
+  {
+    "email": "vp2@marcusptsa.org",
+    "ts": 1778968863233
+  },
+  {
+    "email": "vp3@marcusptsa.org",
+    "ts": 1778968863727
+  },
+  {
+    "email": "secretary@marcusptsa.org",
+    "ts": 1778968864101
+  },
+  {
+    "email": "treasurer@marcusptsa.org",
+    "ts": 1778968864516
+  },
+  {
+    "email": "parliamentarian@marcusptsa.org",
+    "ts": 1778968864955
+  },
+  {
+    "email": "programs@marcusptsa.org",
+    "ts": 1778968865323
+  },
+  {
+    "email": "volunteers@marcusptsa.org",
+    "ts": 1778968865686
+  },
+  {
+    "email": "delegate-black@marcusptsa.org",
+    "ts": 1778968866041
+  },
+  {
+    "email": "mm@marcusptsa.org",
+    "ts": 1778968866391
+  },
+  {
+    "email": "scholarships@marcusptsa.org",
+    "ts": 1778968866781
+  },
+  {
+    "email": "president@eaglestaffptsa.org",
+    "ts": 1778968867145
+  },
+  {
+    "email": "president@jmhsptsa.org",
+    "ts": 1778968867516
+  },
+  {
+    "email": "1stvicepresident@jmhsptsa.org",
+    "ts": 1778968867939
+  },
+  {
+    "email": "2ndvicepresident@jmhsptsa.org",
+    "ts": 1778968868310
+  },
+  {
+    "email": "treasurer@jmhsptsa.org",
+    "ts": 1778968868645
+  },
+  {
+    "email": "secretary@jmhsptsa.org",
+    "ts": 1778968869017
+  },
+  {
+    "email": "allnightgrad@jmhsptsa.org",
+    "ts": 1778968869362
+  },
+  {
+    "email": "communication@jmhsptsa.org",
+    "ts": 1778968869735
+  },
+  {
+    "email": "membership@jmhsptsa.org",
+    "ts": 1778968870176
+  },
+  {
+    "email": "webmaster@jmhsptsa.org",
+    "ts": 1778968870572
+  },
+  {
+    "email": "hospitality@jmhsptsa.org",
+    "ts": 1778968870928
+  },
+  {
+    "email": "outreach@jmhsptsa.org",
+    "ts": 1778968871303
+  },
+  {
+    "email": "specialeducation@jmhsptsa.org",
+    "ts": 1778968871676
+  },
+  {
+    "email": "academicboosters@jmhsptsa.org",
+    "ts": 1778968871991
+  },
+  {
+    "email": "baccalaureate@jmhsptsa.org",
+    "ts": 1778968872411
+  },
+  {
+    "email": "directory@jmhsptsa.org",
+    "ts": 1778968872803
+  },
+  {
+    "email": "staffrecognition@jmhsptsa.org",
+    "ts": 1778968873213
+  },
+  {
+    "email": "info@shanklinhall.com",
+    "ts": 1778968873605
+  },
+  {
+    "email": "info@republiqhall.com",
+    "ts": 1778968873974
+  },
+  {
+    "email": "events@dar.org",
+    "ts": 1778968874363
+  },
+  {
+    "email": "Cperry@wchdc.com",
+    "ts": 1778968874714
+  },
+  {
+    "email": "info@thehallondragon.com",
+    "ts": 1778968875106
+  },
+  {
+    "email": "info@windsorparkdallas.com",
+    "ts": 1778968875471
+  },
+  {
+    "email": "events@gordonsprings.com",
+    "ts": 1778968876374
+  },
+  {
+    "email": "dl-iadwf.sales@marriott.com",
+    "ts": 1778968876720
+  },
+  {
+    "email": "info@crystalview.com",
+    "ts": 1778968877071
+  },
+  {
+    "email": "info@dallasbanquethalls.com",
+    "ts": 1778968877476
+  },
+  {
+    "email": "admin@luxuryonthelakeevents.com",
+    "ts": 1778968877873
+  },
+  {
+    "email": "stagesetter@eddiedeen.com",
+    "ts": 1778968878238
+  },
+  {
+    "email": "1vp@fairfaxptsa.org",
+    "ts": 1778983201739
+  },
+  {
+    "email": "2vp@fairfaxptsa.org",
+    "ts": 1778983202695
+  },
+  {
+    "email": "recordingsecretary@fairfaxptsa.org",
+    "ts": 1778983203205
+  },
+  {
+    "email": "correspondingsecretary@fairfaxptsa.org",
+    "ts": 1778983203630
+  },
+  {
+    "email": "treasurer@fairfaxptsa.org",
+    "ts": 1778983204073
+  },
+  {
+    "email": "parliamentarian@fairfaxptsa.org",
+    "ts": 1778983204567
+  },
+  {
+    "email": "president@hmspta.com",
+    "ts": 1778983205014
+  },
+  {
+    "email": "treasurer@hmspta.com",
+    "ts": 1778983205373
+  },
+  {
+    "email": "secretary@hmspta.com",
+    "ts": 1778983205810
+  },
+  {
+    "email": "info@yhspta.org",
+    "ts": 1778983206208
+  },
+  {
+    "email": "president@yorktownptsa.org",
+    "ts": 1778983206608
+  },
+  {
+    "email": "internalvp@yhspta.org",
+    "ts": 1778983207028
+  },
+  {
+    "email": "externalvp@yhspta.org",
+    "ts": 1778983209256
+  },
+  {
+    "email": "secretary@yhspta.org",
+    "ts": 1778983209628
+  },
+  {
+    "email": "treasurer@yhspta.org",
+    "ts": 1778983210001
+  },
+  {
+    "email": "president@kenmoreptsa.org",
+    "ts": 1778983210360
+  },
+  {
+    "email": "presidentelect@centennialpta.net",
+    "ts": 1778983211216
+  },
+  {
+    "email": "parliamentarian@centennialpta.net",
+    "ts": 1778983211642
+  },
+  {
+    "email": "bookfair@centennialpta.net",
+    "ts": 1778983212035
+  },
+  {
+    "email": "outreach@centennialpta.net",
+    "ts": 1778983212405
+  },
+  {
+    "email": "website@centennialpta.net",
+    "ts": 1778990402792
+  },
+  {
+    "email": "yearbookeditor@centennialpta.net",
+    "ts": 1778990403212
+  },
+  {
+    "email": "5thgradecelebration@centennialpta.net",
+    "ts": 1778990403681
+  },
+  {
+    "email": "corporatesponsorship@centennialpta.net",
+    "ts": 1778990404127
+  },
+  {
+    "email": "parenteducation@centennialpta.net",
+    "ts": 1778990404639
+  },
+  {
+    "email": "president@boggesspta.org",
+    "ts": 1778990405108
+  },
+  {
+    "email": "president@dealeypta.org",
+    "ts": 1778990405514
+  },
+  {
+    "email": "1stVP@dealeypta.org",
+    "ts": 1778990405876
+  },
+  {
+    "email": "2ndVP@dealeypta.org",
+    "ts": 1778990406295
+  },
+  {
+    "email": "3rdVP@dealeypta.org",
+    "ts": 1778990406664
+  },
+  {
+    "email": "treasurer@dealeypta.org",
+    "ts": 1778990407038
+  },
+  {
+    "email": "secretary@dealeypta.org",
+    "ts": 1778990407461
+  },
+  {
+    "email": "parliamentarian@dealeypta.org",
+    "ts": 1778990407840
+  },
+  {
+    "email": "programs@gulledgepta.org",
+    "ts": 1778990408243
+  },
+  {
+    "email": "communications@gulledgepta.org",
+    "ts": 1778990408650
+  },
+  {
+    "email": "waysmeans@gulledgepta.org",
+    "ts": 1778990409042
+  },
+  {
+    "email": "volunteers@gulledgepta.org",
+    "ts": 1778990409584
+  },
+  {
+    "email": "community@gulledgepta.org",
+    "ts": 1778990409945
+  },
+  {
+    "email": "webmaster@gulledgepta.org",
+    "ts": 1778990410307
+  },
+  {
+    "email": "bookfair@gulledgepta.org",
+    "ts": 1778990411184
+  },
+  {
+    "email": "Academicboosters@fairfaxptsa.org",
+    "ts": 1779026403348
+  },
+  {
+    "email": "events@venueforty50.com",
+    "ts": 1779026404001
+  },
+  {
+    "email": "events@sunagobell.com",
+    "ts": 1779026405269
+  },
+  {
+    "email": "concierge@waltersweddingestates.com",
+    "ts": 1779026406321
+  },
+  {
+    "email": "Carla.Prince@marriott.com",
+    "ts": 1779026406851
+  },
+  {
+    "email": "Isabella.Torres@marriott.com",
+    "ts": 1779026407863
+  },
+  {
+    "email": "dfwan-salesadm@hilton.com",
+    "ts": 1779026411813
+  },
+  {
+    "email": "carrie.bosarge@hilton.com",
+    "ts": 1779026412538
+  },
+  {
+    "email": "president@sheptonptsa.org",
+    "ts": 1779026413221
+  },
+  {
+    "email": "programs@sheptonptsa.org",
+    "ts": 1779026413824
+  },
+  {
+    "email": "volunteers@sheptonptsa.org",
+    "ts": 1779026414346
+  },
+  {
+    "email": "membership@sheptonptsa.org",
+    "ts": 1779026414892
+  },
+  {
+    "email": "ways@sheptonptsa.org",
+    "ts": 1779026415306
+  },
+  {
+    "email": "secretary@sheptonptsa.org",
+    "ts": 1779026415725
+  },
+  {
+    "email": "treasurer@sheptonptsa.org",
+    "ts": 1779026416440
+  },
+  {
+    "email": "hospitality@sheptonptsa.org",
+    "ts": 1779026417713
+  },
+  {
+    "email": "socialmedia@sheptonptsa.org",
+    "ts": 1779026418162
+  },
+  {
+    "email": "webmaster@sheptonptsa.org",
+    "ts": 1779026418579
+  },
+  {
+    "email": "reflections@sheptonptsa.org",
+    "ts": 1779026419176
+  },
+  {
+    "email": "president@wolfdenptsa.org",
+    "ts": 1779026422619
+  },
+  {
+    "email": "programs@wolfdenptsa.org",
+    "ts": 1779026424432
+  },
+  {
+    "email": "volunteers@wolfdenptsa.org",
+    "ts": 1779026424871
+  },
+  {
+    "email": "membership@wolfdenptsa.org",
+    "ts": 1779026425335
+  },
+  {
+    "email": "waysandmeans@wolfdenptsa.org",
+    "ts": 1779026426660
+  },
+  {
+    "email": "secretary@wolfdenptsa.org",
+    "ts": 1779026427084
+  },
+  {
+    "email": "treasurer@wolfdenptsa.org",
+    "ts": 1779026427714
+  },
+  {
+    "email": "hospitality@wolfdenptsa.org",
+    "ts": 1779026428148
+  },
+  {
+    "email": "webmaster@wolfdenptsa.org",
+    "ts": 1779026428556
+  },
+  {
+    "email": "afterprom@wolfdenptsa.org",
+    "ts": 1779026428927
+  },
+  {
+    "email": "scholarships@wolfdenptsa.org",
+    "ts": 1779026429596
+  },
+  {
+    "email": "info@themanorsva.com",
+    "ts": 1779026430251
+  },
+  {
+    "email": "sales@crystalview.com",
+    "ts": 1779026430685
+  },
+  {
+    "email": "info@venueforty50.com",
+    "ts": 1779026431127
+  },
+  {
+    "email": "president@friscohighptsa.org",
+    "ts": 1779026431504
+  },
+  {
+    "email": "membership@friscohighptsa.org",
+    "ts": 1779026431954
+  },
+  {
+    "email": "programs@friscohighptsa.org",
+    "ts": 1779026432610
+  },
+  {
+    "email": "fundraising@friscohighptsa.org",
+    "ts": 1779026433020
+  },
+  {
+    "email": "secretary@friscohighptsa.org",
+    "ts": 1779026433501
+  },
+  {
+    "email": "treasurer@friscohighptsa.org",
+    "ts": 1779026434011
+  },
+  {
+    "email": "communications@planoseniorptsa.org",
+    "ts": 1779026434932
+  },
+  {
+    "email": "spiritwear@planoseniorptsa.org",
+    "ts": 1779026435335
+  },
+  {
+    "email": "parking@planoseniorptsa.org",
+    "ts": 1779026435778
+  },
+  {
+    "email": "treasurer@planoseniorptsa.org",
+    "ts": 1779026436154
+  },
+  {
+    "email": "info@hillcenterdc.org",
+    "ts": 1779026436749
+  },
+  {
+    "email": "sales@friscohall.com",
+    "ts": 1779026437169
+  },
+  {
+    "email": "info@parkcityclub.com",
+    "ts": 1779026437612
+  },
+  {
+    "email": "FWISDCouncilPTA@gmail.com",
+    "ts": 1779026437978
+  },
+  {
+    "email": "becca.gray.fw@gmail.com",
+    "ts": 1779026438397
+  },
+  {
+    "email": "president@asfspta.com",
+    "ts": 1779026438820
+  },
+  {
+    "email": "communityservice@asfspta.com",
+    "ts": 1779026439234
+  },
+  {
+    "email": "externalaffairs@asfspta.com",
+    "ts": 1779026439703
+  },
+  {
+    "email": "fundraising@asfspta.com",
+    "ts": 1779026440247
+  },
+  {
+    "email": "treasurer@asfspta.com",
+    "ts": 1779026440639
+  },
+  {
+    "email": "secretary@asfspta.com",
+    "ts": 1779026441006
+  },
+  {
+    "email": "dallas@fairmont.com",
+    "ts": 1779026441423
+  },
+  {
+    "email": "pricels@gmail.com",
+    "ts": 1779026441789
+  },
+  {
+    "email": "bria@parksideprojects.com",
+    "ts": 1779026442229
+  },
+  {
+    "email": "fullertonarin@gmail.com",
+    "ts": 1779026442599
+  },
+  {
+    "email": "president@phillipspta.com",
+    "ts": 1779026442998
+  },
+  {
+    "email": "shepardelementarypta@gmail.com",
+    "ts": 1779026443621
+  },
+  {
+    "email": "batchacookies12@hotmail.com",
+    "ts": 1779026444020
+  },
+  {
+    "email": "shepardmerch@gmail.com",
+    "ts": 1779026445022
+  },
+  {
+    "email": "shepardptayearbook@gmail.com",
+    "ts": 1779026445364
+  },
+  {
+    "email": "president@smspta.org",
+    "ts": 1779026445928
+  },
+  {
+    "email": "president@robinsonpta.org",
+    "ts": 1779026446436
+  },
+  {
+    "email": "treasurer@robinsonpta.org",
+    "ts": 1779026446897
+  },
+  {
+    "email": "secretary@robinsonpta.org",
+    "ts": 1779026447313
+  },
+  {
+    "email": "president@hendrickpta.org",
+    "ts": 1779026447910
+  },
+  {
+    "email": "programs@hendrickpta.org",
+    "ts": 1779026448381
+  },
+  {
+    "email": "waysandmeans@hendrickpta.org",
+    "ts": 1779026448801
+  },
+  {
+    "email": "secretary@hendrickpta.org",
+    "ts": 1779026449197
+  },
+  {
+    "email": "treasurer@hendrickpta.org",
+    "ts": 1779026449678
+  },
+  {
+    "email": "parliamentarian@hendrickpta.org",
+    "ts": 1779026450141
+  },
+  {
+    "email": "councildelegate@hendrickpta.org",
+    "ts": 1779026450613
+  },
+  {
+    "email": "president@fowlerpta.com",
+    "ts": 1779026451008
+  },
+  {
+    "email": "vpmembership@fowlerpta.com",
+    "ts": 1779026451543
+  },
+  {
+    "email": "vpfundraising@fowlerpta.com",
+    "ts": 1779026451959
+  },
+  {
+    "email": "secretary@fowlerpta.com",
+    "ts": 1779026452465
+  },
+  {
+    "email": "volunteers@fowlerpta.com",
+    "ts": 1779026453114
+  },
+  {
+    "email": "hospitality@fowlerpta.com",
+    "ts": 1779026453560
+  },
+  {
+    "email": "environmental@fowlerpta.com",
+    "ts": 1779026454279
+  },
+  {
+    "email": "spiritwear@fowlerpta.com",
+    "ts": 1779026454721
+  },
+  {
+    "email": "president@lbpta.org",
+    "ts": 1779026455186
+  },
+  {
+    "email": "president@lhmspta.com",
+    "ts": 1779026455611
+  },
+  {
+    "email": "vicepresident@churchillroadpta.org",
+    "ts": 1779026456637
+  },
+  {
+    "email": "secretary@churchillroadpta.org",
+    "ts": 1779026457357
+  },
+  {
+    "email": "vpmembership@churchillroadpta.org",
+    "ts": 1779026457788
+  },
+  {
+    "email": "vpcommunityrelations@churchillroadpta.org",
+    "ts": 1779026458643
+  },
+  {
+    "email": "treasurer@churchillroadpta.org",
+    "ts": 1779026459333
+  },
+  {
+    "email": "vpfundraising@churchillroadpta.org",
+    "ts": 1779026460232
+  },
+  {
+    "email": "vpstudent@churchillroadpta.org",
+    "ts": 1779026460689
+  },
+  {
+    "email": "vpcommunications@churchillroadpta.org",
+    "ts": 1779026461081
+  },
+  {
+    "email": "roomparentcoordinator@churchillroadpta.org",
+    "ts": 1779026462125
+  },
+  {
+    "email": "crsyearbook@churchillroadpta.org",
+    "ts": 1779026462626
+  },
+  {
+    "email": "president@acmpta.com",
+    "ts": 1779026463123
+  },
+  {
+    "email": "vpprograms@acmpta.com",
+    "ts": 1779026464297
+  },
+  {
+    "email": "secretary@acmpta.com",
+    "ts": 1779026464794
+  },
+  {
+    "email": "treasurer@acmpta.com",
+    "ts": 1779026465187
+  },
+  {
+    "email": "reflections@acmpta.com",
+    "ts": 1779026465645
+  },
+  {
+    "email": "webmaster@acmpta.com",
+    "ts": 1779026466083
+  },
+  {
+    "email": "president@wilderptsa.org",
+    "ts": 1779026467317
+  },
+  {
+    "email": "board@wilderptsa.org",
+    "ts": 1779026467834
+  },
+  {
+    "email": "dmayhew@ncbfdc.org",
+    "ts": 1779026468805
+  },
+  {
+    "email": "liversen@ncbfdc.org",
+    "ts": 1779026469262
+  },
+  {
+    "email": "mlembke@ncbfdc.org",
+    "ts": 1779026470009
+  },
+  {
+    "email": "cteufert@ncbfdc.org",
+    "ts": 1779026470452
+  },
+  {
+    "email": "jbrown@ncbfdc.org",
+    "ts": 1779026470882
+  },
+  {
+    "email": "reiko@happi-events.com",
+    "ts": 1779026471440
+  },
+  {
+    "email": "sponsorship@ncbfdc.org",
+    "ts": 1779026471846
+  },
+  {
+    "email": "srabinspira@ncbfdc.org",
+    "ts": 1779026472305
+  },
+  {
+    "email": "rcarver@ncbfdc.org",
+    "ts": 1779026472958
+  },
+  {
+    "email": "jgarcia@ncbfdc.org",
+    "ts": 1779026473570
+  },
+  {
+    "email": "kbaasansukh@ncbfdc.org",
+    "ts": 1779026473940
+  },
+  {
+    "email": "communications@ncbfdc.org",
+    "ts": 1779026474345
+  },
+  {
+    "email": "tgrant@ncbfdc.org",
+    "ts": 1779026474713
+  },
+  {
+    "email": "alee@ncbfdc.org",
+    "ts": 1779026475355
+  },
+  {
+    "email": "poberman@ncbfdc.org",
+    "ts": 1779026477793
+  },
+  {
+    "email": "npringle@ncbfdc.org",
+    "ts": 1779026478233
+  },
+  {
+    "email": "vferragut@ncbfdc.org",
+    "ts": 1779026478618
+  },
+  {
+    "email": "programming@ncbfdc.org",
+    "ts": 1779026478999
+  },
+  {
+    "email": "gkennis@ncbfdc.org",
+    "ts": 1779026479423
+  },
+  {
+    "email": "msaul@ncbfdc.org",
+    "ts": 1779026479760
+  },
+  {
+    "email": "communityprograms@ncbfdc.org",
+    "ts": 1779026480132
+  },
+  {
+    "email": "cfraim@ncbfdc.org",
+    "ts": 1779026480519
+  },
+  {
+    "email": "pweissman@ncbfdc.org",
+    "ts": 1779026480918
+  },
+  {
+    "email": "aruby@ncbfdc.org",
+    "ts": 1779026481255
+  },
+  {
+    "email": "finance@ncbfdc.org",
+    "ts": 1779026481887
+  },
+  {
+    "email": "membership@bishopartsdistrict.com",
+    "ts": 1779026482650
+  },
+  {
+    "email": "Virginia.Taylor@trinityfbs.com",
+    "ts": 1779026483279
+  },
+  {
+    "email": "Bfischer@edlen.com",
+    "ts": 1779026483609
+  },
+  {
+    "email": "president@huntmspta.org",
+    "ts": 1779040801895
+  },
+  {
+    "email": "membership@huntmspta.org",
+    "ts": 1779040802305
+  },
+  {
+    "email": "fundraising@huntmspta.org",
+    "ts": 1779040802712
+  },
+  {
+    "email": "programs@huntmspta.org",
+    "ts": 1779040803191
+  },
+  {
+    "email": "secretary@huntmspta.org",
+    "ts": 1779040803620
+  },
+  {
+    "email": "treasurer@huntmspta.org",
+    "ts": 1779040804111
+  },
+  {
+    "email": "parli@huntmspta.org",
+    "ts": 1779040804542
+  },
+  {
+    "email": "technology@huntmspta.org",
+    "ts": 1779040804948
+  },
+  {
+    "email": "hospitality@huntmspta.org",
+    "ts": 1779040805850
+  },
+  {
+    "email": "reflections@huntmspta.org",
+    "ts": 1779040806288
+  },
+  {
+    "email": "spiritwear@huntmspta.org",
+    "ts": 1779040808691
+  },
+  {
+    "email": "schoolsupplies@huntmspta.org",
+    "ts": 1779040809484
+  },
+  {
+    "email": "health@huntmspta.org",
+    "ts": 1779040810160
+  },
+  {
+    "email": "ptsa.president@tjhsst.edu",
+    "ts": 1779040810609
+  },
+  {
+    "email": "ptsa.treasurer@tjhsst.edu",
+    "ts": 1779040811001
+  },
+  {
+    "email": "ptsa.membership@tjhsst.edu",
+    "ts": 1779040811347
+  },
+  {
+    "email": "ptsa.webmaster@tjhsst.edu",
+    "ts": 1779040811703
+  },
+  {
+    "email": "ptsa@tjhsst.edu",
+    "ts": 1779040812067
+  },
+  {
+    "email": "ways-and-means@hightowerpta.org",
+    "ts": 1779040813093
+  },
+  {
+    "email": "corporate-sponsorships@hightowerpta.org",
+    "ts": 1779040813449
+  },
+  {
+    "email": "family-engagement@hightowerpta.org",
+    "ts": 1779040813829
+  },
+  {
+    "email": "hospitality-membership@hightowerpta.org",
+    "ts": 1779040814486
+  },
+  {
+    "email": "class-parties@hightowerpta.org",
+    "ts": 1779040814864
+  },
+  {
+    "email": "council-delegate@hightowerpta.org",
+    "ts": 1779040815234
+  },
+  {
+    "email": "after-school-programs@hightowerpta.org",
+    "ts": 1779040815616
+  },
+  {
+    "email": "social-media@hightowerpta.org",
+    "ts": 1779040816319
+  },
+  {
+    "email": "special-programs@hightowerpta.org",
+    "ts": 1779040816690
+  },
+  {
+    "email": "spirit-nights@hightowerpta.org",
+    "ts": 1779040817059
+  },
+  {
+    "email": "senior-scholarship@hightowerpta.org",
+    "ts": 1779040817637
+  },
+  {
+    "email": "arts-in-education@hightowerpta.org",
+    "ts": 1779040818002
+  },
+  {
+    "email": "field-day@hightowerpta.org",
+    "ts": 1779040819049
+  },
+  {
+    "email": "silent-auction@hightowerpta.org",
+    "ts": 1779040819450
+  },
+  {
+    "email": "veterans-day@hightowerpta.org",
+    "ts": 1779040819920
+  },
+  {
+    "email": "info@bellalunaevents.com",
+    "ts": 1779040820335
+  },
+  {
+    "email": "jorgemunoz74@gmail.com",
+    "ts": 1779040820764
+  },
+  {
+    "email": "president@acmspta.org",
+    "ts": 1779040821144
+  },
+  {
+    "email": "fundraising@acmspta.org",
+    "ts": 1779040821517
+  },
+  {
+    "email": "programs@acmspta.org",
+    "ts": 1779040822121
+  },
+  {
+    "email": "secretary@acmspta.org",
+    "ts": 1779040822532
+  },
+  {
+    "email": "treasurer@acmspta.org",
+    "ts": 1779040822906
+  },
+  {
+    "email": "parliamentarian@acmspta.org",
+    "ts": 1779040823677
+  },
+  {
+    "email": "membership@acmspta.org",
+    "ts": 1779040824054
+  },
+  {
+    "email": "volunteers@acmspta.org",
+    "ts": 1779040824457
+  },
+  {
+    "email": "social@acmspta.org",
+    "ts": 1779040824817
+  },
+  {
+    "email": "spiritwear@acmspta.org",
+    "ts": 1779040825167
+  },
+  {
+    "email": "spiritnights@acmspta.org",
+    "ts": 1779040825569
+  },
+  {
+    "email": "staffappreciation@acmspta.org",
+    "ts": 1779040825915
+  },
+  {
+    "email": "8thgrade@acmspta.org",
+    "ts": 1779040826331
+  },
+  {
+    "email": "webservices@acmspta.org",
+    "ts": 1779040826718
+  },
+  {
+    "email": "president@kealingpta.org",
+    "ts": 1779040827073
+  },
+  {
+    "email": "vpacademy@kealingpta.org",
+    "ts": 1779040827498
+  },
+  {
+    "email": "vpmagnet@kealingpta.org",
+    "ts": 1779040827870
+  },
+  {
+    "email": "vpfundraising@kealingpta.org",
+    "ts": 1779040828241
+  },
+  {
+    "email": "vpmembership@kealingpta.org",
+    "ts": 1779040828650
+  },
+  {
+    "email": "vpcommunications@kealingpta.org",
+    "ts": 1779040829026
+  },
+  {
+    "email": "treasurer@kealingpta.org",
+    "ts": 1779040829494
+  },
+  {
+    "email": "secretary@kealingpta.org",
+    "ts": 1779040829877
+  },
+  {
+    "email": "webmaster@kealingpta.org",
+    "ts": 1779040830230
+  },
+  {
+    "email": "psptapresident@gmail.com",
+    "ts": 1779040830631
+  },
+  {
+    "email": "dallaspalms@gmail.com",
+    "ts": 1779040831013
+  },
+  {
+    "email": "lawmagnetptsa@gmail.com",
+    "ts": 1779040831371
+  },
+  {
+    "email": "president@mitchellpta.org",
+    "ts": 1779055205937
+  },
+  {
+    "email": "president@barksdalepta.org",
+    "ts": 1779055206340
+  },
+  {
+    "email": "president@hickeypta.org",
+    "ts": 1779055206739
+  },
+  {
+    "email": "president@mendenhallpta.org",
+    "ts": 1779055207210
+  },
+  {
+    "email": "info@dallasarboretum.org",
+    "ts": 1779055207661
+  },
+  {
+    "email": "events@klydewarrenpark.org",
+    "ts": 1779055208045
+  },
+  {
+    "email": "president@vapta.org",
+    "ts": 1779055208538
+  },
+  {
+    "email": "partners@vapta.org",
+    "ts": 1779055208923
+  },
+  {
+    "email": "operations@vapta.org",
+    "ts": 1779055209331
+  },
+  {
+    "email": "charter@vapta.org",
+    "ts": 1779055209698
+  },
+  {
+    "email": "familyengagement@vapta.org",
+    "ts": 1779055210060
+  },
+  {
+    "email": "membership@vapta.org",
+    "ts": 1779055210440
+  },
+  {
+    "email": "training@vapta.org",
+    "ts": 1779055210818
+  },
+  {
+    "email": "advocacy@vapta.org",
+    "ts": 1779055211224
+  },
+  {
+    "email": "treasurer@vapta.org",
+    "ts": 1779055211975
+  },
+  {
+    "email": "president@prestonpta.org",
+    "ts": 1779055212368
+  },
+  {
+    "email": "membership@prestonpta.org",
+    "ts": 1779055212754
+  },
+  {
+    "email": "programsVP@prestonpta.org",
+    "ts": 1779055213121
+  },
+  {
+    "email": "waysandmeans@prestonpta.org",
+    "ts": 1779055213506
+  },
+  {
+    "email": "treasurer@prestonpta.org",
+    "ts": 1779055213949
+  },
+  {
+    "email": "secretary@prestonpta.org",
+    "ts": 1779055214351
+  },
+  {
+    "email": "parliamentarian@prestonpta.org",
+    "ts": 1779055214711
+  },
+  {
+    "email": "artsineducation@prestonpta.org",
+    "ts": 1779055215088
+  },
+  {
+    "email": "bookfair@prestonpta.org",
+    "ts": 1779055215440
+  },
+  {
+    "email": "communications@prestonpta.org",
+    "ts": 1779055215776
+  },
+  {
+    "email": "communityrelations@prestonpta.org",
+    "ts": 1779055216169
+  },
+  {
+    "email": "familyengagement@prestonpta.org",
+    "ts": 1779055216567
+  },
+  {
+    "email": "hospitality@prestonpta.org",
+    "ts": 1779055216967
+  },
+  {
+    "email": "spiritwear@prestonpta.org",
+    "ts": 1779055217333
+  },
+  {
+    "email": "volunteers@prestonpta.org",
+    "ts": 1779055217706
+  },
+  {
+    "email": "watchdogs@prestonpta.org",
+    "ts": 1779055218089
+  },
+  {
+    "email": "newsletter@prestonpta.org",
+    "ts": 1779055218451
+  },
+  {
+    "email": "roomparentcoordinator@prestonpta.org",
+    "ts": 1779055218829
+  },
+  {
+    "email": "snackcart@prestonpta.org",
+    "ts": 1779055219176
+  },
+  {
+    "email": "sales@washington.org",
+    "ts": 1779112809855
+  },
+  {
+    "email": "events@walterconventioncenter.com",
+    "ts": 1779112814918
+  },
+  {
+    "email": "exhibitors@fbcconferences.com",
+    "ts": 1779112819354
+  },
+  {
+    "email": "info@stratusfirm.com",
+    "ts": 1779112821695
+  },
+  {
+    "email": "datacenterworldmarketing@informa.com",
+    "ts": 1779112826060
+  },
+  {
+    "email": "conference@dcchamber.org",
+    "ts": 1779112829364
+  },
+  {
+    "email": "info@dcbar.org",
+    "ts": 1779112833998
+  },
+  {
+    "email": "events@dcjcc.org",
+    "ts": 1779112840191
+  },
+  {
+    "email": "sales@nationalbuildingmuseum.org",
+    "ts": 1779112843246
+  },
+  {
+    "email": "events@spymuseum.org",
+    "ts": 1779112847500
+  },
+  {
+    "email": "info@tsnn.com",
+    "ts": 1779112851229
+  },
+  {
+    "email": "expo@informa.com",
+    "ts": 1779112853549
+  },
+  {
+    "email": "rosa.fleming@dallas.gov",
+    "ts": 1779112862070
+  },
+  {
+    "email": "jacqulin.justice@dallas.gov",
+    "ts": 1779112866435
+  },
+  {
+    "email": "reginald.williams1@dallas.gov",
+    "ts": 1779112867132
+  },
+  {
+    "email": "snorris@dallasmarketcenter.com",
+    "ts": 1779112868063
+  },
+  {
+    "email": "rtezeno@dallasmarketcenter.com",
+    "ts": 1779112875458
+  },
+  {
+    "email": "sgregory@dallasmarketcenter.com",
+    "ts": 1779112876702
+  },
+  {
+    "email": "ncastaneda@dallasmarketcenter.com",
+    "ts": 1779112878161
+  },
+  {
+    "email": "apena@dallasmarketcenter.com",
+    "ts": 1779112878960
+  },
+  {
+    "email": "ges_dmcevents@ges.com",
+    "ts": 1779112879834
+  },
+  {
+    "email": "meghan.ryan@natm.com",
+    "ts": 1779112881802
+  },
+  {
+    "email": "events@dcchamber.org",
+    "ts": 1779112887308
+  },
+  {
+    "email": "betsy@experiencespecialist.com",
+    "ts": 1779112887753
+  },
+  {
+    "email": "info@binghamhouse.com",
+    "ts": 1779112888316
+  },
+  {
+    "email": "thephototique@gmail.com",
+    "ts": 1779112889204
+  },
+  {
+    "email": "DDCmeetings@washington.org",
+    "ts": 1779112890026
+  },
+  {
+    "email": "melissa.riley@washington.org",
+    "ts": 1779112890511
+  },
+  {
+    "email": "ddianna.waldroup@washington.org",
+    "ts": 1779112891428
+  },
+  {
+    "email": "shirley.delcarpio@washington.org",
+    "ts": 1779112891999
+  },
+  {
+    "email": "tara.miller@washington.org",
+    "ts": 1779112892635
+  },
+  {
+    "email": "eventsdc@eventsdc.com",
+    "ts": 1779112894752
+  },
+  {
+    "email": "djolley@eventsdc.com",
+    "ts": 1779112895336
+  },
+  {
+    "email": "info@dfwae.org",
+    "ts": 1779112900825
+  },
+  {
+    "email": "execdir@fpadfw.org",
+    "ts": 1779112901308
+  },
+  {
+    "email": "debbiem@aea.net",
+    "ts": 1779112901773
+  },
+  {
+    "email": "convention@aea.net",
+    "ts": 1779112902565
+  },
+  {
+    "email": "info@nafcd.org",
+    "ts": 1779112903095
+  },
+  {
+    "email": "info@nbmda.org",
+    "ts": 1779112903554
+  },
+  {
+    "email": "info@nuclearenergyconference.org",
+    "ts": 1779112904014
+  },
+  {
+    "email": "info@afponline.org",
+    "ts": 1779112904479
+  },
+  {
+    "email": "meetings@asha.org",
+    "ts": 1779112905117
+  },
+  {
+    "email": "convention@apta.org",
+    "ts": 1779112905633
+  },
+  {
+    "email": "annualmeeting@aaopt.org",
+    "ts": 1779112906146
+  },
+  {
+    "email": "conference@acr.org",
+    "ts": 1779112906569
+  },
+  {
+    "email": "meetings@realtors.org",
+    "ts": 1779112907075
+  },
+  {
+    "email": "conference@awwa.org",
+    "ts": 1779112911262
+  },
+  {
+    "email": "info@intralogistexusa.com",
+    "ts": 1779112911713
+  },
+  {
+    "email": "sales@dallasconventioncenter.com",
+    "ts": 1779112912277
+  },
+  {
+    "email": "info@jshay.events",
+    "ts": 1779127204604
+  },
+  {
+    "email": "info@brillianteventsinc.com",
+    "ts": 1779127205584
+  },
+  {
+    "email": "lear@eventsouthwest.com",
+    "ts": 1779127206850
+  },
+  {
+    "email": "info@significanteventsoftexas.com",
+    "ts": 1779127208524
+  },
+  {
+    "email": "info@infinityconferences.com",
+    "ts": 1779127209342
+  },
+  {
+    "email": "info@teamprecision.com",
+    "ts": 1779127210661
+  },
+  {
+    "email": "sayhello@hwevents.com",
+    "ts": 1779127212409
+  },
+  {
+    "email": "ASAEservice@asaecenter.org",
+    "ts": 1779127213022
+  },
+  {
+    "email": "kfrere@asaecenter.org",
+    "ts": 1779127214009
+  },
+  {
+    "email": "jbacon@asaecenter.org",
+    "ts": 1779127214690
+  },
+  {
+    "email": "kprice@asaecenter.org",
+    "ts": 1779127215163
+  },
+  {
+    "email": "mross@asaecenter.org",
+    "ts": 1779127216957
+  },
+  {
+    "email": "sales@conferencecenter.com",
+    "ts": 1779127217483
+  },
+  {
+    "email": "jjohnson@virginia.org",
+    "ts": 1779127218075
+  },
+  {
+    "email": "dsaadat@virginia.org",
+    "ts": 1779127218876
+  },
+  {
+    "email": "info@dcchamber.org",
+    "ts": 1779127220940
+  },
+  {
+    "email": "stacey.knoppel@eventsdc.com",
+    "ts": 1779127221373
+  },
+  {
+    "email": "dennis.carew@eventsdc.com",
+    "ts": 1779127222092
+  },
+  {
+    "email": "arlene.noyes@eventsdc.com",
+    "ts": 1779127222597
+  },
+  {
+    "email": "lindaa@aea.net",
+    "ts": 1779127223108
+  },
+  {
+    "email": "info@quinceaneraexpos.com",
+    "ts": 1779127224054
+  },
+  {
+    "email": "info@dallasfwc26.com",
+    "ts": 1779127224471
+  },
+  {
+    "email": "info@pursuecharlottesville.com",
+    "ts": 1779127225028
+  },
+  {
+    "email": "meetings@grandhyattwashington.com",
+    "ts": 1779127225749
+  },
+  {
+    "email": "washingtonmeetings@marriott.com",
+    "ts": 1779127226265
+  },
+  {
+    "email": "events@omnihotels.com",
+    "ts": 1779127226857
+  },
+  {
+    "email": "meetings@capterndc.com",
+    "ts": 1779127227295
+  },
+  {
+    "email": "meetings@omnidallashotel.com",
+    "ts": 1779127228021
+  },
+  {
+    "email": "dallasmeetings@hilton.com",
+    "ts": 1779127228470
+  },
+  {
+    "email": "meetings@hyattregencydallas.com",
+    "ts": 1779127229005
+  },
+  {
+    "email": "info@ncbfdc.org",
+    "ts": 1779127229403
+  },
+  {
+    "email": "meetings@aga.org",
+    "ts": 1779127229866
+  },
+  {
+    "email": "conference@astho.org",
+    "ts": 1779127230323
+  },
+  {
+    "email": "annualconference@naccho.org",
+    "ts": 1779127230854
+  },
+  {
+    "email": "info@txassociations.org",
+    "ts": 1779127231288
+  },
+  {
+    "email": "info@tsae.org",
+    "ts": 1779127233892
+  },
+  {
+    "email": "exhibitors@dmcevents.com",
+    "ts": 1779127234331
+  },
+  {
+    "email": "vendors@irvingconventioncenter.com",
+    "ts": 1779127234780
+  },
+  {
+    "email": "sales@nationalconfcenter.com",
+    "ts": 1779127235326
+  },
+  {
+    "email": "meetings@virginia.org",
+    "ts": 1779127235739
+  },
+  {
+    "email": "info@grapevineconventioncenter.com",
+    "ts": 1779127236759
+  },
+  {
+    "email": "info@irvingtexas.com",
+    "ts": 1779127237200
+  },
+  {
+    "email": "info@fortworth.com",
+    "ts": 1779127237654
+  },
+  {
+    "email": "info@arlingtontx.com",
+    "ts": 1779127238007
+  },
+  {
+    "email": "events@nationals.com",
+    "ts": 1779127238441
+  },
+  {
+    "email": "info@dcstadium.com",
+    "ts": 1779127238880
+  },
+  {
+    "email": "events@gaylordnational.com",
+    "ts": 1779127239381
+  },
+  {
+    "email": "meetings@asae.org",
+    "ts": 1779127239815
+  },
+  {
+    "email": "conference@acog.org",
+    "ts": 1779127240259
+  },
+  {
+    "email": "annualmeeting@ama-assn.org",
+    "ts": 1779127240687
+  },
+  {
+    "email": "convention@ncsl.org",
+    "ts": 1779204507181
+  },
+  {
+    "email": "info@texasconference.org",
+    "ts": 1779204507635
+  },
+  {
+    "email": "exhibitors@dallasconventioncenter.com",
+    "ts": 1779204508025
+  },
+  {
+    "email": "info@visitloudoun.org",
+    "ts": 1779204508431
+  },
+  {
+    "email": "info@fxva.com",
+    "ts": 1779204508907
+  },
+  {
+    "email": "info@visitalexandriava.com",
+    "ts": 1779204509313
+  },
+  {
+    "email": "info@stayarlington.com",
+    "ts": 1779204509641
+  },
+  {
+    "email": "meetings@visitpwc.com",
+    "ts": 1779204510019
+  },
+  {
+    "email": "info@exhibitoronline.com",
+    "ts": 1779204510441
+  },
+  {
+    "email": "info@designfoundry.com",
+    "ts": 1779204510962
+  },
+  {
+    "email": "info@brightstarevents.com",
+    "ts": 1779204511335
+  },
+  {
+    "email": "info@maritz.com",
+    "ts": 1779204511737
+  },
+  {
+    "email": "info@heimatgroup.com",
+    "ts": 1779204512102
+  },
+  {
+    "email": "events@bcdme.com",
+    "ts": 1779204512506
+  },
+  {
+    "email": "info@dallascvb.com",
+    "ts": 1779204512901
+  },
+  {
+    "email": "info@visitdallas.com",
+    "ts": 1779204513456
+  },
+  {
+    "email": "info@arlingtoncvb.com",
+    "ts": 1779204513881
+  },
+  {
+    "email": "info@irvingcvb.com",
+    "ts": 1779204514265
+  },
+  {
+    "email": "info@grapevinevb.com",
+    "ts": 1779204514760
+  },
+  {
+    "email": "info@washingtondc.com",
+    "ts": 1779204515173
+  },
+  {
+    "email": "info@dmv.org",
+    "ts": 1779204515662
+  },
+  {
+    "email": "info@mwcog.org",
+    "ts": 1779204516061
+  },
+  {
+    "email": "sales@ritzcarltonwashington.com",
+    "ts": 1779204516418
+  },
+  {
+    "email": "sales@fourseasonswashington.com",
+    "ts": 1779204516828
+  },
+  {
+    "email": "sales@stregiswashington.com",
+    "ts": 1779204517337
+  },
+  {
+    "email": "sales@washingtonpalacehotel.com",
+    "ts": 1779204517735
+  },
+  {
+    "email": "sales@jwmariottwashington.com",
+    "ts": 1779204518171
+  },
+  {
+    "email": "meetings@willardintercontinental.com",
+    "ts": 1779204518579
+  },
+  {
+    "email": "meetings@aspanet.org",
+    "ts": 1779204518975
+  },
+  {
+    "email": "conference@apha.org",
+    "ts": 1779204519371
+  },
+  {
+    "email": "annual@aera.net",
+    "ts": 1779204519755
+  },
+  {
+    "email": "convention@acpm.org",
+    "ts": 1779204520197
+  },
+  {
+    "email": "meetings@acponline.org",
+    "ts": 1779204520595
+  },
+  {
+    "email": "conference@apwu.org",
+    "ts": 1779204520999
+  },
+  {
+    "email": "convention@nea.org",
+    "ts": 1779204521394
+  },
+  {
+    "email": "meetings@agacgfm.org",
+    "ts": 1779204521738
+  },
+  {
+    "email": "info@unionstationdc.com",
+    "ts": 1779204522072
+  },
+  {
+    "email": "info@buildingmuseum.org",
+    "ts": 1779204522505
+  },
+  {
+    "email": "events@kennedy-center.org",
+    "ts": 1779204522910
+  },
+  {
+    "email": "info@folger.edu",
+    "ts": 1779204523307
+  },
+  {
+    "email": "info@perotmuseum.org",
+    "ts": 1779204523741
+  },
+  {
+    "email": "events@dallasarboretum.org",
+    "ts": 1779204524144
+  },
+  {
+    "email": "events@dallaszoo.com",
+    "ts": 1779204524653
+  },
+  {
+    "email": "events@alamodallas.com",
+    "ts": 1779204525047
+  },
+  {
+    "email": "events@visitcharlottesville.org",
+    "ts": 1779204525450
+  },
+  {
+    "email": "info@visitrichmondva.com",
+    "ts": 1779204525881
+  },
+  {
+    "email": "meetings@visitvirginiabeach.com",
+    "ts": 1779204526322
+  },
+  {
+    "email": "info@visitpittsylvania.com",
+    "ts": 1779204526790
+  },
+  {
+    "email": "info@visitnorfolk.com",
+    "ts": 1779204527237
+  },
+  {
+    "email": "meetings@newport-news.org",
+    "ts": 1779204527697
+  },
+  {
+    "email": "info@shenandoahtravel.org",
+    "ts": 1779213604522
+  },
+  {
+    "email": "events@stawa.org",
+    "ts": 1779213605457
+  },
+  {
+    "email": "sponsor@2026.ieeeigarss.org",
+    "ts": 1779213606197
+  },
+  {
+    "email": "bj1@fbcinc.com",
+    "ts": 1779213607017
+  },
+  {
+    "email": "info@APTAEXPO.com",
+    "ts": 1779213609091
+  },
+  {
+    "email": "sales@APTAEXPO.com",
+    "ts": 1779213609625
+  },
+  {
+    "email": "edrudy@ntpevents.com",
+    "ts": 1779213610103
+  },
+  {
+    "email": "info@asphp.org",
+    "ts": 1779213610560
+  },
+  {
+    "email": "awiest@asphp.org",
+    "ts": 1779213611034
+  },
+  {
+    "email": "info@sacubo.org",
+    "ts": 1779213613364
+  },
+  {
+    "email": "info@dallasgolfexpo.com",
+    "ts": 1779213615117
+  },
+  {
+    "email": "cme@bswhealth.org",
+    "ts": 1779213615694
+  },
+  {
+    "email": "info@washingtonautoshow.com",
+    "ts": 1779213617626
+  },
+  {
+    "email": "info@irvingconventioncenter.com",
+    "ts": 1779213618253
+  },
+  {
+    "email": "info@hyattregencydfw.com",
+    "ts": 1779213619309
+  },
+  {
+    "email": "info@hiltonanatole.com",
+    "ts": 1779213621380
+  },
+  {
+    "email": "info@dfwairport.com",
+    "ts": 1779213621906
+  },
+  {
+    "email": "info@nationalbuildingmuseum.org",
+    "ts": 1779213622422
+  },
+  {
+    "email": "info@spymuseum.org",
+    "ts": 1779213624030
+  },
+  {
+    "email": "sknoppel@eventsdc.com",
+    "ts": 1779213624451
+  },
+  {
+    "email": "rhonda.whyte@eventsdc.com",
+    "ts": 1779213624889
+  },
+  {
+    "email": "nigel.marshall@eventsdc.com",
+    "ts": 1779213625300
+  },
+  {
+    "email": "conferencecenter@nreca.coop",
+    "ts": 1779213625757
+  },
+  {
+    "email": "edward.white@nreca.coop",
+    "ts": 1779213626228
+  },
+  {
+    "email": "info@dfwcai.org",
+    "ts": 1779213626796
+  },
+  {
+    "email": "info@visitfrisco.com",
+    "ts": 1779213627238
+  },
+  {
+    "email": "info@visitplano.com",
+    "ts": 1779213627736
+  },
+  {
+    "email": "info@visitfortworth.com",
+    "ts": 1779213628323
+  },
+  {
+    "email": "info@visitallen.com",
+    "ts": 1779213628879
+  },
+  {
+    "email": "meetings@renaissancedallas.com",
+    "ts": 1779213629381
+  },
+  {
+    "email": "events@omniadallas.com",
+    "ts": 1779213630075
+  },
+  {
+    "email": "meetings@marriottwardmanpark.com",
+    "ts": 1779213630570
+  },
+  {
+    "email": "sales@capitalhilton.com",
+    "ts": 1779213631326
+  },
+  {
+    "email": "meetings@washingtonhilton.com",
+    "ts": 1779213631812
+  },
+  {
+    "email": "meeting@apta.com",
+    "ts": 1779213632513
+  },
+  {
+    "email": "exhibitor@aptaexpo.com",
+    "ts": 1779213633001
+  },
+  {
+    "email": "info@cgandcoevents.com",
+    "ts": 1779213633457
+  },
+  {
+    "email": "info@eventsbytrb.com",
+    "ts": 1779213634049
+  },
+  {
+    "email": "info@visithoustontexas.com",
+    "ts": 1779213634709
+  },
+  {
+    "email": "sandra.villarreal@omnihotels.com",
+    "ts": 1779213635458
+  },
+  {
+    "email": "tamie.smith@omnihotels.com",
+    "ts": 1779213635945
+  },
+  {
+    "email": "allison.domanic@hilton.com",
+    "ts": 1779213636971
+  },
+  {
+    "email": "amanda.timpte@hilton.com",
+    "ts": 1779213637605
+  },
+  {
+    "email": "events@nationalcathedral.org",
+    "ts": 1779213638078
+  },
+  {
+    "email": "events@smithsonian.org",
+    "ts": 1779213638673
+  },
+  {
+    "email": "info@ushmm.org",
+    "ts": 1779213639549
+  },
+  {
+    "email": "info@austinconventioncenter.com",
+    "ts": 1779213640176
+  },
+  {
+    "email": "info@sanantoniocvb.com",
+    "ts": 1779213640609
+  },
+  {
+    "email": "convention@afponline.org",
+    "ts": 1779213641216
+  },
+  {
+    "email": "convention@nesa.org",
+    "ts": 1779213641912
+  },
+  {
+    "email": "meetings@fmi.org",
+    "ts": 1779318458998
+  },
+  {
+    "email": "info@exposervices.com",
+    "ts": 1779318459396
+  },
+  {
+    "email": "info@ts2.org",
+    "ts": 1779318459811
+  },
+  {
+    "email": "info@bccenter.org",
+    "ts": 1779318460261
+  },
+  {
+    "email": "agonzalez@bccenter.org",
+    "ts": 1779318460653
+  },
+  {
+    "email": "info@fortworthchamber.com",
+    "ts": 1779318461073
+  },
+  {
+    "email": "events@americanairlinescenter.com",
+    "ts": 1779318461482
+  },
+  {
+    "email": "info@tcce.org",
+    "ts": 1779318461912
+  },
+  {
+    "email": "events@fairmontdallas.com",
+    "ts": 1779318462328
+  },
+  {
+    "email": "meetings@ritzcarltondallas.com",
+    "ts": 1779318462746
+  },
+  {
+    "email": "convention@acs.org",
+    "ts": 1779318463590
+  },
+  {
+    "email": "meetings@aps.org",
+    "ts": 1779318464000
+  },
+  {
+    "email": "conference@siop.org",
+    "ts": 1779318464425
+  },
+  {
+    "email": "info@virginiacenter.com",
+    "ts": 1779318464796
+  },
+  {
+    "email": "info@dallasconventioncenter.com",
+    "ts": 1779318465189
+  },
+  {
+    "email": "meetings@visitalexva.com",
+    "ts": 1779318465632
+  },
+  {
+    "email": "info@precisionmeetings.com",
+    "ts": 1779318466018
+  },
+  {
+    "email": "meetings@tysonscorner.com",
+    "ts": 1779318466392
+  },
+  {
+    "email": "info@restonconferencecenter.com",
+    "ts": 1779318466787
+  },
+  {
+    "email": "info@nationalharbor.com",
+    "ts": 1779318467160
+  },
+  {
+    "email": "meetings@bethesdamarriott.com",
+    "ts": 1779318467516
+  },
+  {
+    "email": "meetings@crystalcitycrystal.com",
+    "ts": 1779318467871
+  },
+  {
+    "email": "info@dullesconferencecenter.com",
+    "ts": 1779318468235
+  },
+  {
+    "email": "sponsor@dfwae.org",
+    "ts": 1779318468638
+  },
+  {
+    "email": "info@txed.org",
+    "ts": 1779318469022
+  },
+  {
+    "email": "info@txhospitals.org",
+    "ts": 1779318469450
+  },
+  {
+    "email": "gradnight@garfieldptsa.org",
+    "ts": 1779318469834
+  },
+  {
+    "email": "AMBCGradNight@gmail.com",
+    "ts": 1779318470276
+  },
+  {
+    "email": "projectgraduationchccs@gmail.com",
+    "ts": 1779318470676
+  },
+  {
+    "email": "VolunteerGradCel@gmail.com",
+    "ts": 1779318471076
+  },
+  {
+    "email": "Info@ProjectGraduationWestborough.org",
+    "ts": 1779318471466
+  },
+  {
+    "email": "2026wlhsgradparty@gmail.com",
+    "ts": 1779318471868
+  },
+  {
+    "email": "mariecheek@verizon.net",
+    "ts": 1779318472273
+  },
+  {
+    "email": "info@jubileepartycompany.com",
+    "ts": 1779318472673
+  },
+  {
+    "email": "jfparty@yahoo.com",
+    "ts": 1779318473080
+  },
+  {
+    "email": "info@dfwpartyvibes.com",
+    "ts": 1779318473505
+  },
+  {
+    "email": "davisduoevents@gmail.com",
+    "ts": 1779318473880
+  },
+  {
+    "email": "joe@jumperbee.com",
+    "ts": 1779318474269
+  },
+  {
+    "email": "info@electriceventsdc.com",
+    "ts": 1779318474671
+  },
+  {
+    "email": "hello@alouisedc.com",
+    "ts": 1779318475097
+  },
+  {
+    "email": "info@crushitsports.com",
+    "ts": 1779318475498
+  },
+  {
+    "email": "cater@caterdallas.com",
+    "ts": 1779318475868
+  },
+  {
+    "email": "support@fun4alldfw.com",
+    "ts": 1779318476244
+  },
+  {
+    "email": "ads@tbparenting.com",
+    "ts": 1779318476639
+  },
+  {
+    "email": "info@mandmmarketplace.com",
+    "ts": 1779318477027
+  },
+  {
+    "email": "foodvendors@turkishfestival.org",
+    "ts": 1779318477458
+  },
+  {
+    "email": "info@celebratefairfax.org",
+    "ts": 1779318749595
+  },
+  {
+    "email": "j.doe@ancc.org",
+    "ts": 1779318750449
+  },
+  {
+    "email": "john.doe@ancc.org",
+    "ts": 1779318751490
+  },
+  {
+    "email": "doej@ancc.org",
+    "ts": 1779318752357
+  },
+  {
+    "email": "natalie@mtghospitality.com",
+    "ts": 1779318753221
+  },
+  {
+    "email": "fcparecenters@fairfaxcounty.gov",
+    "ts": 1779318754240
+  },
+  {
+    "email": "sales@hayadams.com",
+    "ts": 1779318755098
+  },
+  {
+    "email": "info@nbm.org",
+    "ts": 1779318755952
+  },
+  {
+    "email": "pressoffice@nbm.org",
+    "ts": 1779318756703
+  },
+  {
+    "email": "specialevents@nbm.org",
+    "ts": 1779318757586
+  },
+  {
+    "email": "eventrentals@meridian.org",
+    "ts": 1779318758437
+  },
+  {
+    "email": "info@meridian.org",
+    "ts": 1779318759308
+  },
+  {
+    "email": "jblanco@societyofthecincinnati.org",
+    "ts": 1779318760377
+  },
+  {
+    "email": "admin@societyofthecincinnati.org",
+    "ts": 1779318761230
+  },
+  {
+    "email": "michele@longviewgallerydc.com",
+    "ts": 1779318762075
+  },
+  {
+    "email": "adixon@allsouls.ws",
+    "ts": 1779318762724
+  },
+  {
+    "email": "crollins@festivalcenter.orgwebsite",
+    "ts": 1779318763400
+  },
+  {
+    "email": "badams@firstuccdc.org",
+    "ts": 1779318764049
+  },
+  {
+    "email": "cofcdc.info@gmail.com",
+    "ts": 1779318764949
+  },
+  {
+    "email": "lamontstreetcollective@gmail.com",
+    "ts": 1779318765624
+  },
+  {
+    "email": "jreiffer@lutherplace.org",
+    "ts": 1779318766285
+  },
+  {
+    "email": "churchoffice@mccdc.com",
+    "ts": 1779318766932
+  },
+  {
+    "email": "bknight@nationalcitycc.org",
+    "ts": 1779318767802
+  },
+  {
+    "email": "info@herecomestheguide.com",
+    "ts": 1779318768678
+  },
+  {
+    "email": "ciheacho@phoenixparkhotel.com",
+    "ts": 1779318769528
+  },
+  {
+    "email": "laldana@phoenixparkhotel.com",
+    "ts": 1779318770207
+  },
+  {
+    "email": "shall@phoenixparkhotel.com",
+    "ts": 1779318770877
+  },
+  {
+    "email": "jwashington@phoenixparkhotel.com",
+    "ts": 1779318771534
+  },
+  {
+    "email": "sales@jeffersondc.com",
+    "ts": 1779318772191
+  },
+  {
+    "email": "sales@monaco-dc.com",
+    "ts": 1779318772854
+  },
+  {
+    "email": "sales@hiltondcnationalmall.com",
+    "ts": 1779318773500
+  },
+  {
+    "email": "sales@thehotelwashington.com",
+    "ts": 1779318774282
+  },
+  {
+    "email": "corporate_responsibility@hilton.com",
+    "ts": 1779318774958
+  },
+  {
+    "email": "h3292@sofitel.com",
+    "ts": 1779318775588
+  },
+  {
+    "email": "atsmithsonianevents@si.eduor",
+    "ts": 1779318776248
+  },
+  {
+    "email": "tosmithsonianevents@si.edu",
+    "ts": 1779318776907
+  },
+  {
+    "email": "smithsonianevents@si.edu",
+    "ts": 1779318777556
+  },
+  {
+    "email": "atnhevents@si.eduto",
+    "ts": 1779318778195
+  },
+  {
+    "email": "nmnh-comms@si.eduor",
+    "ts": 1779318778901
+  },
+  {
+    "email": "caulkm@si.edu",
+    "ts": 1779318779566
+  },
+  {
+    "email": "vendors@turkishfestival.org",
+    "ts": 1779372003756
+  },
+  {
+    "email": "events@southgwinnetthigh.org",
+    "ts": 1779372005282
+  },
+  {
+    "email": "info@thebestraces.com",
+    "ts": 1779372006987
+  },
+  {
+    "email": "hello@trinitypridefw.org",
+    "ts": 1779372008991
+  },
+  {
+    "email": "ROGER@TRINITYPRIDEFW.ORG",
+    "ts": 1779372010521
+  },
+  {
+    "email": "aldredgehouse@gmail.com",
+    "ts": 1779372012246
+  },
+  {
+    "email": "allison.mcnamara@fortworthtexas.gov",
+    "ts": 1779372013834
+  },
+  {
+    "email": "andra.bennett@fortworthtexas.gov",
+    "ts": 1779372017372
+  },
+  {
+    "email": "andrea.wright@fortworthtexas.gov",
+    "ts": 1779372017996
+  },
+  {
+    "email": "aochoa@fwbg.org",
+    "ts": 1779372018442
+  },
+  {
+    "email": "arlingtonhall@ciemail.com",
+    "ts": 1779372019328
+  },
+  {
+    "email": "asiers@ciemail.com",
+    "ts": 1779372019762
+  },
+  {
+    "email": "audrey.hall@fortworthtexas.gov",
+    "ts": 1779372024028
+  },
+  {
+    "email": "bambi@chateauatforestpark.com",
+    "ts": 1779372024660
+  },
+  {
+    "email": "brandon.sotelo@fortworthtexas.gov",
+    "ts": 1779372030627
+  },
+  {
+    "email": "bwilbins@dallasfilm.org",
+    "ts": 1779372033564
+  },
+  {
+    "email": "careers@westin-southlake.com",
+    "ts": 1779372034158
+  },
+  {
+    "email": "arlingtonhall@ciemail.comAddress",
+    "ts": 1779372034660
+  },
+  {
+    "email": "catering@harwoodhospitality.com",
+    "ts": 1779372035151
+  },
+  {
+    "email": "CCTSpecialevents@dallascityhall.com",
+    "ts": 1779372035674
+  },
+  {
+    "email": "Charly.Petrek@fortworthtexas.gov",
+    "ts": 1779372042313
+  },
+  {
+    "email": "chris.moss@arlingtonreport.org",
+    "ts": 1779372042876
+  },
+  {
+    "email": "Christine.Gillett@fortworthtexas.gov",
+    "ts": 1779372043326
+  },
+  {
+    "email": "contact@theterracedallas.com",
+    "ts": 1779372044183
+  },
+  {
+    "email": "Cynthia.Serrano@fortworthtexas.gov",
+    "ts": 1779372044719
+  },
+  {
+    "email": "Daniel.Masterson@fortworthtexas.gov",
+    "ts": 1779372046890
+  },
+  {
+    "email": "dee.hirsch@oakviewgroup.com",
+    "ts": 1779372047396
+  },
+  {
+    "email": "dgriffin@ih-corp.com",
+    "ts": 1779372047886
+  },
+  {
+    "email": "elissa.kincade@thompsonhotels.comAddress",
+    "ts": 1779372048517
+  },
+  {
+    "email": "EMoore@FWBG.org",
+    "ts": 1779372056300
+  },
+  {
+    "email": "error@releasecontact.com",
+    "ts": 1779372056854
+  },
+  {
+    "email": "events@cftexas.org",
+    "ts": 1779372057427
+  },
+  {
+    "email": "events@fortworthcountrymemories.com",
+    "ts": 1779372057978
+  },
+  {
+    "email": "events@fwbg.org",
+    "ts": 1779372058483
+  },
+  {
+    "email": "events@nashersculpturecenter.orgAddress",
+    "ts": 1779372059083
+  },
+  {
+    "email": "events@thecheneyplace.com",
+    "ts": 1779372059822
+  },
+  {
+    "email": "Galvan@downtowndallas.com",
+    "ts": 1779372060711
+  },
+  {
+    "email": "Gary.Olivier@fortworthtexas.gov",
+    "ts": 1779372061166
+  },
+  {
+    "email": "gehan.asaad@dallascityhall.com",
+    "ts": 1779372062126
+  },
+  {
+    "email": "gm@ridallasgalleria.com",
+    "ts": 1779372065666
+  },
+  {
+    "email": "hello@boxwoodhospitality.comAddress",
+    "ts": 1779372066124
+  },
+  {
+    "email": "hello@marie-gabrielle.comAddress",
+    "ts": 1779372066602
+  },
+  {
+    "email": "hello@thehillsideestatedfw.com",
+    "ts": 1779372067776
+  },
+  {
+    "email": "hickorycreek@waltersweddingestates.comAddress",
+    "ts": 1779372068375
+  },
+  {
+    "email": "info@attpac.org",
+    "ts": 1779372068861
+  },
+  {
+    "email": "info@cullenyards.com",
+    "ts": 1779372069385
+  },
+  {
+    "email": "info@dallasartsdistrict.org",
+    "ts": 1779372076452
+  },
+  {
+    "email": "info@dallascountryfestival.com",
+    "ts": 1779372076920
+  },
+  {
+    "email": "info@dallasoasis.comAddress",
+    "ts": 1779372077374
+  },
+  {
+    "email": "info@deepellumtexas.com",
+    "ts": 1779386403287
+  },
+  {
+    "email": "info@ervayeventcenter.com",
+    "ts": 1779386407335
+  },
+  {
+    "email": "info@howellanddragon.comAddress",
+    "ts": 1779386408136
+  },
+  {
+    "email": "info@knottinghillplace.comAddress",
+    "ts": 1779386410448
+  },
+  {
+    "email": "info@onthelevee.comAddress",
+    "ts": 1779386411032
+  },
+  {
+    "email": "info@sammonsartcenter.org",
+    "ts": 1779386411466
+  },
+  {
+    "email": "info@theartisandallas.comAddress",
+    "ts": 1779386411994
+  },
+  {
+    "email": "info@thecrescenthotelfw.com",
+    "ts": 1779386413297
+  },
+  {
+    "email": "info@thefrenchfarmhousevenue.com",
+    "ts": 1779386413773
+  },
+  {
+    "email": "info@thefrenchfarmhousevenue.comAddress",
+    "ts": 1779386414283
+  },
+  {
+    "email": "info@thegrandivory.com",
+    "ts": 1779386414925
+  },
+  {
+    "email": "info@themasondallas.com",
+    "ts": 1779386415360
+  },
+  {
+    "email": "info@themasondallas.comAddress",
+    "ts": 1779386415878
+  },
+  {
+    "email": "info@theroomonmain.comAddress",
+    "ts": 1779386416360
+  },
+  {
+    "email": "ismael.belkoura@fortworthreport.org",
+    "ts": 1779386416904
+  },
+  {
+    "email": "James.Reed@fortworthtexas.gov",
+    "ts": 1779386417354
+  },
+  {
+    "email": "jmoore@thecarlisleroom.com",
+    "ts": 1779386417772
+  },
+  {
+    "email": "jmoore@thecarlisleroom.comAddress",
+    "ts": 1779386418218
+  },
+  {
+    "email": "Joan@2616Commerce.com",
+    "ts": 1779386419850
+  },
+  {
+    "email": "Justin.Reid@fortworthtexas.gov",
+    "ts": 1779386420577
+  },
+  {
+    "email": "kbrant@dallasbar.orgAddress",
+    "ts": 1779386421565
+  },
+  {
+    "email": "Keith.Chisolm@fortworthtexas.gov",
+    "ts": 1779386422026
+  },
+  {
+    "email": "laura.flores@dallas.gov",
+    "ts": 1779386422514
+  },
+  {
+    "email": "Lisa@2616Commerce.com",
+    "ts": 1779386422987
+  },
+  {
+    "email": "LMcConathy@FWBG.org",
+    "ts": 1779386423412
+  },
+  {
+    "email": "marissa.greene@fortworthreport.org",
+    "ts": 1779386423844
+  },
+  {
+    "email": "Michael.Crum@fortworthtexas.gov",
+    "ts": 1779386424459
+  },
+  {
+    "email": "Michael.Zander@oncor.com",
+    "ts": 1779386424898
+  },
+  {
+    "email": "michelle@hickorystreetannex.comAddress",
+    "ts": 1779386425367
+  },
+  {
+    "email": "Nancy.Braesicke@fortworthtexas.gov",
+    "ts": 1779386425892
+  },
+  {
+    "email": "pberryman@fwbg.org",
+    "ts": 1779386426321
+  },
+  {
+    "email": "rkazmierski@bizjournals.com",
+    "ts": 1779386426802
+  },
+  {
+    "email": "rockwall@thespringsevents.comAddress",
+    "ts": 1779386427272
+  },
+  {
+    "email": "roomreservations@dallascityhall.com",
+    "ts": 1779386428023
+  },
+  {
+    "email": "sales.dallas@virginhotels.comAddress",
+    "ts": 1779386428560
+  },
+  {
+    "email": "sales@crescentcourt.comAddress",
+    "ts": 1779386429499
+  },
+  {
+    "email": "sales@hallartshotel.comAddress",
+    "ts": 1779386429930
+  },
+  {
+    "email": "sales@reuniontower.com",
+    "ts": 1779386430414
+  },
+  {
+    "email": "sales@theharperfortworth.com",
+    "ts": 1779386431247
+  },
+  {
+    "email": "salesleads@adolphus.comAddress",
+    "ts": 1779386431711
+  },
+  {
+    "email": "Shanda.cartwright@fortworthtexas.gov",
+    "ts": 1779386432600
+  },
+  {
+    "email": "simon.giles@encoreglobal.com",
+    "ts": 1779386433102
+  },
+  {
+    "email": "specialevents@westongardens.com",
+    "ts": 1779386433628
+  },
+  {
+    "email": "Sustainability@marriott.com",
+    "ts": 1779386434230
+  },
+  {
+    "email": "tbolton@dma.orgAddress",
+    "ts": 1779386434673
+  },
+  {
+    "email": "themansion@rosewoodhotels.comAddress",
+    "ts": 1779386435303
+  },
+  {
+    "email": "tony.armer@dallascreates.org",
+    "ts": 1779386435790
+  },
+  {
+    "email": "twhite@bizjournals.com",
+    "ts": 1779386436275
+  },
+  {
+    "email": "weddings@dallasarboretum.orgAddress",
+    "ts": 1779386436750
+  },
+  {
+    "email": "chamberline@si.edu",
+    "ts": 1779392116342
+  },
+  {
+    "email": "lamparterk@si.edu",
+    "ts": 1779392116995
+  },
+  {
+    "email": "crushm@si.edu",
+    "ts": 1779392117860
+  },
+  {
+    "email": "wenderoffm@si.edu",
+    "ts": 1779392118531
+  },
+  {
+    "email": "nmai-specialevents@si.edu",
+    "ts": 1779392119187
+  },
+  {
+    "email": "nmaahcspecialevents@si.edu",
+    "ts": 1779392119876
+  },
+  {
+    "email": "fsevents@si.edu",
+    "ts": 1779392120506
+  },
+  {
+    "email": "levinj@si.edu",
+    "ts": 1779392121356
+  },
+  {
+    "email": "americanartinfo@si.edu",
+    "ts": 1779392122008
+  },
+  {
+    "email": "americanartevents@si.edu",
+    "ts": 1779392122648
+  },
+  {
+    "email": "npghostanevent@si.edu",
+    "ts": 1779392123301
+  },
+  {
+    "email": "oegevents@ebbitt.com",
+    "ts": 1779392123973
+  },
+  {
+    "email": "jeremy.huvard@hyatt.com",
+    "ts": 1779392124856
+  },
+  {
+    "email": "dining@thewatergatehotel.com",
+    "ts": 1779392125499
+  },
+  {
+    "email": "washingtondc@rosewoodhotels.com",
+    "ts": 1779392126155
+  },
+  {
+    "email": "events@longviewgallerydc.com",
+    "ts": 1779392126813
+  },
+  {
+    "email": "info@somethingvintagerentals.com",
+    "ts": 1779392127470
+  },
+  {
+    "email": "events@rentfurniture.com",
+    "ts": 1779392128193
+  },
+  {
+    "email": "hello@whiteglove-rentals.com",
+    "ts": 1779392128876
+  },
+  {
+    "email": "info@sweetgiftsdmv.com",
+    "ts": 1779392129552
+  },
+  {
+    "email": "cgutierrez@dcrental.com",
+    "ts": 1779392130211
+  },
+  {
+    "email": "nmerriweather@selecteventgroup.com",
+    "ts": 1779392130892
+  },
+  {
+    "email": "eventrentals@phillipscollection.org",
+    "ts": 1779392131617
+  },
+  {
+    "email": "specialeventsinquiry@nmwa.org",
+    "ts": 1779392132330
+  },
+  {
+    "email": "rent@lyonpark.info",
+    "ts": 1779392133072
+  },
+  {
+    "email": "ray.sirisakorn@marriott.com",
+    "ts": 1779392133745
+  },
+  {
+    "email": "waspc.leads@ritzcarlton.com",
+    "ts": 1779392134399
+  },
+  {
+    "email": "conferencecenter@ausa.org",
+    "ts": 1779392135105
+  },
+  {
+    "email": "carlylerentals@nvrpa.org",
+    "ts": 1779392135969
+  },
+  {
+    "email": "carlyle@nvrpa.org",
+    "ts": 1779392136673
+  },
+  {
+    "email": "contact@leefendallhouse.org",
+    "ts": 1779392137357
+  },
+  {
+    "email": "rentals@ahsgardening.org",
+    "ts": 1779392138013
+  },
+  {
+    "email": "businessmanager@olddominionboatclub.com",
+    "ts": 1779392138689
+  },
+  {
+    "email": "torpedofactory@alexandriava.gov",
+    "ts": 1779392139364
+  },
+  {
+    "email": "torpedofactoryeventrental@alexandriava.gov",
+    "ts": 1779392140023
+  },
+  {
+    "email": "thepierbar@tallshipprovidence.org",
+    "ts": 1779392140679
+  },
+  {
+    "email": "info@tworiversclub.com",
+    "ts": 1779392141332
+  },
+  {
+    "email": "tom.melideo@internationalcc.com",
+    "ts": 1779392141976
+  },
+  {
+    "email": "k.larson@internationalcc.com",
+    "ts": 1779392142621
+  },
+  {
+    "email": "lee.douglas@internationalcc.com",
+    "ts": 1779392143262
+  },
+  {
+    "email": "papu.garcha@internationalcc.com",
+    "ts": 1779392914823
+  },
+  {
+    "email": "b.santos@internationalcc.com",
+    "ts": 1779392915684
+  },
+  {
+    "email": "j.kasmir@internationalcc.com",
+    "ts": 1779392916743
+  },
+  {
+    "email": "aslinbeerco@gmail.com",
+    "ts": 1779392917601
+  },
+  {
+    "email": "events@aslinbeer.com",
+    "ts": 1779392918471
+  },
+  {
+    "email": "info@thecordell.com",
+    "ts": 1779392919137
+  },
+  {
+    "email": "katyrcmansion@gmail.com",
+    "ts": 1779392919781
+  },
+  {
+    "email": "rumseyeventcenter@gmail.com",
+    "ts": 1779392920645
+  },
+  {
+    "email": "atnatalie@mtghospitality.com",
+    "ts": 1779392921331
+  },
+  {
+    "email": "info@hookhall.com",
+    "ts": 1779392921974
+  },
+  {
+    "email": "events@fairviewfarmevents.com",
+    "ts": 1779392922636
+  },
+  {
+    "email": "info@alistphotobooths.com",
+    "ts": 1779392923280
+  },
+  {
+    "email": "info@fxphotobooths.com",
+    "ts": 1779392923919
+  },
+  {
+    "email": "admin@capitolhillpreschurch.org",
+    "ts": 1779393289883
+  },
+  {
+    "email": "admin@QuakersDC.org",
+    "ts": 1779393290728
+  },
+  {
+    "email": "ateventrentals@dc.gov",
+    "ts": 1779393291636
+  },
+  {
+    "email": "bmefford@festivalcenter.org",
+    "ts": 1779393292283
+  },
+  {
+    "email": "catering@nationalgolfclubmd.com",
+    "ts": 1779393292926
+  },
+  {
+    "email": "dmays@eventsdc.com",
+    "ts": 1779393293806
+  },
+  {
+    "email": "eventrentals@dc.gov",
+    "ts": 1779393294462
+  },
+  {
+    "email": "events@busboysandpoets.com",
+    "ts": 1779393295305
+  },
+  {
+    "email": "events@dumbartonhouse.org",
+    "ts": 1779393295948
+  },
+  {
+    "email": "eventspace@quakersdc.org",
+    "ts": 1779393296603
+  },
+  {
+    "email": "gbcs@umc-gbcs.org",
+    "ts": 1779393297288
+  },
+  {
+    "email": "info@srmfoundation.org",
+    "ts": 1779393297927
+  },
+  {
+    "email": "kweber@nmwa.org",
+    "ts": 1779393298572
+  },
+  {
+    "email": "Laura@LIGevents.com",
+    "ts": 1779393299269
+  },
+  {
+    "email": "magicsmilesphotobooth@outlook.com",
+    "ts": 1779393299927
+  },
+  {
+    "email": "media@ncbfdc.org",
+    "ts": 1779393300799
+  },
+  {
+    "email": "mimi@washingtoncountryclub.golf",
+    "ts": 1779393301435
+  },
+  {
+    "email": "ncbf@ncbfdc.org",
+    "ts": 1779393302090
+  },
+  {
+    "email": "NHEvents@si.edu",
+    "ts": 1779393302737
+  },
+  {
+    "email": "Phillips202-318-6952info@procaterersdc.com",
+    "ts": 1779393303386
+  },
+  {
+    "email": "sakuramatsuri@jaswdc.org",
+    "ts": 1779393304039
+  },
+  {
+    "email": "sales@salamanderdc.com",
+    "ts": 1779393304711
+  },
+  {
+    "email": "Salesinfo@eventsdc.com",
+    "ts": 1779393305377
+  },
+  {
+    "email": "shellypatephoto@gmail.com",
+    "ts": 1779393306019
+  },
+  {
+    "email": "spacerental@publicwelfare.org",
+    "ts": 1779393306663
+  },
+  {
+    "email": "spaceusage@publicwelfare.org",
+    "ts": 1779393307334
+  },
+  {
+    "email": "tdent@lpc.com",
+    "ts": 1779393307971
+  },
+  {
+    "email": "thefields@goplaydc.org",
+    "ts": 1779393308630
+  },
+  {
+    "email": "Tiffany.Barrett@concordhotels.com",
+    "ts": 1779393309285
+  },
+  {
+    "email": "volunteer@ncbfdc.org",
+    "ts": 1779393309921
+  },
+  {
+    "email": "test@email.com",
+    "ts": 1779393310577
+  },
+  {
+    "email": "WEGD@marriott.com",
+    "ts": 1779400803600
+  },
+  {
+    "email": "NMNH-Comms@si.eduor",
+    "ts": 1779400804073
+  },
+  {
+    "email": "Sales@jeffersondc.com",
+    "ts": 1779400804697
+  },
+  {
+    "email": "info@thearcdc.org",
+    "ts": 1779458410720
+  },
+  {
+    "email": "quyen.nguyen@dc.gov",
+    "ts": 1779458413722
+  },
+  {
+    "email": "info@redeemerschapel.org",
+    "ts": 1779458417834
+  },
+  {
+    "email": "jjessie@dccouncil.gov",
+    "ts": 1779458420919
+  },
+  {
+    "email": "rockforlife@yahoo.com",
+    "ts": 1779458423672
+  },
+  {
+    "email": "janay.williams2@dc.gov",
+    "ts": 1779458427314
+  },
+  {
+    "email": "bullardacademyinc@gmail.com",
+    "ts": 1779458429964
+  },
+  {
+    "email": "dcps.procurementops@k12.dc.gov",
+    "ts": 1779458433445
+  },
+  {
+    "email": "yawovi.klouvi@k12.dc.gov",
+    "ts": 1779458437112
+  },
+  {
+    "email": "tabitha.woodsjackson@k12.dc.gov",
+    "ts": 1779458437826
+  },
+  {
+    "email": "prashish.shrestha@k12.dc.gov",
+    "ts": 1779458438684
+  },
+  {
+    "email": "specialevents@fairfaxva.gov",
+    "ts": 1779458441013
+  },
+  {
+    "email": "twinlakes@dcr.virginia.gov",
+    "ts": 1779458445201
+  },
+  {
+    "email": "info@vintonchamber.com",
+    "ts": 1779458445803
+  },
+  {
+    "email": "events@fauquierchamber.org",
+    "ts": 1779458446282
+  },
+  {
+    "email": "alec@fauquierchamber.org",
+    "ts": 1779458448031
+  },
+  {
+    "email": "laura@fauquierchamberofcommerce.ccsend.com",
+    "ts": 1779458449323
+  },
+  {
+    "email": "appomattoxrailroadfestival@gmail.com",
+    "ts": 1779458451844
+  },
+  {
+    "email": "harf@appomattoxrrfest.org",
+    "ts": 1779458452324
+  },
+  {
+    "email": "rivahfest@gmail.com",
+    "ts": 1779458453674
+  },
+  {
+    "email": "pmartin@essexbank.com",
+    "ts": 1779458454169
+  },
+  {
+    "email": "kmorris@essexbank.com",
+    "ts": 1779458458781
+  },
+  {
+    "email": "ahcb0oks@yahoo.com",
+    "ts": 1779458459682
+  },
+  {
+    "email": "bevybev.1@netzero.net",
+    "ts": 1779458461039
+  },
+  {
+    "email": "wbbthj@yahoo.com",
+    "ts": 1779458467349
+  },
+  {
+    "email": "knewman726@aol.com",
+    "ts": 1779458468430
+  },
+  {
+    "email": "glongest@essexbank.com",
+    "ts": 1779458468906
+  },
+  {
+    "email": "crc@havenshelter.org",
+    "ts": 1779458470996
+  },
+  {
+    "email": "pstinchcomb@riverlandinsurers.com",
+    "ts": 1779458471569
+  },
+  {
+    "email": "jsjames@gmail.com",
+    "ts": 1779458473224
+  },
+  {
+    "email": "donnie0302@gmail.com",
+    "ts": 1779458474077
+  },
+  {
+    "email": "terry.gruner@bankatunion.com",
+    "ts": 1779458474693
+  },
+  {
+    "email": "lharmon@smsapps.org",
+    "ts": 1779458477633
+  },
+  {
+    "email": "printers@rockfish.cc",
+    "ts": 1779458480756
+  },
+  {
+    "email": "terry@wrarfm.com",
+    "ts": 1779458483928
+  },
+  {
+    "email": "sarah@garrettchamber.com",
+    "ts": 1779458484482
+  },
+  {
+    "email": "nick@garrettchamber.com",
+    "ts": 1779458484986
+  },
+  {
+    "email": "info@communityfallfestival.com",
+    "ts": 1779458487368
+  },
+  {
+    "email": "help@eventhub.net",
+    "ts": 1779458488128
+  },
+  {
+    "email": "ramellmk@jmu.edu",
+    "ts": 1779458490433
+  },
+  {
+    "email": "tickets@mountvernon.org",
+    "ts": 1779458491508
+  },
+  {
+    "email": "rcconsite@fairfaxcounty.gov",
+    "ts": 1779458491979
+  },
+  {
+    "email": "edebarros@dcbia.org",
+    "ts": 1779458492620
+  },
+  {
+    "email": "crb.services@dc.gov",
+    "ts": 1779458493640
+  },
+  {
+    "email": "admo.danceplaza@gmail.com",
+    "ts": 1779458494636
+  },
+  {
+    "email": "president@cccadc.org",
+    "ts": 1779458496079
+  },
+  {
+    "email": "johndoe@school.edu",
+    "ts": 1779458496549
+  },
+  {
+    "email": "charlene.louis@dc.gov",
+    "ts": 1779458497003
+  },
+  {
+    "email": "laney@dfwcampexpo.com",
+    "ts": 1779458497820
+  },
+  {
+    "email": "info@theshopsatwillowpark.com",
+    "ts": 1779472804537
+  },
+  {
+    "email": "vendors@dfwfiberfest.org",
+    "ts": 1779472805995
+  },
+  {
+    "email": "hola@mckinneydiadelosmuertos.com",
+    "ts": 1779472806532
+  },
+  {
+    "email": "booking@foodeesfest.com",
+    "ts": 1779472807088
+  },
+  {
+    "email": "newstips@nbcdfw.com",
+    "ts": 1779472807647
+  },
+  {
+    "email": "filler@godaddy.com",
+    "ts": 1779472808161
+  },
+  {
+    "email": "fallfestphilly@gmail.com",
+    "ts": 1779472809155
+  },
+  {
+    "email": "bmittica@phillyjcc.com",
+    "ts": 1779472809601
+  },
+  {
+    "email": "contactsupport@festivalnet.comto",
+    "ts": 1779472810090
+  },
+  {
+    "email": "communityday@nplainfield.org",
+    "ts": 1779472810578
+  },
+  {
+    "email": "201.998.1104foodservice@jcpromotions.info",
+    "ts": 1779472811095
+  },
+  {
+    "email": "events@jcpromotions.info",
+    "ts": 1779472811566
+  },
+  {
+    "email": "vendors@monmouthcountyparks.com",
+    "ts": 1779472812120
+  },
+  {
+    "email": "rockmusicmenu@gmail.com.also",
+    "ts": 1779472812832
+  },
+  {
+    "email": "back2school@gwul.org",
+    "ts": 1779472813325
+  },
+  {
+    "email": "jlouis@gwul.org",
+    "ts": 1779472813910
+  },
+  {
+    "email": "kmcneir@afro.com",
+    "ts": 1779472814384
+  },
+  {
+    "email": "carolyn@rennfest.com",
+    "ts": 1779472814839
+  },
+  {
+    "email": "drohman@oceancitymd.gov",
+    "ts": 1779472815301
+  },
+  {
+    "email": "tips@aminerdetail.com",
+    "ts": 1779472815715
+  },
+  {
+    "email": "mtpd_bridgingthegap@wmata.com",
+    "ts": 1779472816141
+  },
+  {
+    "email": "smartrip@wmata.com",
+    "ts": 1779472817568
+  },
+  {
+    "email": "hotline@wmataoig.gov",
+    "ts": 1779472818168
+  },
+  {
+    "email": "metromktg@wmata.com",
+    "ts": 1779472819987
+  },
+  {
+    "email": "info@tarrantcountyharambee.com",
+    "ts": 1779472821658
+  },
+  {
+    "email": "vendors@tarrantcountyharambee.com",
+    "ts": 1779472822075
+  },
+  {
+    "email": "harambeedallas@gmail.com",
+    "ts": 1779472822482
+  },
+  {
+    "email": "thammond@hpnglobal.com",
+    "ts": 1779472822977
+  },
+  {
+    "email": "kaallen@apha.com",
+    "ts": 1779472823440
+  },
+  {
+    "email": "sponsorships@fortressfestival.com",
+    "ts": 1779472823874
+  },
+  {
+    "email": "info@phillyjcc.com",
+    "ts": 1779472824383
+  },
+  {
+    "email": "blindjusticemusic@gmail.com",
+    "ts": 1779472824900
+  },
+  {
+    "email": "maggie@mixtape-media.com",
+    "ts": 1779472825408
+  },
+  {
+    "email": "juliesansone225@gmail.com",
+    "ts": 1779472825872
+  },
+  {
+    "email": "nancyschwartz22@hotmail.com",
+    "ts": 1779472826312
+  },
+  {
+    "email": "volunteering@folkfest.org",
+    "ts": 1779472826827
+  },
+  {
+    "email": "rkutzik@pfs.org",
+    "ts": 1779472827270
+  },
+  {
+    "email": "ticketing@pfs.org",
+    "ts": 1779472827664
+  },
+  {
+    "email": "website-support@pfs.org",
+    "ts": 1779472828074
+  },
+  {
+    "email": "events@perkasieborough.org",
+    "ts": 1779472828536
+  },
+  {
+    "email": "yardleyharvestdayfestival@gmail.com",
+    "ts": 1779472828970
+  },
+  {
+    "email": "yardleyharvestdayfest@gmail.com",
+    "ts": 1779472829362
+  },
+  {
+    "email": "programs@lowergwynedd.org",
+    "ts": 1779472829802
+  },
+  {
+    "email": "info@villagiogroup.com",
+    "ts": 1779472831117
+  },
+  {
+    "email": "rentalvenues@fairfaxva.gov",
+    "ts": 1779472831757
+  },
+  {
+    "email": "cateringsales.dallas@sodexo.com",
+    "ts": 1779472832240
+  },
+  {
+    "email": "colleen@dallasfwc26.com",
+    "ts": 1779472832638
+  },
+  {
+    "email": "info@thebowden.org",
+    "ts": 1779472833047
+  },
+  {
+    "email": "usa5518@fedex.com",
+    "ts": 1779472833429
+  },
+  {
+    "email": "jocelyn.mieskalski@freeman.com",
+    "ts": 1779487209367
+  },
+  {
+    "email": "support@lead411.io",
+    "ts": 1779487209879
+  },
+  {
+    "email": "billy.wadsack@bisnow.com",
+    "ts": 1779487210380
+  },
+  {
+    "email": "nicole.lopez@fortworthreport.org",
+    "ts": 1779487210828
+  },
+  {
+    "email": "mckinnon.rice@fortworthreport.org",
+    "ts": 1779487211458
+  },
+  {
+    "email": "19104events@woodlandsphila.org",
+    "ts": 1779487211994
+  },
+  {
+    "email": "events@pafa.org",
+    "ts": 1779487212606
+  },
+  {
+    "email": "visitorservices@pafa.org",
+    "ts": 1779487213103
+  },
+  {
+    "email": "events@jhollandergourmet.com",
+    "ts": 1779487213540
+  },
+  {
+    "email": "info@cescaphe.com",
+    "ts": 1779487214077
+  },
+  {
+    "email": "lovepark@phila.gov",
+    "ts": 1779487214605
+  },
+  {
+    "email": "privacy.officer@fourseasons.com",
+    "ts": 1779487215069
+  },
+  {
+    "email": "noah.zucker@bisnow.com",
+    "ts": 1779487215469
+  },
+  {
+    "email": "info@whitehallmd.com",
+    "ts": 1779487215881
+  },
+  {
+    "email": "lina@ceresville.comadd",
+    "ts": 1779487216578
+  },
+  {
+    "email": "waverlymd@howardcountymd.gov",
+    "ts": 1779487217074
+  },
+  {
+    "email": "customercare@thebaltimorebanner.com",
+    "ts": 1779487217652
+  },
+  {
+    "email": "hazel.shakur@redfin.com",
+    "ts": 1779487218307
+  },
+  {
+    "email": "lisa.greaves@redfin.com",
+    "ts": 1779487218714
+  },
+  {
+    "email": "scrane@marylandmatters.org",
+    "ts": 1779487219207
+  },
+  {
+    "email": "taylor.switters@montclaircc.org",
+    "ts": 1779487219732
+  },
+  {
+    "email": "info@montclairgolfva.com",
+    "ts": 1779487220226
+  },
+  {
+    "email": "anthony.davis@montclaircc.org",
+    "ts": 1779487220710
+  },
+  {
+    "email": "vendors@hstreet.org",
+    "ts": 1779487221159
+  },
+  {
+    "email": "info@fiestaasia.org",
+    "ts": 1779487221917
+  },
+  {
+    "email": "info@learnerring.com",
+    "ts": 1779487222503
+  },
+  {
+    "email": "info@adeptskil.com",
+    "ts": 1779487223202
+  },
+  {
+    "email": "atinfo@aclfestival.com",
+    "ts": 1779487223646
+  },
+  {
+    "email": "emailpress@c3presents.com",
+    "ts": 1779487224176
+  },
+  {
+    "email": "emailaccess@aclfestival.com",
+    "ts": 1779487224597
+  },
+  {
+    "email": "shop@aclfestival.com",
+    "ts": 1779487225014
+  },
+  {
+    "email": "info@sxsw.com",
+    "ts": 1779487225459
+  },
+  {
+    "email": "info@kerrvillefolkfestival.org",
+    "ts": 1779487225888
+  },
+  {
+    "email": "booking@kerrvillefolkfestival.org",
+    "ts": 1779487226380
+  },
+  {
+    "email": "tmf@uh.edu",
+    "ts": 1779487226819
+  },
+  {
+    "email": "info@texasmusicbat.com",
+    "ts": 1779487227324
+  },
+  {
+    "email": "diane@texasmusicbeat.com",
+    "ts": 1779487227786
+  },
+  {
+    "email": "diane@kenran.com",
+    "ts": 1779487228192
+  },
+  {
+    "email": "brooks@kenran.com",
+    "ts": 1779487228709
+  },
+  {
+    "email": "pennmarirish@gmail.com",
+    "ts": 1779487229145
+  },
+  {
+    "email": "westfieldgrapeandwinefestival@gmail.com",
+    "ts": 1779487229808
+  },
+  {
+    "email": "smalltownplanner@gmail.com",
+    "ts": 1779487230227
+  },
+  {
+    "email": "1-855-545-1311info@cccfoundpa.org",
+    "ts": 1779487230699
+  },
+  {
+    "email": "tosummithillhoot@gmail.com",
+    "ts": 1779487231165
+  },
+  {
+    "email": "bavarianfallfest@gmail.com",
+    "ts": 1779487231689
+  },
+  {
+    "email": "cfpgrant@pittsburghpa.gov",
+    "ts": 1779487232138
+  },
+  {
+    "email": "chamber@tamaqua.net",
+    "ts": 1779487232547
+  },
+  {
+    "email": "cabrachinsky@schuylkillchamber.com",
+    "ts": 1779487232949
+  },
+  {
+    "email": "drobbins@nepamaea.com",
+    "ts": 1779487233391
   }
-}
+]
