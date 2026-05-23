@@ -1,0 +1,70 @@
+{
+  "total_sent": 156,
+  "last_updated": "2026-05-23T05:30:00.000Z",
+  "emails": [
+    {
+      "to": "hannah@dcjazzfest.org",
+      "subject": "Re: DC JazzFest pricing",
+      "sent_at": "2026-05-18T14:32:00.000Z",
+      "type": "quote",
+      "status": "delivered",
+      "opened": true,
+      "replied": true
+    },
+    {
+      "to": "croughanashley@gmail.com",
+      "subject": "Spring Into Summer - Partnership Opportunity",
+      "sent_at": "2026-05-19T10:15:00.000Z",
+      "type": "partnership",
+      "status": "delivered",
+      "opened": true,
+      "replied": true
+    },
+    {
+      "to": "hannah@dcjazzfest.org",
+      "subject": "DC JazzFest pricing",
+      "sent_at": "2026-05-15T09:20:00.000Z",
+      "type": "initial",
+      "status": "delivered",
+      "opened": true,
+      "replied": false
+    },
+    {
+      "to": "booking@summerfest.com",
+      "subject": "Party Favor Photo - Festival Booth Inquiry",
+      "sent_at": "2026-05-20T16:45:00.000Z",
+      "type": "initial",
+      "status": "delivered",
+      "opened": false,
+      "replied": false
+    },
+    {
+      "to": "events@capitolriver.org",
+      "subject": "Photo Booth for Capitol River CDC Events",
+      "sent_at": "2026-05-21T11:30:00.000Z",
+      "type": "initial",
+      "status": "delivered",
+      "opened": true,
+      "replied": false
+    }
+  ],
+  "daily_stats": [
+    {"date": "2026-05-17", "sent": 8, "opened": 5, "replied": 2},
+    {"date": "2026-05-18", "sent": 12, "opened": 9, "replied": 4},
+    {"date": "2026-05-19", "sent": 15, "opened": 11, "replied": 3},
+    {"date": "2026-05-20", "sent": 18, "opened": 10, "replied": 2},
+    {"date": "2026-05-21", "sent": 14, "opened": 8, "replied": 1},
+    {"date": "2026-05-22", "sent": 11, "opened": 6, "replied": 1},
+    {"date": "2026-05-23", "sent": 6, "opened": 3, "replied": 0}
+  ],
+  "summary": {
+    "total_sent": 156,
+    "delivered": 154,
+    "bounced": 2,
+    "opened": 98,
+    "replied": 44,
+    "open_rate": 63.6,
+    "reply_rate": 28.2,
+    "daily_average": 11.1
+  }
+}

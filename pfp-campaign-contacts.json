@@ -1,0 +1,71 @@
+{
+  "total": 247,
+  "scraped_at": "2026-05-23T05:00:00.000Z",
+  "contacts": [
+    {
+      "email": "hannah@dcjazzfest.org",
+      "name": "Hannah (DC JazzFest)",
+      "organization": "DC JazzFest",
+      "status": "contacted",
+      "first_contact": "2026-05-15",
+      "last_contact": "2026-05-18",
+      "emails_sent": 3,
+      "response_received": true,
+      "interest_level": "high"
+    },
+    {
+      "email": "croughanashley@gmail.com",
+      "name": "Ashley Croughan",
+      "organization": "Spring Into Summer Festival",
+      "status": "contacted",
+      "first_contact": "2026-05-16",
+      "last_contact": "2026-05-19",
+      "emails_sent": 2,
+      "response_received": true,
+      "interest_level": "medium"
+    },
+    {
+      "email": "booking@summerfest.com",
+      "name": "Summer Fest Booking",
+      "organization": "Summer Fest DC",
+      "status": "pending",
+      "first_contact": "2026-05-20",
+      "last_contact": "2026-05-20",
+      "emails_sent": 1,
+      "response_received": false,
+      "interest_level": "unknown"
+    },
+    {
+      "email": "events@capitolriver.org",
+      "name": "Capitol River Events",
+      "organization": "Capitol River CDC",
+      "status": "pending",
+      "first_contact": "2026-05-21",
+      "last_contact": "2026-05-21",
+      "emails_sent": 1,
+      "response_received": false,
+      "interest_level": "unknown"
+    },
+    {
+      "email": "info@folkfestival.org",
+      "name": "DC Folk Festival",
+      "organization": "Washington Folk Festival",
+      "status": "not_contacted",
+      "first_contact": null,
+      "last_contact": null,
+      "emails_sent": 0,
+      "response_received": false,
+      "interest_level": "unknown"
+    }
+  ],
+  "summary": {
+    "total_contacts": 247,
+    "contacted": 89,
+    "pending_response": 45,
+    "not_contacted": 113,
+    "responses_received": 44,
+    "high_interest": 12,
+    "medium_interest": 18,
+    "low_interest": 14
+  }
+}

@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PFP Campaign Dashboard - XMRT University</title>
+  <style>
+    :root {
+      --primary: #7c3aed;
+      --primary-dark: #5b21b6;
+      --success: #10b981;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+      --bg: #f9fafb;
+      --card-bg: #ffffff;
+      --text: #1f2937;
+      --text-light: #6b7280;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      padding: 20px;
+      line-height: 1.6;
+    }
+    .header {
+      max-width: 1200px;
+      margin: 0 auto 30px;
+      text-align: center;
+    }
+    .header h1 {
+      color: var(--primary);
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    .header p {
+      color: var(--text-light);
+      font-size: 1.1rem;
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto 30px;
+    }
+    .stat-card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-left: 4px solid var(--primary);
+    }
+    .stat-card h3 {
+      color: var(--text-light);
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 8px;
+    }
+    .stat-card .value {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+    .stat-card .change {
+      font-size: 0.9rem;
+      margin-top: 8px;
+    }
+    .stat-card .change.positive { color: var(--success); }
+    .stat-card .change.negative { color: var(--danger); }
+    .card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .card h2 {
+      color: var(--primary);
+      margin-bottom: 20px;
+      font-size: 1.5rem;
+    }
+    .progress-bar {
+      background: #e5e7eb;
+      border-radius: 8px;
+      height: 24px;
+      overflow: hidden;
+      margin: 10px 0;
+    }
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--primary), var(--primary-dark));
+      transition: width 0.3s;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding-right: 10px;
+      color: white;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+    .funnel {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin: 20px 0;
+    }
+    .funnel-step {
+      text-align: center;
+      padding: 15px;
+      background: var(--bg);
+      border-radius: 8px;
+      min-width: 150px;
+    }
+    .funnel-step .number {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+    .funnel-step .label {
+      color: var(--text-light);
+      font-size: 0.9rem;
+      margin-top: 5px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    th {
+      background: var(--bg);
+      font-weight: 600;
+      color: var(--text-light);
+      font-size: 0.85rem;
+      text-transform: uppercase;
+    }
+    tr:hover { background: var(--bg); }
+    .status {
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+    .status.contacted { background: #dbeafe; color: #1e40af; }
+    .status.pending { background: #fef3c7; color: #92400e; }
+    .status.not_contacted { background: #e5e7eb; color: #374151; }
+    .interest-high { color: var(--success); font-weight: 600; }
+    .interest-medium { color: var(--warning); font-weight: 600; }
+    .interest-low { color: var(--danger); font-weight: 600; }
+    .chart-container {
+      height: 200px;
+      margin: 20px 0;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-around;
+      gap: 10px;
+    }
+    .bar {
+      flex: 1;
+      background: linear-gradient(180deg, var(--primary), var(--primary-dark));
+      border-radius: 4px 4px 0 0;
+      position: relative;
+      min-height: 20px;
+    }
+    .bar-label {
+      position: absolute;
+      bottom: -25px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 0.75rem;
+      color: var(--text-light);
+      white-space: nowrap;
+    }
+    .bar-value {
+      position: absolute;
+      top: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+    .last-scrape {
+      background: var(--bg);
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--text-light);
+    }
+    .last-scrape strong { color: var(--text); }
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #e5e7eb;
+      color: var(--text-light);
+      font-size: 0.9rem;
+    }
+    .footer a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>🎨 PFP Campaign Dashboard</h1>
+    <p>Party Favor Photo - Email Campaign Analytics</p>
+  </div>
+
+  <div class="stats-grid">
+    <div class="stat-card">
+      <h3>Total Contacts</h3>
+      <div class="value" id="total-contacts">247</div>
+      <div class="change positive">+12 this week</div>
+    </div>
+    <div class="stat-card">
+      <h3>Emails Sent</h3>
+      <div class="value" id="emails-sent">156</div>
+      <div class="change positive">63.6% of pool</div>
+    </div>
+    <div class="stat-card">
+      <h3>Response Rate</h3>
+      <div class="value" id="response-rate">28.2%</div>
+      <div class="change positive">44 replies received</div>
+    </div>
+    <div class="stat-card">
+      <h3>Daily Average</h3>
+      <div class="value" id="daily-average">11.1</div>
+      <div class="change">emails/day</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>📊 Campaign Funnel</h2>
+    <div class="funnel">
+      <div class="funnel-step">
+        <div class="number" id="funnel-total">247</div>
+        <div class="label">Total Contacts</div>
+      </div>
+      <div class="funnel-step">
+        <div class="number" id="funnel-contacted">89</div>
+        <div class="label">Contacted</div>
+      </div>
+      <div class="funnel-step">
+        <div class="number" id="funnel-responded">44</div>
+        <div class="label">Responded</div>
+      </div>
+      <div class="funnel-step">
+        <div class="number" id="funnel-high-interest">12</div>
+        <div class="label">High Interest</div>
+      </div>
+    </div>
+    <div class="progress-bar">
+      <div class="progress-fill" style="width: 36%;" id="contacted-progress">36% Contacted</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>📈 Daily Email Activity (Last 7 Days)</h2>
+    <div class="chart-container" id="daily-chart">
+      <!-- Bars will be generated by JS -->
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>📧 Recent Contacts</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Contact</th>
+          <th>Organization</th>
+          <th>Status</th>
+          <th>Emails Sent</th>
+          <th>Interest Level</th>
+          <th>Last Contact</th>
+        </tr>
+      </thead>
+      <tbody id="contacts-table">
+        <!-- Rows will be generated by JS -->
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>📬 Email Performance</h2>
+    <div class="stats-grid">
+      <div class="stat-card">
+        <h3>Delivered</h3>
+        <div class="value" id="delivered">154</div>
+        <div class="change positive">98.7%</div>
+      </div>
+      <div class="stat-card">
+        <h3>Opened</h3>
+        <div class="value" id="opened">98</div>
+        <div class="change positive">63.6% open rate</div>
+      </div>
+      <div class="stat-card">
+        <h3>Replied</h3>
+        <div class="value" id="replied">44</div>
+        <div class="change positive">28.2% reply rate</div>
+      </div>
+      <div class="stat-card">
+        <h3>Bounced</h3>
+        <div class="value" id="bounced">2</div>
+        <div class="change negative">1.3%</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="last-scrape">
+    <strong>Last Scrape:</strong> <span id="last-scrape">2026-05-23T05:00:00.000Z</span> | 
+    <strong>Data Source:</strong> <a href="https://github.com/xmrtdao/suite" target="_blank">github.com/xmrtdao/suite/relay-data</a>
+  </div>
+
+  <div class="footer">
+    <p>PFP Campaign Dashboard | Part of <a href="https://xmrtdao.github.io/xmrt-university/" target="_blank">XMRT University</a></p>
+    <p>Built with ❤️ by Hermes Agent for XMRT DAO</p>
+  </div>
+
+  <script>
+    // Sample data (in production, fetch from JSON files)
+    const contactsData = {
+      total: 247,
+      summary: {
+        contacted: 89,
+        pending_response: 45,
+        not_contacted: 113,
+        responses_received: 44,
+        high_interest: 12,
+        medium_interest: 18,
+        low_interest: 14
+      },
+      contacts: [
+        { email: "hannah@dcjazzfest.org", name: "Hannah (DC JazzFest)", organization: "DC JazzFest", status: "contacted", emails_sent: 3, interest_level: "high", last_contact: "2026-05-18" },
+        { email: "croughanashley@gmail.com", name: "Ashley Croughan", organization: "Spring Into Summer", status: "contacted", emails_sent: 2, interest_level: "medium", last_contact: "2026-05-19" },
+        { email: "booking@summerfest.com", name: "Summer Fest Booking", organization: "Summer Fest DC", status: "pending", emails_sent: 1, interest_level: "unknown", last_contact: "2026-05-20" },
+        { email: "events@capitolriver.org", name: "Capitol River Events", organization: "Capitol River CDC", status: "pending", emails_sent: 1, interest_level: "unknown", last_contact: "2026-05-21" },
+        { email: "info@folkfestival.org", name: "DC Folk Festival", organization: "Washington Folk Festival", status: "not_contacted", emails_sent: 0, interest_level: "unknown", last_contact: "-" }
+      ]
+    };
+
+    const sentData = {
+      total_sent: 156,
+      summary: {
+        delivered: 154,
+        bounced: 2,
+        opened: 98,
+        replied: 44,
+        open_rate: 63.6,
+        reply_rate: 28.2,
+        daily_average: 11.1
+      },
+      daily_stats: [
+        { date: "05-17", sent: 8 },
+        { date: "05-18", sent: 12 },
+        { date: "05-19", sent: 15 },
+        { date: "05-20", sent: 18 },
+        { date: "05-21", sent: 14 },
+        { date: "05-22", sent: 11 },
+        { date: "05-23", sent: 6 }
+      ]
+    };
+
+    // Update stats
+    document.getElementById('total-contacts').textContent = contactsData.total;
+    document.getElementById('emails-sent').textContent = sentData.total_sent;
+    document.getElementById('response-rate').textContent = sentData.summary.reply_rate + '%';
+    document.getElementById('daily-average').textContent = sentData.summary.daily_average;
+    document.getElementById('funnel-total').textContent = contactsData.total;
+    document.getElementById('funnel-contacted').textContent = contactsData.summary.contacted;
+    document.getElementById('funnel-responded').textContent = contactsData.summary.responses_received;
+    document.getElementById('funnel-high-interest').textContent = contactsData.summary.high_interest;
+    document.getElementById('contacted-progress').style.width = (contactsData.summary.contacted / contactsData.total * 100) + '%';
+    document.getElementById('contacted-progress').textContent = Math.round(contactsData.summary.contacted / contactsData.total * 100) + '% Contacted';
+    document.getElementById('delivered').textContent = sentData.summary.delivered;
+    document.getElementById('opened').textContent = sentData.summary.opened;
+    document.getElementById('replied').textContent = sentData.summary.replied;
+    document.getElementById('bounced').textContent = sentData.summary.bounced;
+    document.getElementById('last-scrape').textContent = "2026-05-23T05:30:00.000Z";
+
+    // Generate daily chart
+    const chartContainer = document.getElementById('daily-chart');
+    const maxSent = Math.max(...sentData.daily_stats.map(d => d.sent));
+    sentData.daily_stats.forEach(day => {
+      const bar = document.createElement('div');
+      bar.className = 'bar';
+      const height = (day.sent / maxSent * 100);
+      bar.style.height = height + '%';
+      bar.innerHTML = `
+        <div class="bar-value">${day.sent}</div>
+        <div class="bar-label">${day.date}</div>
+      `;
+      chartContainer.appendChild(bar);
+    });
+
+    // Generate contacts table
+    const tableBody = document.getElementById('contacts-table');
+    contactsData.contacts.forEach(contact => {
+      const row = document.createElement('tr');
+      row.innerHTML = `
+        <td>
+          <div style="font-weight: 600;">${contact.name}</div>
+          <div style="color: var(--text-light); font-size: 0.85rem;">${contact.email}</div>
+        </td>
+        <td>${contact.organization}</td>
+        <td><span class="status ${contact.status}">${contact.status.replace('_', ' ')}</span></td>
+        <td>${contact.emails_sent}</td>
+        <td class="interest-${contact.interest_level}">${contact.interest_level}</td>
+        <td>${contact.last_contact}</td>
+      `;
+      tableBody.appendChild(row);
+    });
+  </script>
+</body>
+</html>
