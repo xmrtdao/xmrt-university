@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XMRT University - Agent Training</title>
+  <meta name="description" content="Central training and reference resource for all XMRT DAO agents">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+  <!-- Docsify -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/prismjs@1/themes/prism-coy.css">
+  <style>
+    :root {
+      --theme-color: #7c3aed;
+      --theme-color-dark: #5b21b6;
+    }
+    .sidebar-nav > ul > li > a:first-child {
+      font-weight: 600;
+      font-size: 1.1em;
+    }
+    .sidebar-nav ul {
+      padding-left: 1em;
+    }
+    .app-nav {
+      margin-right: 0;
+    }
+    .github-corner svg {
+      fill: var(--theme-color);
+    }
+    mark {
+      background: var(--theme-color);
+      color: white;
+      padding: 2px 6px;
+      border-radius: 3px;
+    }
+    .progress-tracker {
+      background: #f5f3ff;
+      border-left: 4px solid var(--theme-color);
+      padding: 1em;
+      margin: 1em 0;
+    }
+    .module-badge {
+      display: inline-block;
+      background: var(--theme-color);
+      color: white;
+      padding: 2px 8px;
+      border-radius: 12px;
+      font-size: 0.8em;
+      margin-right: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">Loading XMRT University...</div>
+  <script>
+    window.$docsify = {
+      name: '🎓 XMRT University',
+      repo: 'https://github.com/xmrtdao/xmrt-university',
+      homepage: 'README.md',
+      loadSidebar: '_sidebar.md',
+      loadNavbar: '_navbar.md',
+      maxLevel: 3,
+      subMaxLevel: 2,
+      auto2top: true,
+      copyCode: {
+        buttonText: 'Copy',
+        errorText: 'Error',
+        successText: 'Copied!'
+      },
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: 'Search...',
+        noData: 'No results found',
+        depth: 4
+      },
+      pagination: {
+        previousText: '← Previous',
+        nextText: 'Next →',
+        crossChapter: true,
+        crossChapterText: true
+      },
+      plugins: [
+        function(hook, vm) {
+          hook.beforeEach(function(html) {
+            const url = 'https://github.com/xmrtdao/xmrt-university/blob/main/' + vm.route.file;
+            const editHtml = '[:memo: Edit this page](' + url + ')\n';
+            return html + '\n\n----\n\n' + editHtml;
+          });
+          
+          hook.afterEach(function(html) {
+            return html.replace(/## Module/g, '<span class="module-badge">Module</span>');
+          });
+        }
+      ]
+    };
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-javascript.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-typescript.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-search-copy@2/dist/docsify-search-copy.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+</body>
+</html>
