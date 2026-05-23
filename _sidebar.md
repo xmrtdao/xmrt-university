@@ -8,8 +8,11 @@
 
 - **Module 1:** [Ecosystem APIs](01-ecosystem-apis/README.md)
 - **Module 2:** [Third-Party APIs](02-third-party-apis/README.md)
+  - [MuAPI Agent Skill](02-third-party-apis/muapi-agent-skill.md)
 - **Module 3:** [Edge Functions](03-edge-functions/README.md)
+  - [Zero-Claw Governance](03-edge-functions/zero-claw-governance.md)
 - **Module 4:** [CLI Tools](04-cli-tools/README.md)
+  - [Zero-Claw CLI](04-cli-tools/zero-claw-cli.md)
 - **Module 5:** [Tutorials](05-step-by-step-tutorials/README.md)
 - **Module 6:** [Deployment](06-deployment/README.md)
 - **Module 7:** [Publishing](07-content-publishing/README.md)
