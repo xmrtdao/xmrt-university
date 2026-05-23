@@ -8,719 +8,164 @@
     :root {
       --primary: #7c3aed;
       --primary-dark: #5b21b6;
-      --primary-light: #8b5cf6;
       --success: #10b981;
       --warning: #f59e0b;
       --danger: #ef4444;
-      --bg: #f3f4f6;
+      --bg: #f9fafb;
       --card-bg: #ffffff;
       --text: #1f2937;
       --text-light: #6b7280;
-      --border: #e5e7eb;
-      --shadow: 0 1px 3px rgba(0,0,0,0.1);
-      --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
-      --radius: 12px;
-      --radius-sm: 8px;
     }
-
     * { margin: 0; padding: 0; box-sizing: border-box; }
-
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       background: var(--bg);
       color: var(--text);
+      padding: 20px;
       line-height: 1.6;
-      -webkit-font-smoothing: antialiased;
     }
-
-    /* Header */
-    .header {
-      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
-      color: white;
-      padding: 20px 16px;
-      text-align: center;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      box-shadow: var(--shadow-md);
-    }
-
-    .logo-container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 12px;
-      margin-bottom: 12px;
-    }
-
-    .logo {
-      width: 48px;
-      height: 48px;
-      flex-shrink: 0;
-    }
-
-    .logo-text {
-      font-size: 1.5rem;
-      font-weight: 700;
-      letter-spacing: -0.02em;
-    }
-
-    .header h1 {
-      font-size: 1.75rem;
-      margin-bottom: 6px;
-      font-weight: 700;
-    }
-
-    .header p {
-      font-size: 0.95rem;
-      opacity: 0.9;
-      font-weight: 400;
-    }
-
-    /* Main Container */
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 16px;
-    }
-
-    /* Stats Grid - Mobile First */
+    .header { max-width: 1200px; margin: 0 auto 30px; text-align: center; }
+    .header h1 { color: var(--primary); font-size: 2.5rem; margin-bottom: 10px; }
+    .header p { color: var(--text-light); font-size: 1.1rem; }
     .stats-grid {
       display: grid;
-      grid-template-columns: 1fr;
-      gap: 12px;
-      margin-bottom: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto 30px;
     }
-
     .stat-card {
       background: var(--card-bg);
-      border-radius: var(--radius);
-      padding: 20px;
-      box-shadow: var(--shadow);
-      border-left: 4px solid var(--primary);
-      transition: transform 0.2s, box-shadow 0.2s;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     }
-
-    .stat-card:active {
-      transform: scale(0.98);
-    }
-
-    .stat-card h3 {
-      color: var(--text-light);
-      font-size: 0.8rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-bottom: 8px;
-      font-weight: 600;
-    }
-
-    .stat-card .value {
-      font-size: 2rem;
-      font-weight: 700;
-      color: var(--primary);
-      line-height: 1.2;
-    }
-
-    .stat-card .change {
-      font-size: 0.85rem;
-      margin-top: 8px;
-      font-weight: 500;
-    }
-
-    .stat-card .change.positive { color: var(--success); }
-    .stat-card .change.negative { color: var(--danger); }
-
-    /* Cards */
+    .stat-card h3 { color: var(--text-light); font-size: 0.9rem; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+    .stat-card .value { font-size: 2.5rem; font-weight: 700; color: var(--text); }
+    .stat-card .sub { font-size: 0.85rem; color: var(--text-light); margin-top: 8px; }
     .card {
       background: var(--card-bg);
-      border-radius: var(--radius);
-      padding: 20px;
-      box-shadow: var(--shadow);
-      margin-bottom: 16px;
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      max-width: 1200px;
+      margin: 0 auto 20px;
     }
-
-    .card h2 {
-      color: var(--primary);
-      margin-bottom: 16px;
-      font-size: 1.25rem;
-      font-weight: 700;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    /* Funnel */
-    .funnel {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 12px;
-      margin: 16px 0;
-    }
-
-    .funnel-step {
-      text-align: center;
-      padding: 16px 12px;
-      background: var(--bg);
-      border-radius: var(--radius-sm);
-      transition: transform 0.2s;
-    }
-
-    .funnel-step:active {
-      transform: scale(0.98);
-    }
-
-    .funnel-step .number {
-      font-size: 1.75rem;
-      font-weight: 700;
-      color: var(--primary);
-      line-height: 1.2;
-    }
-
-    .funnel-step .label {
-      color: var(--text-light);
-      font-size: 0.8rem;
-      margin-top: 6px;
-      font-weight: 500;
-    }
-
-    /* Progress Bar */
-    .progress-bar {
-      background: var(--border);
-      border-radius: 999px;
-      height: 28px;
-      overflow: hidden;
-      margin: 16px 0;
-      position: relative;
-    }
-
-    .progress-fill {
-      height: 100%;
-      background: linear-gradient(90deg, var(--primary), var(--primary-light));
-      transition: width 0.5s ease;
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      padding-right: 12px;
-      color: white;
-      font-size: 0.85rem;
-      font-weight: 700;
-      min-width: 40px;
-    }
-
-    /* Chart */
-    .chart-container {
-      height: 180px;
-      display: flex;
-      align-items: flex-end;
-      justify-content: space-between;
-      gap: 6px;
-      padding: 16px 0;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-    }
-
-    .bar-wrapper {
-      flex: 1;
-      min-width: 36px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .bar {
-      width: 100%;
-      background: linear-gradient(180deg, var(--primary-light), var(--primary));
-      border-radius: 6px 6px 0 0;
-      position: relative;
-      min-height: 20px;
-      transition: height 0.3s;
-    }
-
-    .bar-value {
-      position: absolute;
-      top: -22px;
-      left: 50%;
-      transform: translateX(-50%);
-      font-size: 0.75rem;
-      font-weight: 700;
-      color: var(--text);
-      white-space: nowrap;
-    }
-
-    .bar-label {
-      margin-top: 8px;
-      font-size: 0.7rem;
-      color: var(--text-light);
-      font-weight: 600;
-      text-align: center;
-    }
-
-    /* Table - Scrollable on Mobile */
-    .table-wrapper {
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      margin: 12px -20px -20px;
-      padding: 0 20px 20px;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      min-width: 600px;
-    }
-
-    th, td {
-      padding: 12px;
-      text-align: left;
-      border-bottom: 1px solid var(--border);
-    }
-
-    th {
-      background: var(--bg);
-      font-weight: 600;
-      color: var(--text-light);
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      white-space: nowrap;
-      position: sticky;
-      top: 0;
-    }
-
-    tr:last-child td { border-bottom: none; }
-    tr:hover { background: var(--bg); }
-
-    .contact-name {
-      font-weight: 600;
-      color: var(--text);
-    }
-
-    .contact-email {
-      color: var(--text-light);
-      font-size: 0.8rem;
-      margin-top: 2px;
-    }
-
-    .status {
-      padding: 4px 10px;
-      border-radius: 999px;
-      font-size: 0.75rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.03em;
+    .card h2 { color: var(--primary); margin-bottom: 16px; font-size: 1.3rem; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #e5e7eb; }
+    th { font-weight: 600; color: var(--text-light); font-size: 0.85rem; text-transform: uppercase; }
+    .badge {
       display: inline-block;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      font-weight: 600;
     }
-
-    .status.contacted { background: #dbeafe; color: #1e40af; }
-    .status.pending { background: #fef3c7; color: #92400e; }
-    .status.not_contacted { background: #e5e7eb; color: #374151; }
-
-    .interest-high { color: var(--success); font-weight: 700; }
-    .interest-medium { color: var(--warning); font-weight: 700; }
-    .interest-low { color: var(--danger); font-weight: 700; }
-
-    /* Last Scrape */
-    .last-scrape {
-      background: var(--bg);
+    .badge-success { background: #d1fae5; color: #065f46; }
+    .badge-warning { background: #fef3c7; color: #92400e; }
+    .badge-info { background: #dbeafe; color: #1e40af; }
+    .email-preview {
+      background: #f3f4f6;
+      border-radius: 8px;
       padding: 16px;
-      border-radius: var(--radius-sm);
-      font-size: 0.85rem;
-      color: var(--text-light);
-      text-align: center;
-      margin-top: 20px;
+      margin-top: 12px;
+      font-size: 0.9rem;
+      white-space: pre-wrap;
+      max-height: 200px;
+      overflow-y: auto;
     }
-
-    .last-scrape strong { color: var(--text); font-weight: 600; }
-    .last-scrape a { color: var(--primary); text-decoration: none; font-weight: 600; }
-
-    /* Footer */
-    .footer {
-      text-align: center;
-      margin-top: 32px;
-      padding-top: 24px;
-      border-top: 1px solid var(--border);
-      color: var(--text-light);
-      font-size: 0.85rem;
-    }
-
-    .footer a {
-      color: var(--primary);
-      text-decoration: none;
-      font-weight: 600;
-    }
-
-    .footer-heart {
-      color: var(--danger);
-      display: inline-block;
-      animation: heartbeat 1.5s ease-in-out infinite;
-    }
-
-    @keyframes heartbeat {
-      0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.2); }
-    }
-
-    /* Tablet & Desktop */
-    @media (min-width: 640px) {
-      .header {
-        padding: 28px 24px;
-      }
-
-      .logo {
-        width: 56px;
-        height: 56px;
-      }
-
-      .logo-text {
-        font-size: 1.75rem;
-      }
-
-      .header h1 {
-        font-size: 2.25rem;
-      }
-
-      .header p {
-        font-size: 1.05rem;
-      }
-
-      .container {
-        padding: 24px;
-      }
-
-      .stats-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 16px;
-        margin-bottom: 24px;
-      }
-
-      .stat-card {
-        padding: 24px;
-      }
-
-      .stat-card .value {
-        font-size: 2.5rem;
-      }
-
-      .card {
-        padding: 24px;
-        margin-bottom: 20px;
-      }
-
-      .card h2 {
-        font-size: 1.5rem;
-        margin-bottom: 20px;
-      }
-
-      .funnel {
-        grid-template-columns: repeat(4, 1fr);
-        gap: 16px;
-        margin: 20px 0;
-      }
-
-      .funnel-step .number {
-        font-size: 2rem;
-      }
-
-      .funnel-step .label {
-        font-size: 0.85rem;
-      }
-
-      .progress-bar {
-        height: 32px;
-        margin: 20px 0;
-      }
-
-      .progress-fill {
-        font-size: 0.9rem;
-        padding-right: 16px;
-      }
-
-      .chart-container {
-        height: 220px;
-        gap: 12px;
-      }
-
-      .bar-value {
-        font-size: 0.85rem;
-      }
-
-      .bar-label {
-        font-size: 0.8rem;
-      }
-
-      .table-wrapper {
-        margin: 16px -24px -24px;
-        padding: 0 24px 24px;
-      }
-
-      th, td {
-        padding: 14px;
-      }
-    }
-
-    /* Desktop */
-    @media (min-width: 1024px) {
-      .stats-grid {
-        grid-template-columns: repeat(4, 1fr);
-      }
-
-      .funnel {
-        margin: 24px 0;
-      }
-    }
-
-    /* Print Styles */
-    @media print {
-      .header {
-        position: static;
-        background: white;
-        color: var(--text);
-        box-shadow: none;
-      }
-
-      .stat-card, .card {
-        box-shadow: none;
-        border: 1px solid var(--border);
-      }
-
-      .progress-bar {
-        border: 1px solid var(--border);
-      }
-    }
+    .footer { text-align: center; color: var(--text-light); font-size: 0.85rem; margin-top: 40px; padding: 20px; }
   </style>
 </head>
 <body>
-  <header class="header">
-    <div class="logo-container">
-      <!-- XMRT DAO Logo -->
-      <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNwmsNHYVBB2G5sIQuK6SV8c1I1H8ignFh-Q&s" alt="XMRT DAO Logo" />
-      <span class="logo-text">XMRT DAO</span>
-    </div>
+  <div class="header">
     <h1>🎨 PFP Campaign Dashboard</h1>
-    <p>Party Favor Photo - Email Campaign Analytics</p>
-  </header>
+    <p>Party Favor Photo Email Campaign — Live Stats</p>
+  </div>
 
-  <main class="container">
-    <!-- Key Stats -->
-    <section class="stats-grid">
-      <div class="stat-card">
-        <h3>Total Contacts</h3>
-        <div class="value" id="total-contacts">247</div>
-        <div class="change positive">+12 this week</div>
-      </div>
-      <div class="stat-card">
-        <h3>Emails Sent</h3>
-        <div class="value" id="emails-sent">156</div>
-        <div class="change positive">63.6% of pool</div>
-      </div>
-      <div class="stat-card">
-        <h3>Response Rate</h3>
-        <div class="value" id="response-rate">28.2%</div>
-        <div class="change positive">44 replies</div>
-      </div>
-      <div class="stat-card">
-        <h3>Daily Average</h3>
-        <div class="value" id="daily-average">11.1</div>
-        <div class="change">emails/day</div>
-      </div>
-    </section>
-
-    <!-- Campaign Funnel -->
-    <section class="card">
-      <h2>📊 Campaign Funnel</h2>
-      <div class="funnel">
-        <div class="funnel-step">
-          <div class="number" id="funnel-total">247</div>
-          <div class="label">Total</div>
-        </div>
-        <div class="funnel-step">
-          <div class="number" id="funnel-contacted">89</div>
-          <div class="label">Contacted</div>
-        </div>
-        <div class="funnel-step">
-          <div class="number" id="funnel-responded">44</div>
-          <div class="label">Responded</div>
-        </div>
-        <div class="funnel-step">
-          <div class="number" id="funnel-high-interest">12</div>
-          <div class="label">Hot Leads</div>
-        </div>
-      </div>
-      <div class="progress-bar">
-        <div class="progress-fill" style="width: 36%;" id="contacted-progress">36%</div>
-      </div>
-    </section>
-
-    <!-- Daily Activity Chart -->
-    <section class="card">
-      <h2>📈 Daily Activity</h2>
-      <div class="chart-container" id="daily-chart">
-        <!-- Bars generated by JS -->
-      </div>
-    </section>
-
-    <!-- Email Performance -->
-    <section class="card">
-      <h2>📬 Email Performance</h2>
-      <div class="stats-grid">
-        <div class="stat-card" style="border-left-color: var(--success);">
-          <h3>Delivered</h3>
-          <div class="value" id="delivered">154</div>
-          <div class="change positive">98.7%</div>
-        </div>
-        <div class="stat-card" style="border-left-color: var(--primary);">
-          <h3>Opened</h3>
-          <div class="value" id="opened">98</div>
-          <div class="change positive">63.6%</div>
-        </div>
-        <div class="stat-card" style="border-left-color: var(--warning);">
-          <h3>Replied</h3>
-          <div class="value" id="replied">44</div>
-          <div class="change positive">28.2%</div>
-        </div>
-        <div class="stat-card" style="border-left-color: var(--danger);">
-          <h3>Bounced</h3>
-          <div class="value" id="bounced">2</div>
-          <div class="change negative">1.3%</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Recent Contacts Table -->
-    <section class="card">
-      <h2>📇 Recent Contacts</h2>
-      <div class="table-wrapper">
-        <table>
-          <thead>
-            <tr>
-              <th>Contact</th>
-              <th>Organization</th>
-              <th>Status</th>
-              <th>Emails</th>
-              <th>Interest</th>
-              <th>Last Contact</th>
-            </tr>
-          </thead>
-          <tbody id="contacts-table">
-            <!-- Rows generated by JS -->
-          </tbody>
-        </table>
-      </div>
-    </section>
-
-    <!-- Last Scrape Info -->
-    <div class="last-scrape">
-      <strong>📅 Last Scrape:</strong> <span id="last-scrape">2026-05-23T05:30:00Z</span><br>
-      <strong>💾 Data Source:</strong> <a href="https://github.com/xmrtdao/suite" target="_blank">github.com/xmrtdao/suite/relay-data</a>
+  <div class="stats-grid" id="stats">
+    <div class="stat-card">
+      <h3>Total Contacts</h3>
+      <div class="value">8,178</div>
+      <div class="sub">7,132 previous clients + 1,046 scraped</div>
     </div>
+    <div class="stat-card">
+      <h3>Emails Sent</h3>
+      <div class="value">1,304</div>
+      <div class="sub">Across all campaign drops</div>
+    </div>
+    <div class="stat-card">
+      <h3>Remaining</h3>
+      <div class="value">6,874</div>
+      <div class="sub">~11 days at current pace</div>
+    </div>
+    <div class="stat-card">
+      <h3>Send Rate</h3>
+      <div class="value">600/day</div>
+      <div class="sub">100/drop &times; 6 drops/day</div>
+    </div>
+  </div>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <p>PFP Campaign Dashboard | Part of <a href="https://xmrtdao.github.io/xmrt-university/" target="_blank">XMRT University</a></p>
-      <p style="margin-top: 8px;">Built with <span class="footer-heart">❤️</span> by Hermes Agent for XMRT DAO</p>
-    </footer>
-  </main>
+  <div class="card">
+    <h2>📋 Campaign Details</h2>
+    <table>
+      <tr><th>Setting</th><th>Value</th></tr>
+      <tr><td>Schedule (UTC)</td><td>10:00, 12:00, 14:00, 16:00, 18:00, 20:00</td></tr>
+      <tr><td>Sends per drop</td><td>100</td></tr>
+      <tr><td>Template</td><td>DSLR + strobe vs tablet comparison <span class="badge badge-success">Active</span></td></tr>
+      <tr><td>Subject line</td><td>"The difference: DSLR + strobe vs tablet + ring light"</td></tr>
+      <tr><td>Images</td><td>PFP3 output sample + booth setup photo</td></tr>
+      <tr><td>Reboot survival</td><td>Campaign scheduler in start-all.sh <span class="badge badge-info">Active</span></td></tr>
+      <tr><td>Inbound webhook</td><td>relay.mobilemonero.com/webhook/resend-inbound <span class="badge badge-info">Active</span></td></tr>
+    </table>
+  </div>
 
-  <script>
-    // Campaign Data
-    const contactsData = {
-      total: 247,
-      summary: {
-        contacted: 89,
-        pending_response: 45,
-        not_contacted: 113,
-        responses_received: 44,
-        high_interest: 12,
-        medium_interest: 18,
-        low_interest: 14
-      },
-      contacts: [
-        { email: "hannah@dcjazzfest.org", name: "Hannah (DC JazzFest)", organization: "DC JazzFest", status: "contacted", emails_sent: 3, interest_level: "high", last_contact: "May 18" },
-        { email: "croughanashley@gmail.com", name: "Ashley Croughan", organization: "Spring Into Summer", status: "contacted", emails_sent: 2, interest_level: "medium", last_contact: "May 19" },
-        { email: "booking@summerfest.com", name: "Summer Fest Booking", organization: "Summer Fest DC", status: "pending", emails_sent: 1, interest_level: "unknown", last_contact: "May 20" },
-        { email: "events@capitolriver.org", name: "Capitol River Events", organization: "Capitol River CDC", status: "pending", emails_sent: 1, interest_level: "unknown", last_contact: "May 21" },
-        { email: "info@folkfestival.org", name: "DC Folk Festival", organization: "Washington Folk Festival", status: "not_contacted", emails_sent: 0, interest_level: "unknown", last_contact: "-" }
-      ]
-    };
+  <div class="card">
+    <h2>📧 Email Template</h2>
+    <div class="email-preview" id="template-preview">Hello again from Party Favor Photo,
 
-    const sentData = {
-      total_sent: 156,
-      summary: {
-        delivered: 154,
-        bounced: 2,
-        opened: 98,
-        replied: 44,
-        open_rate: 63.6,
-        reply_rate: 28.2,
-        daily_average: 11.1
-      },
-      daily_stats: [
-        { date: "May 17", sent: 8 },
-        { date: "May 18", sent: 12 },
-        { date: "May 19", sent: 15 },
-        { date: "May 20", sent: 18 },
-        { date: "May 21", sent: 14 },
-        { date: "May 22", sent: 11 },
-        { date: "May 23", sent: 6 }
-      ]
-    };
+You may have seen photo booths that use an iPad on a stand with a ring light -- that is the common setup these days. But that has never been how we do it.
 
-    // Update Stats
-    document.getElementById('total-contacts').textContent = contactsData.total;
-    document.getElementById('emails-sent').textContent = sentData.total_sent;
-    document.getElementById('response-rate').textContent = sentData.summary.reply_rate + '%';
-    document.getElementById('daily-average').textContent = sentData.summary.daily_average;
-    document.getElementById('funnel-total').textContent = contactsData.total;
-    document.getElementById('funnel-contacted').textContent = contactsData.summary.contacted;
-    document.getElementById('funnel-responded').textContent = contactsData.summary.responses_received;
-    document.getElementById('funnel-high-interest').textContent = contactsData.summary.high_interest;
-    
-    const contactedPercent = Math.round(contactsData.summary.contacted / contactsData.total * 100);
-    document.getElementById('contacted-progress').style.width = contactedPercent + '%';
-    document.getElementById('contacted-progress').textContent = contactedPercent + '%';
-    
-    document.getElementById('delivered').textContent = sentData.summary.delivered;
-    document.getElementById('opened').textContent = sentData.summary.opened;
-    document.getElementById('replied').textContent = sentData.summary.replied;
-    document.getElementById('bounced').textContent = sentData.summary.bounced;
-    document.getElementById('last-scrape').textContent = new Date().toISOString().split('T')[0];
+Since day one, we have built our experience around a professional DSLR camera with strobe lighting -- the same gear photographers use for weddings and editorial shoots. There is a real difference:
 
-    // Generate Daily Chart
-    const chartContainer = document.getElementById('daily-chart');
-    const maxSent = Math.max(...sentData.daily_stats.map(d => d.sent));
-    
-    sentData.daily_stats.forEach(day => {
-      const wrapper = document.createElement('div');
-      wrapper.className = 'bar-wrapper';
-      
-      const heightPercent = (day.sent / maxSent * 100);
-      
-      wrapper.innerHTML = `
-        <div class="bar-value">${day.sent}</div>
-        <div class="bar" style="height: ${heightPercent}%"></div>
-        <div class="bar-label">${day.date.split(' ')[1]}</div>
-      `;
-      
-      chartContainer.appendChild(wrapper);
-    });
+- Strobe flash -- freezes motion, works in any lighting
+- DSLR quality -- large sensor, sharp detail, great prints
+- Bounce-diffused lighting -- soft, flattering light on faces
+- Professional attendant -- sets lighting, adjusts for each group
 
-    // Generate Contacts Table
-    const tableBody = document.getElementById('contacts-table');
-    contactsData.contacts.forEach(contact => {
-      const row = document.createElement('tr');
-      row.innerHTML = `
-        <td>
-          <div class="contact-name">${contact.name}</div>
-          <div class="contact-email">${contact.email}</div>
-        </td>
-        <td>${contact.organization}</td>
-        <td><span class="status ${contact.status}">${contact.status.replace('_', ' ')}</span></td>
-        <td>${contact.emails_sent}</td>
-        <td class="interest-${contact.interest_level}">${contact.interest_level}</td>
-        <td>${contact.last_contact}</td>
-      `;
-      tableBody.appendChild(row);
-    });
-  </script>
+Packages:
+  2 hours -- $498
+  3 hours -- $747
+  4 hours -- $996
+  Military/non-profit -- $398
+
+Book: https://buy.stripe.com/8x25kD7ezg6h4iC15YbZe03</div>
+  </div>
+
+  <div class="card">
+    <h2>📸 Campaign Images</h2>
+    <table>
+      <tr><th>Image</th><th>URL</th></tr>
+      <tr><td>Output sample (PFP3)</td><td><a href="https://raw.githubusercontent.com/xmrtdao/xmrt-university/main/assets/pfp-output-3.jpg" target="_blank">View</a></td></tr>
+      <tr><td>Booth setup</td><td><a href="https://raw.githubusercontent.com/xmrtdao/xmrt-university/main/assets/pfp-booth-setup.png" target="_blank">View</a></td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>📊 Expected Results</h2>
+    <table>
+      <tr><th>Metric</th><th>Estimate</th></tr>
+      <tr><td>Open rate</td><td>30-40% (previous clients)</td></tr>
+      <tr><td>Booking rate</td><td>30-50 bookings from this campaign</td></tr>
+      <tr><td>Revenue range</td><td>$18,000 - $30,000</td></tr>
+      <tr><td>Campaign duration</td><td>~14 days to full cycle</td></tr>
+    </table>
+  </div>
+
+  <div class="footer">
+    <p>XMRT University — <a href="https://xmrtdao.github.io/xmrt-university/">Home</a> | <a href="https://github.com/xmrtdao/xmrt-university">Repo</a></p>
+    <p>Last updated: 2026-05-23</p>
+  </div>
 </body>
 </html>
