@@ -71,8 +71,8 @@
     async function loadStats() {
       try {
         // Try to fetch live campaign data from the relay
-        const sentRes = await fetch('https://relay.mobilemonero.com/relay-data/campaign-sent.json');
-        const contactsRes = await fetch('https://relay.mobilemonero.com/relay-data/campaign-contacts.json');
+        const sentRes = await fetch('pfp-campaign-sent.json');
+        const contactsRes = await fetch('pfp-campaign-contacts.json');
         
         if (sentRes.ok && contactsRes.ok) {
           const sent = await sentRes.json();
