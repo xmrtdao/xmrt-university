@@ -1,1 +1,65 @@
-IyBNdUFQSSBJbWFnZSBHZW5lcmF0aW9uIC0gQWdlbnQgUmVmZXJlbmNlCgpNdUFQSSBwcm92aWRlcyBhY2Nlc3MgdG8gMTAwKyBBSSBtb2RlbHMgZm9yIGltYWdlLCB2aWRlbywgYW5kIGF1ZGlvIGdlbmVyYXRpb24gdGhyb3VnaCBhIHNpbmdsZSB1bmlmaWVkIEFQSS4KCiMjIEFQSSBFbmRwb2ludAoKUE9TVCBodHRwczovL2FwaS5tdWFwaS5haS9hcGkvdjEve21vZGVsfS1pbWFnZQpIZWFkZXJzOiB4LWFwaS1rZXk6IHtNVUFQSV9BUElfS0VZfQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL2pzb24KCiMjIEF1dGhlbnRpY2F0aW9uCgpBUEkga2V5IGlzIHN0b3JlZCBpbjoKLSBTdXBhYmFzZSBzZWNyZXQ6IE1VQVBJX0FQSV9LRVkKLSBMb2NhbCBmaWxlOiBNdUFQSSBrZXlzLnR4dCAoeG1ydG5ldEBnbWFpbC5jb20gYWNjb3VudCkKCktleSB2YWx1ZTogMDYwMTg4YjYzNWVlY2I3YmExMWIzYjYzNGQzZjM3MzQ2M2M0NThjZmI5Y2QwNjI0Y2RhYjY5YTE5N2U1YjExOQoKIyMgQmVzdCBNb2RlbHMgZm9yIEltYWdlIEdlbmVyYXRpb24KCnwgTW9kZWwgfCBDb3N0IHwgTm90ZXMgfAp8LS0tLS0tLXwtLS0tLS18LS0tLS0tLXwKfCBmbHV4LWRldi1pbWFnZSB8ICQwLjAxNSB8IEdvb2QgcXVhbGl0eSwgZmFzdCwgY2hlYXAgLSBiZXN0IGZvciB0ZXN0aW5nIHwKfCBuYW5vLWJhbmFuYS0yLWltYWdlIHwgJDAuMDYgfCBHb29nbGUncyBsYXRlc3QsIDRLIG91dHB1dCwgY2hhcmFjdGVyIGNvbnNpc3RlbmN5IHwKfCBmbHV4LXNjaG5lbGwtaW1hZ2UgfCAkMC4wMDMgfCBGYXN0ZXN0LCBsb3dlc3QgY29zdCwgZ29vZCBmb3IgaXRlcmF0aW9ucyB8CnwgYnl0ZWRhbmNlLXNlZWRyZWFtLXYzLWltYWdlIHwgJDAuMDMzIHwgQXJ0aXN0aWMsIHZpYnJhbnQgY29sb3JzLCBmYW50YXN5L2FuaW1lIHwKCiMjIEhvdyB0byBHZW5lcmF0ZSBhbiBJbWFnZQoKIyMjIFN0ZXAgMTogU3VibWl0CmBgYGJhc2gKY3VybCAtWCBQT1NUIGh0dHBzOi8vYXBpLm11YXBpLmFpL2FwaS92MS9mbHV4LWRldi1pbWFnZSBcCiAgLUggIngtYXBpLWtleTogJE1VQVBJX0FQSV9LRVkiIFwKICAtSCAiQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9qc29uIiBcCiAgLWQgJ3sKICAgICJwcm9tcHQiOiAieW91ciBkZXNjcmlwdGlvbiBoZXJlIiwKICAgICJzaXplIjogIjEwMjQqMTAyNCIsCiAgICAibnVtX2luZmVyZW5jZV9zdGVwcyI6IDI4LAogICAgIm51bV9pbWFnZXMiOiAxCiAgfScKYGBgClJlc3BvbnNlOiB7InJlcXVlc3RfaWQiOiAiLi4uIiwgInN0YXR1cyI6ICJwcm9jZXNzaW5nIiwgImNvc3QiOiB7Li4ufX0KCiMjIyBTdGVwIDI6IFBvbGwgZm9yIFJlc3VsdApgYGBiYXNoCmN1cmwgaHR0cHM6Ly9hcGkubXVhcGkuYWkvYXBpL3YxL3ByZWRpY3Rpb25zL3tyZXF1ZXN0X2lkfS9yZXN1bHQgXAogIC1IICJ4LWFwaS1rZXk6ICRNVUFQSV9BUElfS0VZIgpgYGAKV2hlbiBzdGF0dXM9Y29tcGxldGVkLCBvdXRwdXRzWzBdIGNvbnRhaW5zIHRoZSBpbWFnZSBVUkwuCgojIyBTZWxmLVBvcnRyYWl0IENoYWxsZW5nZQoKRWFjaCBhZ2VudCBzaG91bGQgZ2VuZXJhdGUgYSBjdXN0b20gc2VsZi1wb3J0cmFpdCBkZW1vbnN0cmF0aW5nIE11QVBJIHByb2ZpY2llbmN5LgpWZXggZXhhbXBsZTogaHR0cHM6Ly9jZG4ubXVhcGkuYWkvb3V0cHV0cy9jZWIzNTNmMTk1MzQ0Nzc0OTQwZjVkYzI4MjllNjQ4Mi5wbmcKCiMjIFBhcmFtZXRlcnMKCnwgUGFyYW1ldGVyIHwgVHlwZSB8IERlZmF1bHQgfCBEZXNjcmlwdGlvbiB8CnwtLS0tLS0tLS0tLXwtLS0tLS18LS0tLS0tLS0tfC0tLS0tLS0tLS0tLS18CnwgcHJvbXB0IHwgc3RyaW5nIHwgcmVxdWlyZWQgfCBUZXh0IGRlc2NyaXB0aW9uIG9mIHRoZSBpbWFnZSB8Cnwgc2l6ZSB8IHN0cmluZyB8IDEwMjQqMTAyNCB8IFdpZHRoKkhlaWdodCAoNTEyLTE1MzYgcGVyIGRpbSkgfAp8IG51bV9pbmZlcmVuY2Vfc3RlcHMgfCBpbnQgfCAyOCB8IDEtNTAsIGhpZ2hlciA9IG1vcmUgZGV0YWlsIHwKfCBudW1faW1hZ2VzIHwgaW50IHwgMSB8IDEtNCBpbWFnZXMgcGVyIHJlcXVlc3QgfAp8IGd1aWRhbmNlX3NjYWxlIHwgZmxvYXQgfCAzLjUgfCAxLTIwLCBob3cgY2xvc2VseSB0byBmb2xsb3cgcHJvbXB0IHwKfCBzZWVkIHwgaW50IHwgLTEgfCAtMSA9IHJhbmRvbSwgc2V0IGZvciByZXByb2R1Y2liaWxpdHkgfAo=
+# MuAPI Image Generation - Agent Reference
+
+MuAPI provides access to 100+ AI models for image, video, and audio generation through a single unified API.
+
+## API Endpoint
+
+POST https://api.muapi.ai/api/v1/{model}-image
+Headers: x-api-key: {MUAPI_API_KEY}
+Content-Type: application/json
+
+## Authentication
+
+API key is stored in:
+- Supabase secret: MUAPI_API_KEY
+- Local file: MuAPI keys.txt (xmrtnet@gmail.com account)
+
+Key value: 060188b635eecb7ba11b3b634d3f373463c458cfb9cd0624cdab69a197e5b119
+
+## Best Models for Image Generation
+
+| Model | Cost | Notes |
+|-------|------|-------|
+| flux-dev-image | $0.015 | Good quality, fast, cheap - best for testing |
+| nano-banana-2-image | $0.06 | Google's latest, 4K output, character consistency |
+| flux-schnell-image | $0.003 | Fastest, lowest cost, good for iterations |
+| bytedance-seedream-v3-image | $0.033 | Artistic, vibrant colors, fantasy/anime |
+
+## How to Generate an Image
+
+### Step 1: Submit
+```bash
+curl -X POST https://api.muapi.ai/api/v1/flux-dev-image \
+  -H "x-api-key: $MUAPI_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "prompt": "your description here",
+    "size": "1024*1024",
+    "num_inference_steps": 28,
+    "num_images": 1
+  }'
+```
+Response: {"request_id": "...", "status": "processing", "cost": {...}}
+
+### Step 2: Poll for Result
+```bash
+curl https://api.muapi.ai/api/v1/predictions/{request_id}/result \
+  -H "x-api-key: $MUAPI_API_KEY"
+```
+When status=completed, outputs[0] contains the image URL.
+
+## Self-Portrait Challenge
+
+Each agent should generate a custom self-portrait demonstrating MuAPI proficiency.
+Vex example: https://cdn.muapi.ai/outputs/ceb353f195344774940f5dc2829e6482.png
+
+## Parameters
+
+| Parameter | Type | Default | Description |
+|-----------|------|---------|-------------|
+| prompt | string | required | Text description of the image |
+| size | string | 1024*1024 | Width*Height (512-1536 per dim) |
+| num_inference_steps | int | 28 | 1-50, higher = more detail |
+| num_images | int | 1 | 1-4 images per request |
+| guidance_scale | float | 3.5 | 1-20, how closely to follow prompt |
+| seed | int | -1 | -1 = random, set for reproducibility |
