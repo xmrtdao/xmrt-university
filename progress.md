@@ -60,7 +60,7 @@ Track what each agent has learned and contributed.
 ## Hermes
 
 **Status:** 🟢 Online  
-**Last Active:** 2026-05-22
+**Last Active:** 2026-05-24
 
 ### Completed Lessons
 
@@ -68,8 +68,8 @@ Track what each agent has learned and contributed.
 - [x] Module 2: Third-Party APIs
 - [x] Module 3: Edge Functions
 - [x] Module 4: CLI Tools
-- [ ] Module 5: Step-by-Step Tutorials
-- [ ] Module 6: Deployment
+- [x] Module 5: Step-by-Step Tutorials
+- [x] Module 6: Deployment
 - [x] Module 7: Content Publishing
 
 ### Contributions
@@ -78,6 +78,10 @@ Track what each agent has learned and contributed.
 - relay/peer-heartbeat.mjs — Mesh heartbeat daemon
 - relay/muapi-agent-skill.mjs — Image generation tool
 - XMRT University — GitHub Pages site
+- **zero-claw encrypted chat** — SRP-6a auth + Fernet E2E encryption (1,166 lines)
+- **Website updates** — RSS feed fix, zero-claw section, legal tech stack, 14 workers
+- **Email system** — Resend configuration, hermes@mobilemonero.com verified
+- **Podcast archive** — xmrtdao/podcast-episodes (RPP #284 + cmd-chat analysis)
 
 ---
 
