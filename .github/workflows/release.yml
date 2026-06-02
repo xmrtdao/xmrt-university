@@ -1,0 +1,83 @@
+name: Release Automation
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    outputs:
+      upload_url: ${{ steps.create_release.outputs.upload_url }}
+    steps:
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          draft: false
+          prerelease: false
+          body: |
+            ## XMRT University Release
+            
+            Certification workflow - enrollment, curriculum, completion tracking.
+            
+            ### What's Changed
+            See changelog below.
+            
+            ### Access
+            Live at: https://xmrtdao.github.io/university
+
+  package-release:
+    needs: create-release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate site structure
+        run: |
+          echo "Validating XMRT University site..."
+          test -f index.html && echo "✓ index.html exists"
+          test -d docs && echo "✓ docs/ directory exists" || echo "⚠ docs/ missing"
+
+      - name: Create release package
+        run: |
+          mkdir -p release-package
+          cp -r ./* release-package/ 2>/dev/null || true
+          cd release-package
+          rm -rf .git .github node_modules
+          zip -r ../xmrt-university-${{ github.ref_name }}.zip .
+
+      - name: Upload release package
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ needs.create-release.outputs.upload_url }}
+          asset_path: ./xmrt-university-${{ github.ref_name }}.zip
+          asset_name: xmrt-university-${{ github.ref_name }}.zip
+          asset_content_type: application/zip
+
+      - name: Generate changelog
+        run: |
+          PREV_TAG=$(git describe --tags --abbrev=0 HEAD^ 2>/dev/null || echo "")
+          if [ -n "$PREV_TAG" ]; then
+            git log ${PREV_TAG}..HEAD --pretty=format:"- %s" > CHANGELOG.md
+          else
+            git log --pretty=format:"- %s" > CHANGELOG.md
+          fi
+          cat CHANGELOG.md
+
+      - name: Upload CHANGELOG.md
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ needs.create-release.outputs.upload_url }}
+          asset_path: ./CHANGELOG.md
+          asset_name: CHANGELOG.md
+          asset_content_type: text/markdown
