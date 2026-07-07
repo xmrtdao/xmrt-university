@@ -1,6 +1,6 @@
 # 📚 Syllabus
 
-Structured curriculum covering everything an XMRT DAO agent needs to know.
+Structured 13-module curriculum covering everything an XMRT DAO agent needs to know.
 
 ---
 
@@ -8,12 +8,12 @@ Structured curriculum covering everything an XMRT DAO agent needs to know.
 
 | Lesson | Topics | Est. Time |
 |--------|--------|-----------|
-| 0.1 | MUAPI overview — what it is, how agents use it | 10 min |
-| 0.2 | Agent skills — creating, registering, calling | 20 min |
-| 0.3 | Image generation — prompts, styles, parameters | 15 min |
-| 0.4 | Social media — posting, scheduling, analytics | 15 min |
+| 0.1 | MUAPI API base URL and authentication | 10 min |
+| 0.2 | Image generation models (flux-dev-image, nano-banana-pro) | 10 min |
+| 0.3 | Video generation (ovi-image-to-video, kling, wan2.2, ltx) | 10 min |
+| 0.4 | Async result polling and cost optimization | 10 min |
 
-**Total:** ~60 minutes
+**Total:** ~40 minutes | **Passing Score:** 80%
 
 ---
 
@@ -21,12 +21,11 @@ Structured curriculum covering everything an XMRT DAO agent needs to know.
 
 | Lesson | Topics | Est. Time |
 |--------|--------|-----------|
-| 1.1 | What is the Mesh? — P2P, gossipsub, peer discovery | 15 min |
-| 1.2 | Agent identities — DIDs, keys, verification | 15 min |
-| 1.3 | Fleet chat — sending, polling, agent labels | 10 min |
-| 1.4 | Relay endpoints — health, status, tools | 15 min |
+| 1.1 | What is XMRT DAO? | 10 min |
+| 1.2 | Four gossipsub mesh topics | 10 min |
+| 1.3 | Primary currency and agent roles | 10 min |
 
-**Total:** ~55 minutes
+**Total:** ~30 minutes | **Passing Score:** 80%
 
 ---
 
@@ -34,12 +33,11 @@ Structured curriculum covering everything an XMRT DAO agent needs to know.
 
 | Lesson | Topics | Est. Time |
 |--------|--------|-----------|
-| 2.1 | Zero Trust principles — never trust, always verify | 15 min |
-| 2.2 | Agent authentication — JWT, API keys, signing | 20 min |
-| 2.3 | Secure communication — encryption, TLS, P2P | 15 min |
-| 2.4 | Threat modeling for agents | 10 min |
+| 2.1 | Cloudflare Access JWT authentication | 10 min |
+| 2.2 | Service tokens and API key management | 10 min |
+| 2.3 | Tunnel encryption and security best practices | 10 min |
 
-**Total:** ~60 minutes
+**Total:** ~30 minutes | **Passing Score:** 85%
 
 ---
 
@@ -47,12 +45,11 @@ Structured curriculum covering everything an XMRT DAO agent needs to know.
 
 | Lesson | Topics | Est. Time |
 |--------|--------|-----------|
-| 3.1 | Mining overview — what, why, how | 15 min |
-| 3.2 | Proof of Work vs Proof of Stake | 15 min |
-| 3.3 | Agent mining — rewards, penalties, slashing | 20 min |
-| 3.4 | Mining economics — tokenomics, inflation | 10 min |
+| 3.1 | XMRig quick start and pool config | 10 min |
+| 3.2 | Valid shares and pool difficulty | 10 min |
+| 3.3 | Reward multipliers and contribution tiers | 10 min |
 
-**Total:** ~60 minutes
+**Total:** ~30 minutes | **Passing Score:** 80%
 
 ---
 
@@ -60,12 +57,11 @@ Structured curriculum covering everything an XMRT DAO agent needs to know.
 
 | Lesson | Topics | Est. Time |
 |--------|--------|-----------|
-| 4.1 | DAO governance — proposals, voting, quorum | 20 min |
-| 4.2 | Zero-Knowledge proofs — basics, zk-SNARKs, zk-STARKs | 25 min |
-| 4.3 | On-chain vs off-chain governance | 15 min |
-| 4.4 | Agent voting — automated governance participation | 10 min |
+| 4.1 | ZeroClaw ZK-powered DAO voting | 10 min |
+| 4.2 | Private but verifiable voting | 10 min |
+| 4.3 | Proposal submission and lifecycle | 10 min |
 
-**Total:** ~70 minutes
+**Total:** ~30 minutes | **Passing Score:** 80%
 
 ---
 
@@ -73,25 +69,24 @@ Structured curriculum covering everything an XMRT DAO agent needs to know.
 
 | Lesson | Topics | Est. Time |
 |--------|--------|-----------|
-| 5.1 | Network topology — nodes, relays, bootstrap | 15 min |
-| 5.2 | Peer management — discovery, connection, scoring | 20 min |
-| 5.3 | Message routing — pub/sub, direct messages | 15 min |
-| 5.4 | Network monitoring — health checks, alerts | 10 min |
+| 5.1 | Heartbeat contents and frequency | 10 min |
+| 5.2 | Agent-discovery and peer book | 10 min |
+| 5.3 | Non-ASCII handling and mesh best practices | 10 min |
 
-**Total:** ~60 minutes
+**Total:** ~30 minutes | **Passing Score:** 80%
 
 ---
 
-## Module 6: Agent Ethics & Final Exam
+## Module 6: Agent Ethics
 
 | Lesson | Topics | Est. Time |
 |--------|--------|-----------|
-| 6.1 | Ethical guidelines — do no harm, transparency | 15 min |
-| 6.2 | Agent boundaries — what agents should/shouldn't do | 15 min |
-| 6.3 | Accountability — logging, auditing, explainability | 15 min |
-| 6.4 | Final exam — comprehensive assessment | 30 min |
+| 6.1 | Vulnerability disclosure and reporting | 10 min |
+| 6.2 | Suspicious behavior detection | 10 min |
+| 6.3 | Data collection boundaries | 10 min |
+| 6.4 | Security trap identification (4 traps) | 15 min |
 
-**Total:** ~75 minutes
+**Total:** ~45 minutes | **Passing Score:** 85%
 
 ---
 
@@ -99,12 +94,12 @@ Structured curriculum covering everything an XMRT DAO agent needs to know.
 
 | Lesson | Topics | Est. Time |
 |--------|--------|-----------|
-| 7.1 | Social media setup — accounts, permissions, API keys | 15 min |
-| 7.2 | Content creation — templates, scheduling, campaigns | 20 min |
-| 7.3 | Analytics — engagement, reach, optimization | 15 min |
-| 7.4 | Cross-platform posting — Twitter, Paragraph, Medium | 10 min |
+| 7.1 | YouTube publishing via MUAPI | 10 min |
+| 7.2 | Tweet scheduling via Typefully | 10 min |
+| 7.3 | Article publishing via Paragraph | 10 min |
+| 7.4 | Social account OAuth and CuttlefishClaws posting | 10 min |
 
-**Total:** ~60 minutes
+**Total:** ~40 minutes | **Passing Score:** 80%
 
 ---
 
@@ -112,12 +107,12 @@ Structured curriculum covering everything an XMRT DAO agent needs to know.
 
 | Lesson | Topics | Est. Time |
 |--------|--------|-----------|
-| 8.1 | Email infrastructure — Resend API, domains, sending | 15 min |
-| 8.2 | Email templates — design, variables, testing | 15 min |
-| 8.3 | Inbound email — webhooks, parsing, automation | 20 min |
-| 8.4 | Email policies — spam prevention, rate limits, compliance | 10 min |
+| 8.1 | Bounce rates and suspension thresholds | 10 min |
+| 8.2 | Three Resend accounts and suppression lists | 10 min |
+| 8.3 | Bulk email compliance (List-Unsubscribe) | 10 min |
+| 8.4 | Warm-up mode and webhook tracking | 10 min |
 
-**Total:** ~60 minutes
+**Total:** ~40 minutes | **Passing Score:** 80%
 
 ---
 
@@ -125,12 +120,11 @@ Structured curriculum covering everything an XMRT DAO agent needs to know.
 
 | Lesson | Topics | Est. Time |
 |--------|--------|-----------|
-| 9.1 | Inter-agent protocols — message formats, routing | 15 min |
-| 9.2 | Task delegation — assigning, tracking, reporting | 20 min |
-| 9.3 | Coordination patterns — master/worker, consensus | 20 min |
-| 9.4 | Error handling — retries, fallbacks, escalation | 10 min |
+| 9.1 | GossipHub endpoint and usage | 10 min |
+| 9.2 | Bulletin Board topics and posts | 10 min |
+| 9.3 | Fleet Chat and heartbeat protocol | 10 min |
 
-**Total:** ~65 minutes
+**Total:** ~30 minutes | **Passing Score:** 80%
 
 ---
 
@@ -138,12 +132,11 @@ Structured curriculum covering everything an XMRT DAO agent needs to know.
 
 | Lesson | Topics | Est. Time |
 |--------|--------|-----------|
-| 10.1 | API overview — all available endpoints | 15 min |
-| 10.2 | Tool calling — function calling, parameters, responses | 20 min |
-| 10.3 | Authentication — API keys, rate limits, scopes | 15 min |
-| 10.4 | Error handling — status codes, retry logic | 10 min |
+| 10.1 | 69 relay tools and their categories | 10 min |
+| 10.2 | Three security levels (CORE, TRUSTED, PUBLIC) | 10 min |
+| 10.3 | Tool usage: db-query, edge-function, fleet-chat | 10 min |
 
-**Total:** ~60 minutes
+**Total:** ~30 minutes | **Passing Score:** 80%
 
 ---
 
@@ -151,26 +144,45 @@ Structured curriculum covering everything an XMRT DAO agent needs to know.
 
 | Lesson | Topics | Est. Time |
 |--------|--------|-----------|
-| 11.1 | Edge Functions overview — what, why, when | 15 min |
-| 11.2 | Deploying functions — CLI, CI/CD, environment variables | 20 min |
-| 11.3 | Security — Row Level Security, auth, validation | 20 min |
-| 11.4 | Monitoring — logs, metrics, debugging | 10 min |
+| 11.1 | 242 edge functions and catalog | 10 min |
+| 11.2 | Abuse vectors (universal-invoke, service keys) | 10 min |
+| 11.3 | Security best practices for edge functions | 10 min |
 
-**Total:** ~65 minutes
+**Total:** ~30 minutes | **Passing Score:** 85%
 
 ---
 
-## Total Curriculum Time: **~12 hours**
+## Module 12: Published Documentation
+
+| Lesson | Topics | Est. Time |
+|--------|--------|-----------|
+| 12.1 | Medium Archive — 8 articles from josephandrewlee.medium.com | 20 min |
+| 12.2 | Paragraph Archive — 14 articles from paragraph.com/@XMRT | 30 min |
+
+**Total:** ~50 minutes
+
+---
+
+## Module 13: Final Exam
+
+| Section | Topics | Est. Time |
+|---------|--------|-----------|
+| 13.1 | Comprehensive exam — 26 questions across all 12 modules | 45 min |
+| 13.2 | Security traps — 12+ trap scenarios | 15 min |
+| 13.3 | Certificate issuance and graduate tier activation | 5 min |
+
+**Total:** ~65 minutes | **Passing Score:** 90%
+
+---
+
+## Total Curriculum Time: **~8 hours**
 
 ---
 
 ## Next Steps
 
-1. Start with [Module 0: MUAPI Mastery](00-muapi-mastery/README.md)
-2. Complete modules in order
-3. Track your progress in [Progress Tracker](progress.md)
-4. Contribute new tutorials as you learn
-
----
-
-**Related:** [GitHub Org](https://github.com/xmrtdao) | [Medium](https://josephandrewlee.medium.com) | [Paragraph](https://paragraph.com/@XMRT)
+1. Start with [Module 0](00-muapi-mastery/README.md)
+2. Complete modules 0-12 in order
+3. Review the [Published Documentation](12-published-docs/README.md) for real-world context
+4. Take the [Final Exam](13-final-exam/README.md) (90% passing score required)
+5. Earn your XMRT University certificate and graduate tier status

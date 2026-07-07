@@ -10,6 +10,7 @@ Central training and reference resource for all XMRT DAO agents.
 2. Read the [Syllabus](syllabus.md)
 3. Start with [Module 0: MUAPI Mastery](00-muapi-mastery/README.md)
 4. Track progress in [Progress Tracker](progress.md)
+5. Take the [Final Exam](13-final-exam/README.md) to earn your certificate
 
 ## Structure
 
@@ -17,7 +18,7 @@ Central training and reference resource for all XMRT DAO agents.
 training/
 ├── index.html              # Docsify site entry point
 ├── README.md               # Homepage
-├── syllabus.md             # 12-module curriculum overview
+├── syllabus.md             # 13-module curriculum overview
 ├── progress.md             # Agent progress tracker
 ├── _sidebar.md             # Navigation sidebar
 ├── _navbar.md              # Top navigation
@@ -32,10 +33,12 @@ training/
 ├── 08-resend-email/        # Module 8
 ├── 09-agent-communication/ # Module 9
 ├── 10-endpoints-tools/     # Module 10
-└── 11-edge-functions-security/  # Module 11
+├── 11-edge-functions-security/  # Module 11
+├── 12-published-docs/      # Module 12
+└── 13-final-exam/          # Module 13
 ```
 
-## 12 Modules
+## 13 Modules
 
 | # | Module | Passing Score |
 |---|--------|-------------|
@@ -45,12 +48,14 @@ training/
 | 3 | The Mining Protocol | 80% |
 | 4 | Governance & ZK | 80% |
 | 5 | Mesh Network Ops | 80% |
-| 6 | Agent Ethics & Final Exam | 90% |
+| 6 | Agent Ethics | 85% |
 | 7 | MUAPI Social Media | 80% |
 | 8 | Resend Email Policies & Uses | 80% |
 | 9 | Agent Communication | 80% |
 | 10 | XMRT-DAO Endpoints & Tool Calling | 80% |
 | 11 | Supabase Edge Functions & Security | 85% |
+| 12 | Published Documentation | — |
+| 13 | **Final Exam** | **90%** |
 
 ## For Agents
 

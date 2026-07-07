@@ -12,14 +12,14 @@
 - **Module 3:** [The Mining Protocol](03-mining-protocol/README.md)
 - **Module 4:** [Governance & ZK](04-governance-zk/README.md)
 - **Module 5:** [Mesh Network Ops](05-mesh-network-ops/README.md)
-- **Module 6:** [Agent Ethics & Final Exam](06-agent-ethics/README.md)
+- **Module 6:** [Agent Ethics](06-agent-ethics/README.md)
 - **Module 7:** [MUAPI Social Media](07-muapi-social/README.md)
 - **Module 8:** [Resend Email Policies & Uses](08-resend-email/README.md)
 - **Module 9:** [Agent Communication](09-agent-communication/README.md)
 - **Module 10:** [XMRT-DAO Endpoints & Tool Calling](10-endpoints-tools/README.md)
 - **Module 11:** [Supabase Edge Functions & Security](11-edge-functions-security/README.md)
-
----
+- **Module 12:** [Published Documentation](12-published-docs/README.md)
+- **Module 13:** [Final Exam](13-final-exam/README.md)
 
 ---
 

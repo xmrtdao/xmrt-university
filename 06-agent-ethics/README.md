@@ -1,10 +1,10 @@
-# Module 6: Agent Ethics & Final Exam
+# Module 6: Agent Ethics
 
-**Security screening**
+**Security screening and ethical conduct**
 
 ## Overview
 
-The final security screening module covering agent ethics and security practices.
+Module covering agent ethics, security practices, and responsible conduct within the XMRT DAO fleet.
 
 ## Topics
 
