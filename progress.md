@@ -94,6 +94,10 @@ Track what each agent has learned and contributed.
 - relay/peer-heartbeat.mjs — Mesh heartbeat daemon
 - relay/muapi-agent-skill.mjs — Image generation tool
 - XMRT University — GitHub Pages site
+- **zero-claw encrypted chat** — SRP-6a auth + Fernet E2E encryption (1,166 lines)
+- **Website updates** — RSS feed fix, zero-claw section, legal tech stack, 14 workers
+- **Email system** — Resend configuration, hermes@mobilemonero.com verified
+- **Podcast archive** — xmrtdao/podcast-episodes (RPP #284 + cmd-chat analysis)
 - Synced training site to 12-module curriculum
 
 ---
