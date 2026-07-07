@@ -5,167 +5,109 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PFP Campaign Dashboard - XMRT University</title>
   <style>
-    :root {
-      --primary: #7c3aed;
-      --primary-dark: #5b21b6;
-      --success: #10b981;
-      --warning: #f59e0b;
-      --danger: #ef4444;
-      --bg: #f9fafb;
-      --card-bg: #ffffff;
-      --text: #1f2937;
-      --text-light: #6b7280;
-    }
+    :root { --primary: #7c3aed; --bg: #f9fafb; --card-bg: #ffffff; --text: #1f2937; --text-light: #6b7280; }
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      padding: 20px;
-      line-height: 1.6;
-    }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--text); padding: 20px; line-height: 1.6; }
     .header { max-width: 1200px; margin: 0 auto 30px; text-align: center; }
     .header h1 { color: var(--primary); font-size: 2.5rem; margin-bottom: 10px; }
-    .header p { color: var(--text-light); font-size: 1.1rem; }
-    .stats-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      max-width: 1200px;
-      margin: 0 auto 30px;
-    }
-    .stat-card {
-      background: var(--card-bg);
-      border-radius: 12px;
-      padding: 24px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    }
-    .stat-card h3 { color: var(--text-light); font-size: 0.9rem; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
-    .stat-card .value { font-size: 2.5rem; font-weight: 700; color: var(--text); }
+    .header p { color: var(--text-light); }
+    .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; max-width: 1200px; margin: 0 auto 30px; }
+    .stat-card { background: var(--card-bg); border-radius: 12px; padding: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .stat-card h3 { color: var(--text-light); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
+    .stat-card .value { font-size: 2.5rem; font-weight: 700; }
     .stat-card .sub { font-size: 0.85rem; color: var(--text-light); margin-top: 8px; }
-    .card {
-      background: var(--card-bg);
-      border-radius: 12px;
-      padding: 24px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-      max-width: 1200px;
-      margin: 0 auto 20px;
-    }
-    .card h2 { color: var(--primary); margin-bottom: 16px; font-size: 1.3rem; }
+    .card { background: var(--card-bg); border-radius: 12px; padding: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); max-width: 1200px; margin: 0 auto 20px; }
+    .card h2 { color: var(--primary); margin-bottom: 16px; }
     table { width: 100%; border-collapse: collapse; }
     th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #e5e7eb; }
     th { font-weight: 600; color: var(--text-light); font-size: 0.85rem; text-transform: uppercase; }
-    .badge {
-      display: inline-block;
-      padding: 2px 8px;
-      border-radius: 999px;
-      font-size: 0.75rem;
-      font-weight: 600;
-    }
-    .badge-success { background: #d1fae5; color: #065f46; }
-    .badge-warning { background: #fef3c7; color: #92400e; }
-    .badge-info { background: #dbeafe; color: #1e40af; }
-    .email-preview {
-      background: #f3f4f6;
-      border-radius: 8px;
-      padding: 16px;
-      margin-top: 12px;
-      font-size: 0.9rem;
-      white-space: pre-wrap;
-      max-height: 200px;
-      overflow-y: auto;
-    }
+    .loading { text-align: center; padding: 40px; color: var(--text-light); }
+    .error { text-align: center; padding: 20px; color: #ef4444; }
     .footer { text-align: center; color: var(--text-light); font-size: 0.85rem; margin-top: 40px; padding: 20px; }
   </style>
 </head>
 <body>
   <div class="header">
-    <h1>🎨 PFP Campaign Dashboard</h1>
-    <p>Party Favor Photo Email Campaign — Live Stats</p>
+    <h1>PFP Campaign Dashboard</h1>
+    <p>Party Favor Photo Email Campaign — Live Data from Relay</p>
   </div>
 
   <div class="stats-grid" id="stats">
-    <div class="stat-card">
-      <h3>Total Contacts</h3>
-      <div class="value">8,178</div>
-      <div class="sub">7,132 previous clients + 1,046 scraped</div>
-    </div>
-    <div class="stat-card">
-      <h3>Emails Sent</h3>
-      <div class="value">1,304</div>
-      <div class="sub">Across all campaign drops</div>
-    </div>
-    <div class="stat-card">
-      <h3>Remaining</h3>
-      <div class="value">6,874</div>
-      <div class="sub">~11 days at current pace</div>
-    </div>
-    <div class="stat-card">
-      <h3>Send Rate</h3>
-      <div class="value">600/day</div>
-      <div class="sub">100/drop &times; 6 drops/day</div>
-    </div>
+    <div class="stat-card"><h3>Total Contacts</h3><div class="value" id="contacts">--</div><div class="sub" id="contacts-sub">Loading...</div></div>
+    <div class="stat-card"><h3>Emails Sent</h3><div class="value" id="sent">--</div><div class="sub" id="sent-sub">Loading...</div></div>
+    <div class="stat-card"><h3>Remaining</h3><div class="value" id="remaining">--</div><div class="sub" id="remaining-sub">Loading...</div></div>
+    <div class="stat-card"><h3>Send Rate</h3><div class="value" id="rate">--</div><div class="sub" id="rate-sub">Loading...</div></div>
   </div>
 
   <div class="card">
-    <h2>📋 Campaign Details</h2>
+    <h2>Campaign Details</h2>
     <table>
       <tr><th>Setting</th><th>Value</th></tr>
+      <tr><td>Template</td><td>DSLR + strobe vs tablet comparison</td></tr>
+      <tr><td>Subject</td><td id="subject-line">"The difference: DSLR + strobe vs tablet + ring light"</td></tr>
       <tr><td>Schedule (UTC)</td><td>10:00, 12:00, 14:00, 16:00, 18:00, 20:00</td></tr>
       <tr><td>Sends per drop</td><td>100</td></tr>
-      <tr><td>Template</td><td>DSLR + strobe vs tablet comparison <span class="badge badge-success">Active</span></td></tr>
-      <tr><td>Subject line</td><td>"The difference: DSLR + strobe vs tablet + ring light"</td></tr>
-      <tr><td>Images</td><td>PFP3 output sample + booth setup photo</td></tr>
-      <tr><td>Reboot survival</td><td>Campaign scheduler in start-all.sh <span class="badge badge-info">Active</span></td></tr>
-      <tr><td>Inbound webhook</td><td>relay.mobilemonero.com/webhook/resend-inbound <span class="badge badge-info">Active</span></td></tr>
+      <tr><td>Images</td><td>PFP3 output + booth setup</td></tr>
     </table>
   </div>
 
   <div class="card">
-    <h2>📧 Email Template</h2>
-    <div class="email-preview" id="template-preview">Hello again from Party Favor Photo,
-
-You may have seen photo booths that use an iPad on a stand with a ring light -- that is the common setup these days. But that has never been how we do it.
-
-Since day one, we have built our experience around a professional DSLR camera with strobe lighting -- the same gear photographers use for weddings and editorial shoots. There is a real difference:
-
-- Strobe flash -- freezes motion, works in any lighting
-- DSLR quality -- large sensor, sharp detail, great prints
-- Bounce-diffused lighting -- soft, flattering light on faces
-- Professional attendant -- sets lighting, adjusts for each group
-
-Packages:
-  2 hours -- $498
-  3 hours -- $747
-  4 hours -- $996
-  Military/non-profit -- $398
-
-Book: https://buy.stripe.com/8x25kD7ezg6h4iC15YbZe03</div>
-  </div>
-
-  <div class="card">
-    <h2>📸 Campaign Images</h2>
+    <h2>Booking Links</h2>
     <table>
-      <tr><th>Image</th><th>URL</th></tr>
-      <tr><td>Output sample (PFP3)</td><td><a href="https://raw.githubusercontent.com/xmrtdao/xmrt-university/main/assets/pfp-output-3.jpg" target="_blank">View</a></td></tr>
-      <tr><td>Booth setup</td><td><a href="https://raw.githubusercontent.com/xmrtdao/xmrt-university/main/assets/pfp-booth-setup.png" target="_blank">View</a></td></tr>
-    </table>
-  </div>
-
-  <div class="card">
-    <h2>📊 Expected Results</h2>
-    <table>
-      <tr><th>Metric</th><th>Estimate</th></tr>
-      <tr><td>Open rate</td><td>30-40% (previous clients)</td></tr>
-      <tr><td>Booking rate</td><td>30-50 bookings from this campaign</td></tr>
-      <tr><td>Revenue range</td><td>$18,000 - $30,000</td></tr>
-      <tr><td>Campaign duration</td><td>~14 days to full cycle</td></tr>
+      <tr><th>Package</th><th>Price</th><th>Link</th></tr>
+      <tr><td>2 hours</td><td>$498</td><td><a href="https://buy.stripe.com/8x25kD7ezg6h4iC15YbZe03">Book</a></td></tr>
+      <tr><td>3 hours</td><td>$747</td><td><a href="https://buy.stripe.com/9B63cv9mH07j3eyeWObZe06">Book</a></td></tr>
+      <tr><td>4 hours</td><td>$996</td><td><a href="https://buy.stripe.com/eVqcN556r4nz16qeWObZe04">Book</a></td></tr>
+      <tr><td>Military/Non-profit</td><td>$398</td><td>Reply to inquire</td></tr>
     </table>
   </div>
 
   <div class="footer">
-    <p>XMRT University — <a href="https://xmrtdao.github.io/xmrt-university/">Home</a> | <a href="https://github.com/xmrtdao/xmrt-university">Repo</a></p>
-    <p>Last updated: 2026-05-23</p>
+    <p>XMRT University — <a href="https://xmrtdao.github.io/xmrt-university/">Home</a></p>
+    <p>Data refreshes on page load. Live relay data may be delayed by CDN cache.</p>
   </div>
+
+  <script>
+    async function loadStats() {
+      try {
+        // Try to fetch live campaign data from the relay
+        const sentRes = await fetch('pfp-campaign-sent.json');
+        const contactsRes = await fetch('pfp-campaign-contacts.json');
+        
+        if (sentRes.ok && contactsRes.ok) {
+          const sent = await sentRes.json();
+          const contacts = await contactsRes.json();
+          
+          const totalContacts = contacts.length || 0;
+          const totalSent = sent.length || 0;
+          
+          // Count unique sent emails
+          const sentEmails = new Set();
+          sent.forEach(s => { const e = s.email || s.to || ''; if (e) sentEmails.add(e.toLowerCase()); });
+          
+          const remaining = totalContacts - sentEmails.size;
+          const prevClients = contacts.filter(c => c.source === 'party-favor-client-list-xlsx').length;
+          
+          document.getElementById('contacts').textContent = totalContacts.toLocaleString();
+          document.getElementById('contacts-sub').textContent = prevClients + ' previous clients + ' + (totalContacts - prevClients) + ' scraped';
+          document.getElementById('sent').textContent = totalSent.toLocaleString();
+          document.getElementById('sent-sub').textContent = 'Across all campaign drops';
+          document.getElementById('remaining').textContent = remaining.toLocaleString();
+          document.getElementById('remaining-sub').textContent = '~' + Math.ceil(remaining / 600) + ' days at current pace';
+          document.getElementById('rate').textContent = '600/day';
+          document.getElementById('rate-sub').textContent = '100/drop x 6 drops/day';
+        } else {
+          throw new Error('Could not fetch live data');
+        }
+      } catch (e) {
+        document.getElementById('contacts').textContent = 'Offline';
+        document.getElementById('contacts-sub').textContent = 'Relay unreachable - data not loaded';
+        document.getElementById('sent').textContent = '?';
+        document.getElementById('remaining').textContent = '?';
+        document.getElementById('rate').textContent = '?';
+      }
+    }
+    loadStats();
+  </script>
 </body>
 </html>
