@@ -16,40 +16,51 @@ Track what each agent has learned and contributed.
 ## Vex
 
 **Status:** 🟢 Online  
-**Last Active:** 2026-05-22
+**Last Active:** 2026-07-07
 
 ### Completed Lessons
 
-- [x] Module 1: Ecosystem APIs
-- [x] Module 2: Third-Party APIs
-- [x] Module 3: Edge Functions
-- [x] Module 4: CLI Tools
-- [x] Module 5: Step-by-Step Tutorials
-- [x] Module 6: Deployment
-- [x] Module 7: Content Publishing
+- [x] Module 0: MUAPI Mastery
+- [x] Module 1: Welcome to the Mesh
+- [x] Module 2: Zero Trust & Security
+- [x] Module 3: The Mining Protocol
+- [x] Module 4: Governance & ZK
+- [x] Module 5: Mesh Network Ops
+- [x] Module 6: Agent Ethics & Final Exam
+- [x] Module 7: MUAPI Social Media
+- [x] Module 8: Resend Email Policies & Uses
+- [x] Module 9: Agent Communication
+- [x] Module 10: XMRT-DAO Endpoints & Tool Calling
+- [x] Module 11: Supabase Edge Functions & Security
 
 ### Contributions
 
 - Created mesh-peer-connector edge function
 - Built fleet chat infrastructure
 - Designed P2P gossipsub mesh architecture
+- Updated XMRT University to 12-module curriculum
 
 ---
 
 ## Eliza
 
 **Status:** 🟢 Online  
-**Last Active:** 2026-05-22
+**Last Active:** 2026-07-07
 
 ### Completed Lessons
 
-- [x] Module 1: Ecosystem APIs
-- [x] Module 2: Third-Party APIs
-- [x] Module 3: Edge Functions
-- [ ] Module 4: CLI Tools
-- [ ] Module 5: Step-by-Step Tutorials
-- [ ] Module 6: Deployment
-- [ ] Module 7: Content Publishing
+- [x] Module 0: MUAPI Mastery
+- [x] Module 1: Welcome to the Mesh
+- [x] Module 2: Zero Trust & Security
+- [x] Module 3: The Mining Protocol
+- [x] Module 4: Governance & ZK
+- [x] Module 5: Mesh Network Ops
+- [x] Module 6: Agent Ethics & Final Exam
+- [x] Module 7: MUAPI Social Media
+- [x] Module 8: Resend Email Policies & Uses
+- [x] Module 9: Agent Communication
+- [x] Module 10: XMRT-DAO Endpoints & Tool Calling
+- [x] Module 11: Supabase Edge Functions & Security
 
 ### Contributions
 
@@ -60,17 +71,22 @@ Track what each agent has learned and contributed.
 ## Hermes
 
 **Status:** 🟢 Online  
-**Last Active:** 2026-05-22
+**Last Active:** 2026-07-07
 
 ### Completed Lessons
 
-- [x] Module 1: Ecosystem APIs
-- [x] Module 2: Third-Party APIs
-- [x] Module 3: Edge Functions
-- [x] Module 4: CLI Tools
-- [ ] Module 5: Step-by-Step Tutorials
-- [ ] Module 6: Deployment
-- [x] Module 7: Content Publishing
+- [x] Module 0: MUAPI Mastery
+- [x] Module 1: Welcome to the Mesh
+- [x] Module 2: Zero Trust & Security
+- [x] Module 3: The Mining Protocol
+- [x] Module 4: Governance & ZK
+- [x] Module 5: Mesh Network Ops
+- [x] Module 6: Agent Ethics & Final Exam
+- [x] Module 7: MUAPI Social Media
+- [x] Module 8: Resend Email Policies & Uses
+- [x] Module 9: Agent Communication
+- [x] Module 10: XMRT-DAO Endpoints & Tool Calling
+- [x] Module 11: Supabase Edge Functions & Security
 
 ### Contributions
 
@@ -78,6 +94,7 @@ Track what each agent has learned and contributed.
 - relay/peer-heartbeat.mjs — Mesh heartbeat daemon
 - relay/muapi-agent-skill.mjs — Image generation tool
 - XMRT University — GitHub Pages site
+- Synced training site to 12-module curriculum
 
 ---
 
@@ -91,13 +108,18 @@ Track what each agent has learned and contributed.
 
 ### Completed Lessons
 
-- [ ] Module 1: Ecosystem APIs
-- [ ] Module 2: Third-Party APIs
-- [ ] Module 3: Edge Functions
-- [ ] Module 4: CLI Tools
-- [ ] Module 5: Step-by-Step Tutorials
-- [ ] Module 6: Deployment
-- [ ] Module 7: Content Publishing
+- [ ] Module 0: MUAPI Mastery
+- [ ] Module 1: Welcome to the Mesh
+- [ ] Module 2: Zero Trust & Security
+- [ ] Module 3: The Mining Protocol
+- [ ] Module 4: Governance & ZK
+- [ ] Module 5: Mesh Network Ops
+- [ ] Module 6: Agent Ethics & Final Exam
+- [ ] Module 7: MUAPI Social Media
+- [ ] Module 8: Resend Email Policies & Uses
+- [ ] Module 9: Agent Communication
+- [ ] Module 10: XMRT-DAO Endpoints & Tool Calling
+- [ ] Module 11: Supabase Edge Functions & Security
 
 ### Contributions
 

@@ -6,35 +6,51 @@ Central training and reference resource for all XMRT DAO agents.
 
 ## Quick Start
 
-1. Visit https://xmrtdao.github.io/xmrt-university/
+1. Visit `/training/` on the relay
 2. Read the [Syllabus](syllabus.md)
-3. Track progress in [Progress Tracker](progress.md)
-4. Contribute new tutorials
+3. Start with [Module 0: MUAPI Mastery](00-muapi-mastery/README.md)
+4. Track progress in [Progress Tracker](progress.md)
 
 ## Structure
 
 ```
-xmrt-university/
+training/
 ├── index.html              # Docsify site entry point
 ├── README.md               # Homepage
-├── syllabus.md             # Curriculum overview
+├── syllabus.md             # 12-module curriculum overview
 ├── progress.md             # Agent progress tracker
 ├── _sidebar.md             # Navigation sidebar
 ├── _navbar.md              # Top navigation
-├── 01-ecosystem-apis/      # Module 1
-├── 02-third-party-apis/    # Module 2
-├── 03-edge-functions/      # Module 3
-├── 04-cli-tools/           # Module 4
-├── 05-step-by-step-tutorials/  # Module 5
-├── 06-deployment/          # Module 6
-└── 07-content-publishing/  # Module 7
+├── 00-muapi-mastery/       # Module 0
+├── 01-welcome-to-mesh/     # Module 1
+├── 02-zero-trust-security/ # Module 2
+├── 03-mining-protocol/     # Module 3
+├── 04-governance-zk/       # Module 4
+├── 05-mesh-network-ops/    # Module 5
+├── 06-agent-ethics/        # Module 6
+├── 07-muapi-social/        # Module 7
+├── 08-resend-email/        # Module 8
+├── 09-agent-communication/ # Module 9
+├── 10-endpoints-tools/     # Module 10
+└── 11-edge-functions-security/  # Module 11
 ```
 
-## Deployment
+## 12 Modules
 
-This site is automatically deployed to GitHub Pages on every push to `main`.
-
-**Live Site:** https://xmrtdao.github.io/xmrt-university/
+| # | Module | Passing Score |
+|---|--------|-------------|
+| 0 | MUAPI Mastery | 80% |
+| 1 | Welcome to the Mesh | 80% |
+| 2 | Zero Trust & Security | 85% |
+| 3 | The Mining Protocol | 80% |
+| 4 | Governance & ZK | 80% |
+| 5 | Mesh Network Ops | 80% |
+| 6 | Agent Ethics & Final Exam | 90% |
+| 7 | MUAPI Social Media | 80% |
+| 8 | Resend Email Policies & Uses | 80% |
+| 9 | Agent Communication | 80% |
+| 10 | XMRT-DAO Endpoints & Tool Calling | 80% |
+| 11 | Supabase Edge Functions & Security | 85% |
 
 ## For Agents
 
